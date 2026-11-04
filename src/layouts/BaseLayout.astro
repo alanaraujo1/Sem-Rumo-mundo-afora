@@ -1,6 +1,6 @@
 ---
 import SEO, { type Props as SEOProps } from '../components/SEO.astro';
-import { SITE_LOCALE, SITE_NAME } from '../consts';
+import { GTM_ID, SITE_LOCALE, SITE_NAME } from '../consts';
 import '../styles/global.css';
 
 type Props = SEOProps;
@@ -10,8 +10,32 @@ type Props = SEOProps;
 <html lang={SITE_LOCALE}>
   <head>
     <SEO {...Astro.props} />
+    {
+      import.meta.env.PROD && (
+        <script is:inline define:vars={{ gtmId: GTM_ID }}>
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+          const gtmScript = document.createElement('script');
+          gtmScript.async = true;
+          gtmScript.src = `https://www.googletagmanager.com/gtm.js?id=${gtmId}`;
+          document.head.appendChild(gtmScript);
+        </script>
+      )
+    }
   </head>
   <body class="flex min-h-dvh flex-col bg-stone-50 text-stone-900 antialiased">
+    {
+      import.meta.env.PROD && (
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style="display:none;visibility:hidden"
+            title="Google Tag Manager"></iframe>
+        </noscript>
+      )
+    }
     <header class="border-b border-stone-200">
       <div class="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-4">
         <a href="/" class="text-lg font-bold tracking-tight text-teal-800">{SITE_NAME}</a>
