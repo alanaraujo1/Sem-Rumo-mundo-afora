@@ -1,0 +1,32 @@
+---
+import SEO, { type Props as SEOProps } from '../components/SEO.astro';
+import { SITE_LOCALE, SITE_NAME } from '../consts';
+import '../styles/global.css';
+
+type Props = SEOProps;
+---
+
+<!doctype html>
+<html lang={SITE_LOCALE}>
+  <head>
+    <SEO {...Astro.props} />
+  </head>
+  <body class="flex min-h-dvh flex-col bg-stone-50 text-stone-900 antialiased">
+    <header class="border-b border-stone-200">
+      <div class="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-4">
+        <a href="/" class="text-lg font-bold tracking-tight text-teal-800">{SITE_NAME}</a>
+        <nav aria-label="Principal">
+          <a href="/blog/" class="text-stone-700 hover:text-teal-700">Artigos</a>
+        </nav>
+      </div>
+    </header>
+    <main class="mx-auto w-full max-w-5xl flex-1 px-4 py-10">
+      <slot />
+    </main>
+    <footer class="border-t border-stone-200">
+      <p class="mx-auto max-w-5xl px-4 py-6 text-sm text-stone-600">
+        © {new Date().getFullYear()} {SITE_NAME}
+      </p>
+    </footer>
+  </body>
+</html>

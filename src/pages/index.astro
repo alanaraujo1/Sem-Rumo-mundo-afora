@@ -1,0 +1,24 @@
+---
+import PostCard from '../components/PostCard.astro';
+import { SITE_DESCRIPTION, SITE_NAME } from '../consts';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getPosts } from '../lib/posts';
+
+const posts = (await getPosts()).slice(0, 6);
+---
+
+<BaseLayout title={SITE_NAME}>
+  <h1 class="text-4xl font-bold tracking-tight text-balance sm:text-5xl">{SITE_NAME}</h1>
+  <p class="mt-4 max-w-2xl text-lg text-stone-700">{SITE_DESCRIPTION}</p>
+  {
+    posts.length > 0 ? (
+      <div class="mt-10 grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+        {posts.map((post) => (
+          <PostCard post={post} />
+        ))}
+      </div>
+    ) : (
+      <p class="mt-10 text-stone-600">Os primeiros artigos estão a caminho.</p>
+    )
+  }
+</BaseLayout>
