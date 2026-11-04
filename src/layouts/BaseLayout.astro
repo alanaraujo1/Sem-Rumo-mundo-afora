@@ -5,13 +5,18 @@ import SEO, { type Props as SEOProps } from '../components/SEO.astro';
 import { SITE_LOCALE, SITE_NAME } from '../consts';
 import '../styles/global.css';
 
-type Props = SEOProps;
+type Props = SEOProps & {
+  /** Remove o contêiner central para páginas com seções de largura total. */
+  fullWidth?: boolean;
+};
+
+const { fullWidth = false, ...seo } = Astro.props;
 ---
 
 <!doctype html>
 <html lang={SITE_LOCALE}>
   <head>
-    <SEO {...Astro.props} />
+    <SEO {...seo} />
     <ConsentMode />
   </head>
   <body class="flex min-h-dvh flex-col bg-stone-50 text-stone-900 antialiased">
@@ -25,7 +30,7 @@ type Props = SEOProps;
         </nav>
       </div>
     </header>
-    <main class="mx-auto w-full max-w-5xl flex-1 px-4 py-10">
+    <main class:list={['w-full flex-1', !fullWidth && 'mx-auto max-w-5xl px-4 py-10']}>
       <slot />
     </main>
     <footer class="border-t border-stone-200">

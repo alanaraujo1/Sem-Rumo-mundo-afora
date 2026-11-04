@@ -18,6 +18,7 @@ const blog = defineCollection({
           .trim()
           .min(70, 'Use pelo menos 70 caracteres.')
           .max(160, 'Use no máximo 160 caracteres para não ser truncada na busca.'),
+        category: z.string().trim().min(2).max(30),
         pubDate: z.coerce.date(),
         updatedDate: z.coerce.date().optional(),
         author: z.string().trim().min(2),

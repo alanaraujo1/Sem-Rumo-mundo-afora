@@ -15,7 +15,7 @@ export interface Props {
   /** Presente apenas em artigos: ativa og:type=article e o JSON-LD de BlogPosting. */
   article?: Pick<
     CollectionEntry<'blog'>['data'],
-    'pubDate' | 'updatedDate' | 'author' | 'tags' | 'destination'
+    'category' | 'pubDate' | 'updatedDate' | 'author' | 'tags' | 'destination'
   > & { wordCount: number; readingMinutes: number };
 }
 
@@ -66,6 +66,7 @@ if (article) {
       },
       publisher: { '@type': 'Organization', name: SITE_NAME, url: site.href },
       inLanguage: SITE_LOCALE,
+      articleSection: article.category,
       keywords: article.tags.join(', '),
       wordCount: article.wordCount,
       timeRequired: `PT${article.readingMinutes}M`,

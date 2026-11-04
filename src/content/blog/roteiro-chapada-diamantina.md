@@ -1,6 +1,7 @@
 ---
 title: 'Roteiro Completo pela Chapada Diamantina: O Guia Definitivo'
 description: 'Roteiro de 5 a 7 dias pela Chapada Diamantina com Lençóis, Vale do Pati, poços e cachoeiras: melhor época, transporte e custos médios.'
+category: 'Roteiros'
 pubDate: 2026-11-04
 author: 'Alan'
 cover: '../../assets/blog/morro-do-pai-inacio-chapada-diamantina.jpg'
@@ -54,7 +55,11 @@ Para muita gente, a alternativa mais simples é voar até Salvador e seguir por 
 
 ### Ônibus
 
-A Real Expresso e a Rápido Federal, do mesmo grupo, ligam Salvador a Lençóis em cerca de 6h40 a 7 horas. Sites agregadores mostram preços médios perto de R$ 175 por trecho, numa faixa de R$ 140 a R$ 340, conforme a data e a categoria. Confirme o valor e os horários no site da empresa. Se a conexão for no mesmo dia, deixe ao menos duas horas entre o pouso e o embarque.
+A Real Expresso e a Rápido Federal, do mesmo grupo, ligam Salvador a Lençóis em cerca de 6h40 a 7 horas. Sites agregadores mostram preços médios perto de R$ 175 por trecho, numa faixa de R$ 140 a R$ 340, conforme a data e a categoria. Confirme o valor e os horários no site da empresa.
+
+:::logistica
+Vai combinar avião e ônibus no mesmo dia? Deixe ao menos duas horas entre o pouso em Salvador e o embarque para Lençóis.
+:::
 
 ### Carro
 
@@ -131,12 +136,19 @@ A versão com o Pati deixa de fora os poços e a Fumaça, e tem pouca margem par
 
 O Pati fica dentro do Parque Nacional da Chapada Diamantina. Segundo o ICMBio, é a exceção do parque em termos de pernoite, porque permite hospedagem na casa de moradores.
 
+![Panorâmica da Rampa do Vale do Pati: trilha de terra cruzando encostas verdes, com paredões de rocha e morros de topo plano sob céu azul com nuvens](../../assets/blog/vale-do-pati-panoramica-rampa.jpg "wide | Rampa do Vale do Pati. Foto: [Carlos Perez Couto](https://commons.wikimedia.org/wiki/File:Panoramica_da_Rampa_do_Vale_do_Pati.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.pt-br) (imagem redimensionada).")
+
 - **Duração:** os formatos mais comuns têm de 3 a 5 dias, com entrada frequente pelo Guiné.
 - **Distância:** um dos operadores informa cerca de 36 km em 3 dias, 49 km em 4 dias e 60 km em 5 dias.
 - **Esforço:** relatos indicam de 5 a 6 horas de caminhada por dia, com muito sobe e desce entre 1.000 e 1.500 m de altitude. Nos trechos do formato de 3 dias, o ganho de elevação informado chega a cerca de 670 m em um dia.
 - **Estrutura:** as casas oferecem quartos simples e comida caseira, e os mantimentos chegam em mulas, porque não há estradas no vale.
-- **Comunicação:** não há sinal de celular no parque. Deixe o seu roteiro e um contato de emergência com alguém de confiança.
 - **Mochila:** de 30 a 40 litros, com capa de chuva, calçado de trilha já amaciado, roupa leve, lanterna, proteção solar e saco para o lixo.
+
+:::alerta
+Não há sinal de celular no parque. Antes de entrar, deixe o seu roteiro e um contato de emergência com alguém de confiança.
+:::
+
+![Vale do Pati visto do alto do Morro do Castelo: vale coberto de mata verde entre paredões de rocha, com sombras de nuvens e vegetação em primeiro plano](../../assets/blog/vale-do-pati-vista-do-castelo.jpg "Vale do Pati visto do Morro do Castelo. Foto: [AndréOlmos](https://commons.wikimedia.org/wiki/File:Vista_do_Vale_do_Pati_de_cima_do_Castelo.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br) (imagem redimensionada).")
 
 ### É obrigatório ter guia?
 
