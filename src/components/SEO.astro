@@ -16,7 +16,7 @@ export interface Props {
   article?: Pick<
     CollectionEntry<'blog'>['data'],
     'pubDate' | 'updatedDate' | 'author' | 'tags' | 'destination'
-  >;
+  > & { wordCount: number; readingMinutes: number };
 }
 
 const { title, description = SITE_DESCRIPTION, image, imageAlt, noindex = false, schema = [], article } = Astro.props;
@@ -67,6 +67,8 @@ if (article) {
       publisher: { '@type': 'Organization', name: SITE_NAME, url: site.href },
       inLanguage: SITE_LOCALE,
       keywords: article.tags.join(', '),
+      wordCount: article.wordCount,
+      timeRequired: `PT${article.readingMinutes}M`,
       contentLocation: {
         '@type': 'Place',
         name,

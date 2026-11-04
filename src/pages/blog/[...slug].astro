@@ -3,7 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import { type CollectionEntry, render } from 'astro:content';
 import { Image } from 'astro:assets';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { formatDate, getPosts } from '../../lib/posts';
+import { formatDate, getPosts, getReadingStats } from '../../lib/posts';
 
 export const getStaticPaths = (async () => {
   const posts = await getPosts();
@@ -15,11 +15,12 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { title, description, cover, coverAlt, pubDate, updatedDate, author, tags, destination } = post.data;
+const { title, description, cover, coverAlt, coverCredit, pubDate, updatedDate, author, tags, destination } = post.data;
 const { Content } = await render(post);
+const stats = getReadingStats(post.body);
 ---
 
-<BaseLayout title={title} description={description} image={cover} imageAlt={coverAlt} article={post.data}>
+<BaseLayout title={title} description={description} image={cover} imageAlt={coverAlt} article={{ ...post.data, ...stats }}>
   <article class="mx-auto max-w-3xl">
     <nav aria-label="Trilha de navegação" class="text-sm text-stone-600">
       <a href="/" class="hover:text-teal-700">Início</a> / <a href="/blog/" class="hover:text-teal-700">Blog</a> / <span aria-current="page">{title}</span>
@@ -35,8 +36,10 @@ const { Content } = await render(post);
             </>
           )
         }
+        {` · ${stats.readingMinutes} min de leitura`}
       </p>
     </header>
+    <figure class="mt-8">
     <Image
       src={cover}
       alt={coverAlt}
@@ -45,9 +48,19 @@ const { Content } = await render(post);
       widths={[480, 768, 1200]}
       sizes="(min-width: 800px) 768px, 100vw"
       priority
-      class="mt-8 aspect-video w-full rounded-lg object-cover"
+      class="aspect-video w-full rounded-lg object-cover"
     />
-    <div class="prose prose-stone prose-a:text-teal-700 mt-8 max-w-none">
+    {
+      coverCredit && (
+        <figcaption class="mt-2 text-sm text-stone-600">
+          Foto: <a href={coverCredit.sourceUrl} rel="noopener" class="underline">{coverCredit.author}</a>,{' '}
+          <a href={coverCredit.licenseUrl} rel="license noopener" class="underline">{coverCredit.license}</a>
+          {coverCredit.changes && ` (${coverCredit.changes})`}.
+        </figcaption>
+      )
+    }
+    </figure>
+    <div class="prose prose-stone prose-a:text-teal-700 mt-8 max-w-none [&_table]:block [&_table]:overflow-x-auto">
       <Content />
     </div>
     <ul class="mt-10 flex flex-wrap gap-2" aria-label="Tags">

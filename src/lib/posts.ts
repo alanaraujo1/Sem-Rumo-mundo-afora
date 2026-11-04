@@ -16,4 +16,11 @@ export async function getPosts() {
 
 const dateFormatter = new Intl.DateTimeFormat('pt-BR', { dateStyle: 'long', timeZone: 'UTC' });
 
+/** Palavras e minutos de leitura (200 palavras por minuto), sem contar a sintaxe de tabelas e links. */
+export function getReadingStats(body = '') {
+  const text = body.replace(/\]\([^)]*\)/g, ' ').replace(/[|#*_`>\[\]-]/g, ' ');
+  const wordCount = text.split(/\s+/).filter(Boolean).length;
+  return { wordCount, readingMinutes: Math.max(1, Math.round(wordCount / 200)) };
+}
+
 export const formatDate = (date: Date) => dateFormatter.format(date);

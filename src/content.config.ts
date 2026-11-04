@@ -24,6 +24,16 @@ const blog = defineCollection({
         // Largura e formato são validados em src/lib/posts.ts: aqui image() ainda
         // não tem os metadados do arquivo.
         cover: image(),
+        // Obrigatório para fotos de terceiros, quando a licença exige atribuição.
+        coverCredit: z
+          .object({
+            author: z.string().trim().min(2),
+            license: z.string().trim().min(2),
+            licenseUrl: z.url(),
+            sourceUrl: z.url(),
+            changes: z.string().trim().min(2).optional(),
+          })
+          .optional(),
         coverAlt: z
           .string()
           .trim()
