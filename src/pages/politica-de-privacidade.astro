@@ -1,0 +1,172 @@
+---
+import { AUTHOR_NAME, CONTACT_EMAIL, GTM_ID, SITE_NAME } from '../consts';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const updatedAt = new Date('2026-11-04T00:00:00Z');
+---
+
+<BaseLayout
+  title={`Política de Privacidade | ${SITE_NAME}`}
+  description="Saiba como o Sem Rumo Mundo Afora trata dados pessoais e usa cookies, Google Tag Manager, Google Analytics e anúncios, conforme a LGPD."
+>
+  <article class="prose prose-stone prose-a:text-teal-700 mx-auto max-w-3xl">
+    <h1>Política de Privacidade</h1>
+    <p>
+      Última atualização:
+      <time datetime={updatedAt.toISOString()}>
+        {new Intl.DateTimeFormat('pt-BR', { dateStyle: 'long', timeZone: 'UTC' }).format(updatedAt)}
+      </time>
+    </p>
+    <p>
+      Esta política explica como o {SITE_NAME} trata dados pessoais, de acordo com a Lei Geral de Proteção de Dados
+      Pessoais (LGPD, Lei nº 13.709/2018).
+    </p>
+
+    <h2>Responsável pelo tratamento</h2>
+    <p>
+      O responsável pelo site é {AUTHOR_NAME}. Para qualquer assunto sobre privacidade, escreva para
+      <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+    </p>
+
+    <h2>Dados tratados e finalidades</h2>
+    <div class="overflow-x-auto">
+      <table>
+        <thead>
+          <tr><th>Dados</th><th>Finalidade</th><th>Base legal</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Endereço IP e dados técnicos da requisição, registrados pela infraestrutura de hospedagem</td>
+            <td>Entregar as páginas e proteger o site contra abusos</td>
+            <td>Legítimo interesse</td>
+          </tr>
+          <tr>
+            <td>Nome, email e conteúdo das mensagens que você nos enviar</td>
+            <td>Responder ao seu contato</td>
+            <td>Legítimo interesse ou execução do que foi solicitado</td>
+          </tr>
+          <tr>
+            <td>Sua escolha sobre cookies</td>
+            <td>Registrar e respeitar a sua preferência</td>
+            <td>Cumprimento de obrigação legal</td>
+          </tr>
+          <tr>
+            <td>Identificadores online, páginas visitadas e dados de navegação</td>
+            <td>Medir a audiência e exibir anúncios</td>
+            <td>Consentimento</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Cookies e tecnologias semelhantes</h2>
+    <p>
+      Cookies são pequenos arquivos guardados pelo navegador. Os cookies opcionais só são ativados depois do seu
+      consentimento, e recusá-los não impede a leitura do site. Os cookies efetivamente presentes podem variar conforme
+      os serviços ativos e as configurações de cada fornecedor.
+    </p>
+    <div class="overflow-x-auto">
+      <table>
+        <thead>
+          <tr><th>Categoria</th><th>Exemplos</th><th>Finalidade</th><th>Duração típica</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Necessária</td>
+            <td><code>cookie-consent</code> (armazenamento local do navegador)</td>
+            <td>Guardar a sua escolha</td>
+            <td>12 meses</td>
+          </tr>
+          <tr>
+            <td>Estatísticas</td>
+            <td><code>_ga</code>, <code>_ga_*</code></td>
+            <td>Distinguir visitantes e medir o uso do site</td>
+            <td>Até 2 anos</td>
+          </tr>
+          <tr>
+            <td>Anúncios</td>
+            <td><code>__gads</code>, <code>__gpi</code>, <code>IDE</code></td>
+            <td>Exibir, limitar a repetição e medir anúncios</td>
+            <td>Até 13 meses</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      Você pode rever a sua escolha a qualquer momento:
+      <button type="button" data-cookie-settings class="cursor-pointer font-medium text-teal-700 underline">
+        abrir as preferências de cookies
+      </button>. Também é possível bloquear ou apagar cookies nas configurações do navegador.
+    </p>
+
+    <h2>Google Tag Manager</h2>
+    <p>
+      Usamos o Google Tag Manager (contêiner {GTM_ID}) para gerenciar as ferramentas de medição e publicidade do site.
+      Ele só é carregado depois que você aceita ao menos uma categoria opcional. Utilizamos o Modo de Consentimento v2 do
+      Google, que informa às ferramentas quais categorias você autorizou. Ao carregar, o serviço recebe dados técnicos,
+      como o seu endereço IP.
+    </p>
+
+    <h2>Google Analytics</h2>
+    <p>
+      Quando ativo e autorizado por você, o Google Analytics coleta dados sobre as páginas visitadas, a origem do acesso,
+      o dispositivo e a interação com o site, para produzir estatísticas de audiência. Saiba mais em
+      <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">como o Google usa informações de sites parceiros</a>.
+    </p>
+
+    <h2>Anúncios</h2>
+    <p>
+      O site pode exibir anúncios por meio do Google AdSense, quando ativo e autorizado por você. Fornecedores terceiros,
+      incluindo o Google, usam cookies para veicular anúncios com base em visitas anteriores do usuário a este e a outros
+      sites. O uso de cookies de publicidade permite ao Google e aos seus parceiros veicular anúncios com base nessas
+      visitas.
+    </p>
+    <p>
+      Você pode desativar a publicidade personalizada nas
+      <a href="https://myadcenter.google.com/" rel="noopener">configurações de anúncios do Google</a> e os cookies de
+      outros fornecedores em <a href="https://www.aboutads.info/choices/" rel="noopener">aboutads.info</a>.
+    </p>
+
+    <h2>Compartilhamento e transferência internacional</h2>
+    <p>
+      Não vendemos dados pessoais. Os dados podem ser tratados por fornecedores que viabilizam o site, como a Cloudflare
+      (hospedagem) e o Google (medição e anúncios), que podem armazená-los em servidores fora do Brasil, inclusive nos
+      Estados Unidos. Também podemos compartilhar dados quando exigido por lei ou por autoridade competente.
+    </p>
+
+    <h2>Por quanto tempo guardamos</h2>
+    <p>
+      A sua escolha sobre cookies vale por 12 meses; depois disso, pedimos novamente. Mensagens de contato são mantidas
+      pelo tempo necessário para atender à solicitação ou cumprir obrigações legais. Dados coletados por terceiros seguem
+      os prazos desses serviços.
+    </p>
+
+    <h2>Seus direitos</h2>
+    <p>Nos termos do art. 18 da LGPD, você pode solicitar:</p>
+    <ul>
+      <li>confirmação da existência de tratamento e acesso aos dados;</li>
+      <li>correção de dados incompletos, inexatos ou desatualizados;</li>
+      <li>anonimização, bloqueio ou eliminação de dados desnecessários ou excessivos;</li>
+      <li>portabilidade dos dados;</li>
+      <li>eliminação dos dados tratados com base no consentimento;</li>
+      <li>informação sobre com quem os dados foram compartilhados;</li>
+      <li>revogação do consentimento, sem custo.</li>
+    </ul>
+    <p>
+      Para exercer esses direitos, escreva para <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Você também pode
+      apresentar reclamação à Autoridade Nacional de Proteção de Dados (ANPD).
+    </p>
+
+    <h2>Crianças e adolescentes</h2>
+    <p>
+      O site não é direcionado a crianças. Se você acredita que dados de uma criança foram enviados a nós, escreva para o
+      email acima para que possamos eliminá-los.
+    </p>
+
+    <h2>Alterações nesta política</h2>
+    <p>
+      Esta política pode ser atualizada quando houver mudanças no site ou nos serviços utilizados. A data da última
+      atualização aparece no início desta página.
+    </p>
+  </article>
+</BaseLayout>

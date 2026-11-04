@@ -1,0 +1,103 @@
+---
+
+---
+
+<section
+  id="cookie-consent"
+  hidden
+  aria-labelledby="cookie-consent-title"
+  class="fixed inset-x-0 bottom-0 z-50 border-t border-stone-300 bg-white shadow-lg"
+>
+  <div class="mx-auto max-w-5xl px-4 py-4 text-sm text-stone-800">
+    <h2 id="cookie-consent-title" class="font-semibold">Sua privacidade</h2>
+    <p class="mt-1">
+      Usamos cookies opcionais para medir a audiência e exibir anúncios, somente com o seu consentimento. Você pode
+      mudar de ideia quando quiser. Saiba mais na
+      <a href="/politica-de-privacidade/" class="text-teal-700 underline">Política de Privacidade</a>.
+    </p>
+    <details class="mt-2">
+      <summary class="cursor-pointer font-medium">Escolher por categoria</summary>
+      <div class="mt-2 space-y-2">
+        <label class="flex items-start gap-2">
+          <input type="checkbox" name="analytics" class="mt-0.5" />
+          <span><strong>Estatísticas:</strong> mostram quais páginas são mais visitadas (Google Analytics).</span>
+        </label>
+        <label class="flex items-start gap-2">
+          <input type="checkbox" name="ads" class="mt-0.5" />
+          <span><strong>Anúncios:</strong> permitem exibir e personalizar anúncios (Google e parceiros).</span>
+        </label>
+        <button type="button" data-consent="save" class="rounded-md border border-stone-400 px-3 py-2 font-medium hover:bg-stone-100">
+          Salvar minhas escolhas
+        </button>
+      </div>
+    </details>
+    <div class="mt-3 flex flex-wrap gap-2">
+      <button type="button" data-consent="accept" class="rounded-md bg-teal-800 px-4 py-2 font-medium text-white hover:bg-teal-900">
+        Aceitar todos
+      </button>
+      <button type="button" data-consent="reject" class="rounded-md bg-teal-800 px-4 py-2 font-medium text-white hover:bg-teal-900">
+        Rejeitar todos
+      </button>
+      <button type="button" data-consent="close" hidden class="rounded-md border border-stone-400 px-4 py-2 font-medium hover:bg-stone-100">
+        Fechar
+      </button>
+    </div>
+  </div>
+</section>
+
+<script>
+  const banner = document.querySelector<HTMLElement>('#cookie-consent')!;
+  const analyticsInput = banner.querySelector<HTMLInputElement>('input[name="analytics"]')!;
+  const adsInput = banner.querySelector<HTMLInputElement>('input[name="ads"]')!;
+  const closeButton = banner.querySelector<HTMLButtonElement>('[data-consent="close"]')!;
+
+  function clearOptionalCookies() {
+    const host = location.hostname;
+    const domains = ['', host, `.${host}`, `.${host.replace(/^www\./, '')}`];
+    for (const cookie of document.cookie.split('; ')) {
+      const name = cookie.split('=')[0];
+      if (!/^(_ga|_gid|_gcl|__gads|__gpi)/.test(name)) continue;
+      for (const domain of domains) {
+        document.cookie = `${name}=; Max-Age=0; path=/${domain && `; domain=${domain}`}`;
+      }
+    }
+  }
+
+  function decide(analytics: boolean, ads: boolean) {
+    const previous = window.siteConsent.choice;
+    window.siteConsent.save({ analytics, ads });
+    banner.hidden = true;
+    // Um GTM já carregado só sai da memória recarregando a página.
+    if ((previous?.analytics && !analytics) || (previous?.ads && !ads)) {
+      clearOptionalCookies();
+      location.reload();
+    }
+  }
+
+  banner.addEventListener('click', (event) => {
+    const action = (event.target as HTMLElement).closest<HTMLElement>('[data-consent]')?.dataset.consent;
+    if (action === 'accept') decide(true, true);
+    if (action === 'reject') decide(false, false);
+    if (action === 'save') decide(analyticsInput.checked, adsInput.checked);
+    if (action === 'close') banner.hidden = true;
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!(event.target as HTMLElement).closest('[data-cookie-settings]')) return;
+    const { choice } = window.siteConsent;
+    analyticsInput.checked = Boolean(choice?.analytics);
+    adsInput.checked = Boolean(choice?.ads);
+    closeButton.hidden = false;
+    banner.hidden = false;
+    closeButton.focus();
+  });
+
+  // O banner é fixo (sem layout shift) e aparece depois da renderização principal.
+  if (!window.siteConsent.choice) {
+    const show = () => {
+      banner.hidden = false;
+    };
+    if ('requestIdleCallback' in window) requestIdleCallback(show, { timeout: 1500 });
+    else setTimeout(show, 500);
+  }
+</script>

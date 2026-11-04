@@ -1,0 +1,42 @@
+---
+import { CONTACT_EMAIL, SITE_NAME } from '../consts';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const schema = [
+  {
+    '@type': 'ContactPage',
+    url: new URL('/contato/', Astro.site).href,
+    name: `Contato | ${SITE_NAME}`,
+    inLanguage: 'pt-BR',
+    mainEntity: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: Astro.site?.href,
+      email: CONTACT_EMAIL,
+      contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: CONTACT_EMAIL },
+    },
+  },
+];
+---
+
+<BaseLayout
+  title={`Contato | ${SITE_NAME}`}
+  description="Fale com o Sem Rumo Mundo Afora por email: dúvidas sobre os guias, correções, parcerias e solicitações sobre seus dados pessoais."
+  schema={schema}
+>
+  <article class="prose prose-stone prose-a:text-teal-700 mx-auto max-w-3xl">
+    <h1>Contato</h1>
+    <p>O canal direto para falar com o {SITE_NAME} é o email:</p>
+    <p class="text-xl font-semibold"><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
+    <h2>Quando escrever</h2>
+    <ul>
+      <li>Dúvidas sobre um guia ou roteiro publicado.</li>
+      <li>Correções e informações desatualizadas: indique o link do artigo.</li>
+      <li>Propostas de parceria e assuntos comerciais.</li>
+      <li>
+        Solicitações sobre seus dados pessoais, conforme a
+        <a href="/politica-de-privacidade/">Política de Privacidade</a>.
+      </li>
+    </ul>
+  </article>
+</BaseLayout>

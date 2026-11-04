@@ -1,0 +1,71 @@
+---
+import { GTM_ID } from '../consts';
+
+// Sem GTM em `astro dev`, para que testes locais não entrem nas métricas.
+const gtmId = import.meta.env.PROD ? GTM_ID : null;
+---
+
+<!--
+  Google Consent Mode v2: tudo começa negado. O GTM só é baixado depois de um
+  consentimento, então quem não aceitou não carrega nenhum script de terceiros.
+-->
+<script is:inline define:vars={{ gtmId }}>
+  const KEY = 'cookie-consent';
+  const MAX_AGE = 365 * 24 * 60 * 60 * 1000;
+  let gtmLoaded = false;
+
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+  window.gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+    functionality_storage: 'denied',
+    personalization_storage: 'denied',
+    security_storage: 'granted',
+  });
+
+  function apply(choice) {
+    const ads = choice.ads ? 'granted' : 'denied';
+    window.gtag('consent', 'update', {
+      ad_storage: ads,
+      ad_user_data: ads,
+      ad_personalization: ads,
+      analytics_storage: choice.analytics ? 'granted' : 'denied',
+    });
+    if (!gtmId || gtmLoaded || !(choice.analytics || choice.ads)) return;
+    gtmLoaded = true;
+    window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtm.js?id=${gtmId}`;
+    document.head.appendChild(script);
+  }
+
+  let stored = null;
+  try {
+    stored = JSON.parse(localStorage.getItem(KEY));
+    if (stored && !(Date.now() - stored.at < MAX_AGE)) stored = null;
+  } catch {
+    stored = null;
+  }
+
+  window.siteConsent = {
+    choice: stored,
+    save(choice) {
+      const record = { analytics: choice.analytics, ads: choice.ads, at: Date.now() };
+      try {
+        localStorage.setItem(KEY, JSON.stringify(record));
+      } catch {
+        // Sem armazenamento, a escolha vale apenas para esta página.
+      }
+      this.choice = record;
+      apply(record);
+    },
+  };
+
+  if (stored) apply(stored);
+</script>

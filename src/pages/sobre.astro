@@ -1,0 +1,62 @@
+---
+import { AUTHOR_BIO, AUTHOR_NAME, SITE_NAME } from '../consts';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageUrl = new URL('/sobre/', Astro.site).href;
+const schema = [
+  {
+    '@type': 'AboutPage',
+    url: pageUrl,
+    name: `Sobre o ${SITE_NAME}`,
+    inLanguage: 'pt-BR',
+    mainEntity: {
+      '@type': 'Person',
+      '@id': `${pageUrl}#autor`,
+      name: AUTHOR_NAME,
+      url: pageUrl,
+      jobTitle: 'Realizador audiovisual, fotógrafo e criador de conteúdos',
+      description: AUTHOR_BIO,
+      knowsAbout: ['Viagens', 'Expedições', 'Turismo de natureza', 'Ecoturismo', 'Fotografia de viagem'],
+    },
+  },
+];
+---
+
+<BaseLayout
+  title={`Sobre | ${SITE_NAME}`}
+  description="Conheça Alan, autor do Sem Rumo Mundo Afora, e a proposta do blog: guias de ecoturismo, logística real e viagens independentes."
+  schema={schema}
+>
+  <article class="prose prose-stone prose-a:text-teal-700 mx-auto max-w-3xl">
+    <h1>Sobre o {SITE_NAME}</h1>
+
+    <h2>Quem escreve</h2>
+    <p>{AUTHOR_BIO}</p>
+
+    <h2>A proposta do blog</h2>
+    <p>
+      O {SITE_NAME} existe para ajudar você a planejar a própria viagem com autonomia, principalmente quando o destino
+      envolve natureza, expedições e cultura local. O foco está no que costuma fazer diferença na hora de organizar o
+      roteiro: como chegar, como se deslocar e o que considerar antes de sair de casa.
+    </p>
+
+    <h2>O que você encontra aqui</h2>
+    <ul>
+      <li><strong>Guias de ecoturismo</strong> sobre destinos e experiências na natureza.</li>
+      <li><strong>Roteiros detalhados</strong> para organizar os dias da viagem.</li>
+      <li><strong>Dicas de logística</strong> e de planejamento independente.</li>
+      <li><strong>Registros visuais</strong> de paisagens e da cultura local.</li>
+    </ul>
+
+    <h2>Transparência</h2>
+    <p>
+      Cada artigo identifica o autor e mostra a data de publicação e, quando houver revisão, a data da última
+      atualização. Preços, horários e regras de acesso mudam com frequência, por isso vale confirmá-los nos canais
+      oficiais antes de viajar. O site pode exibir anúncios, conforme explicado na
+      <a href="/politica-de-privacidade/">Política de Privacidade</a>.
+    </p>
+    <p>
+      Encontrou algum erro ou informação desatualizada? <a href="/contato/">Fale conosco</a> para que possamos corrigir.
+    </p>
+  </article>
+</BaseLayout>
