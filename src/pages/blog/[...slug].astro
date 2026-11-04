@@ -22,19 +22,16 @@ const { Content } = await render(post);
 <BaseLayout title={title} description={description} image={cover} imageAlt={coverAlt} article={post.data}>
   <article class="mx-auto max-w-3xl">
     <nav aria-label="Trilha de navegação" class="text-sm text-stone-600">
-      <a href="/" class="hover:text-teal-700">Início</a> /
-      <a href="/blog/" class="hover:text-teal-700">Blog</a> /
-      <span aria-current="page">{title}</span>
+      <a href="/" class="hover:text-teal-700">Início</a> / <a href="/blog/" class="hover:text-teal-700">Blog</a> / <span aria-current="page">{title}</span>
     </nav>
     <header class="mt-6">
       <h1 class="text-4xl font-bold tracking-tight text-balance sm:text-5xl">{title}</h1>
       <p class="mt-4 text-stone-600">
-        Por {author} · {destination.name} ·
-        <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
+        Por {author} · {destination.name} · <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
         {
           updatedDate && (
             <>
-              · Atualizado em <time datetime={updatedDate.toISOString()}>{formatDate(updatedDate)}</time>
+              {' · Atualizado em '}<time datetime={updatedDate.toISOString()}>{formatDate(updatedDate)}</time>
             </>
           )
         }
