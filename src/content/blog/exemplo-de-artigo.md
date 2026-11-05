@@ -27,7 +27,7 @@ Duplique o arquivo, renomeie-o com o slug do artigo, substitua a capa e defina `
 ## Caixas de destaque
 
 :::dica
-Bloco `:::dica`, para uma recomendação pessoal do Alan. Use somente com experiências reais.
+Bloco `:::dica`, para uma recomendação pessoal do Alan Primo. Use somente com experiências reais.
 :::
 
 :::alerta

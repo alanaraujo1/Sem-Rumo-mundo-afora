@@ -3,7 +3,7 @@ title: 'Roteiro Completo pela Chapada Diamantina: O Guia Definitivo'
 description: 'Roteiro de 5 a 7 dias pela Chapada Diamantina com Lençóis, Vale do Pati, poços e cachoeiras: melhor época, transporte e custos médios.'
 category: 'Roteiros'
 pubDate: 2026-11-04
-author: 'Alan'
+author: 'Alan Primo'
 cover: '../../assets/blog/chapada-diamantina-morro-do-pai-inacio-canion.jpg'
 coverAlt: 'Vista panorâmica dos cânions e vales da Chapada Diamantina a partir do Morro do Pai Inácio'
 coverCredit:
@@ -136,7 +136,7 @@ O Morro do Pai Inácio fica a cerca de 26 km de Lençóis e é um dos mirantes m
 
 A trilha até o topo tem cerca de 500 m e é curta, mas pede um pouco de fôlego. É uma das poucas caminhadas da região que costumam ser feitas sem guia. A taxa de visitação cobrada pelo município é de R$ 20, com meia-entrada de R$ 10.
 
-![Alan de pé sobre as rochas no alto do Morro do Pai Inácio, de camiseta azul e óculos escuros, com o vale verde e os paredões da Chapada Diamantina ao fundo](../../assets/blog/trilha-morro-do-pai-inacio-alan-araujo.jpg "Alan no alto do Morro do Pai Inácio, ao fim da subida. Foto: Alan Primo")
+![Alan Primo de pé sobre as rochas no alto do Morro do Pai Inácio, de camiseta azul e óculos escuros, com o vale verde e os paredões da Chapada Diamantina ao fundo](../../assets/blog/trilha-morro-do-pai-inacio-alan-primo.jpg "Alan Primo no alto do Morro do Pai Inácio, ao fim da subida. Foto: Alan Primo")
 
 ### O entardecer
 
