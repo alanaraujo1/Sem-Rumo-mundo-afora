@@ -18,14 +18,14 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { title, description, category, cover, coverAlt, coverCredit, pubDate, updatedDate, author, tags } = post.data;
+const { title, seoTitle, description, category, cover, coverAlt, coverPosition, coverCredit, pubDate, updatedDate, author, tags } = post.data;
 const { Content, headings } = await render(post);
 const stats = getReadingStats(post.body);
 const columnClass = 'mx-auto max-w-[752px] px-4';
 ---
 
 <BaseLayout
-  title={title}
+  title={seoTitle ?? title}
   description={description}
   image={cover}
   imageAlt={coverAlt}
@@ -39,10 +39,12 @@ const columnClass = 'mx-auto max-w-[752px] px-4';
           src={cover}
           alt={coverAlt}
           width={1920}
-          widths={[640, 960, 1280, 1600, 1920]}
+          widths={[480, 768, 1024, 1280, 1600, 1920]}
+          quality={72}
           sizes="(min-width: 1920px) 1920px, 100vw"
           priority
-          class="h-auto max-h-[75vh] w-full object-cover object-[50%_30%] lg:max-h-[560px]"
+          class="h-auto max-h-[55vh] w-full object-cover lg:max-h-[560px]"
+          style={{ objectPosition: coverPosition }}
         />
         {
           coverCredit && (

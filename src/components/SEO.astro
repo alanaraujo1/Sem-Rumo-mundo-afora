@@ -15,7 +15,7 @@ export interface Props {
   /** Presente apenas em artigos: ativa og:type=article e o JSON-LD de BlogPosting. */
   article?: Pick<
     CollectionEntry<'blog'>['data'],
-    'category' | 'pubDate' | 'updatedDate' | 'author' | 'tags' | 'destination'
+    'title' | 'category' | 'pubDate' | 'updatedDate' | 'author' | 'tags' | 'destination'
   > & { wordCount: number; readingMinutes: number };
 }
 
@@ -49,7 +49,7 @@ if (article) {
       '@id': `${canonical}#article`,
       mainEntityOfPage: canonical,
       isPartOf: { '@id': websiteId },
-      headline: title,
+      headline: article.title,
       description,
       // O Google recomenda as proporções 16:9, 4:3 e 1:1 para artigos.
       image: image && [
@@ -86,7 +86,7 @@ if (article) {
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Início', item: site.href },
         { '@type': 'ListItem', position: 2, name: 'Blog', item: absolute('/blog/') },
-        { '@type': 'ListItem', position: 3, name: title, item: canonical },
+        { '@type': 'ListItem', position: 3, name: article.title, item: canonical },
       ],
     },
   );

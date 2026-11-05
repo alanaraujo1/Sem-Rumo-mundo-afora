@@ -104,7 +104,7 @@ O volume de água depende da chuva, não só do calendário: há relato de viaja
 | 6 | Vale do Pati: mirante do Cachoeirão e saída, cerca de 17 km | Lençóis |
 | 7 | Dia reserva ou Cachoeira do Mosquito, conforme o horário de volta | Retorno |
 
-**Dia 1: Lençóis.** Chegando cedo, caminhe até o Serrano e o Ribeirão do Meio. Se o ônibus chegar à noite, deixe esses passeios para o dia 7.
+**Dia 1: Lençóis.** Chegando cedo, caminhe até o Serrano e o Ribeirão do Meio. Para aproveitar melhor a cidade, veja [o que fazer em Lençóis](/blog/o-que-fazer-em-lencois-chapada-diamantina/), com os passeios a pé e onde comer. Se o ônibus chegar à noite, deixe esses passeios para o dia 7.
 
 **Dia 2: Fumaça e Pai Inácio.** O ICMBio descreve a trilha por cima da Fumaça como um passeio de contemplação, sem banho de rio no percurso, com cerca de duas horas em cada sentido. Termine o dia no Pai Inácio. A taxa municipal é de R$ 20 (meia-entrada de R$ 10), e vale confirmar o horário-limite de subida.
 
@@ -223,7 +223,7 @@ Sim. É possível chegar de ônibus a Lençóis e fazer os passeios com agência
 
 ### Qual é a melhor base na Chapada Diamantina?
 
-Lençóis é a base mais prática para uma primeira viagem, pela oferta de agências, hospedagem e transporte. Para atrativos do sul, como o Buracão, pode valer a pena dormir mais perto.
+Lençóis é a base mais prática para uma primeira viagem, pela oferta de agências, hospedagem e transporte, como detalhamos no [guia da cidade](/blog/o-que-fazer-em-lencois-chapada-diamantina/). Para atrativos do sul, como o Buracão, pode valer a pena dormir mais perto.
 
 ## Fontes consultadas
 

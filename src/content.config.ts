@@ -8,11 +8,14 @@ const blog = defineCollection({
     z
       .object({
         // Limites de SEO: faixas que os buscadores costumam exibir sem cortes.
-        title: z
+        title: z.string().trim().min(20, 'Use pelo menos 20 caracteres.').max(90, 'Use no máximo 90 caracteres.'),
+        // Versão curta para a tag <title>. Obrigatória quando title passa de 60 caracteres.
+        seoTitle: z
           .string()
           .trim()
           .min(20, 'Use pelo menos 20 caracteres.')
-          .max(60, 'Use no máximo 60 caracteres para não ser truncado na busca.'),
+          .max(60, 'Use no máximo 60 caracteres para não ser truncado na busca.')
+          .optional(),
         description: z
           .string()
           .trim()
@@ -25,6 +28,11 @@ const blog = defineCollection({
         // Largura e formato são validados em src/lib/posts.ts: aqui image() ainda
         // não tem os metadados do arquivo.
         cover: image(),
+        // Foco do recorte da capa, como '50% 30%' (horizontal e vertical).
+        coverPosition: z
+          .string()
+          .regex(/^\d{1,3}% \d{1,3}%$/, "Use o formato '50% 30%'.")
+          .default('50% 30%'),
         // Assinatura da foto. Em fotos de terceiros, inclua licença e links quando exigidos.
         coverCredit: z
           .object({
@@ -58,6 +66,10 @@ const blog = defineCollection({
           .min(1, 'Informe ao menos uma tag.')
           .max(8, 'Use no máximo 8 tags.'),
         draft: z.boolean().default(false),
+      })
+      .refine((post) => post.title.length <= 60 || post.seoTitle, {
+        path: ['seoTitle'],
+        message: 'Informe seoTitle (até 60 caracteres) quando title passar de 60 caracteres.',
       })
       .refine((post) => !post.updatedDate || post.updatedDate >= post.pubDate, {
         path: ['updatedDate'],
