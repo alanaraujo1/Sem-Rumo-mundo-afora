@@ -25,13 +25,13 @@ const blog = defineCollection({
         // Largura e formato são validados em src/lib/posts.ts: aqui image() ainda
         // não tem os metadados do arquivo.
         cover: image(),
-        // Obrigatório para fotos de terceiros, quando a licença exige atribuição.
+        // Assinatura da foto. Em fotos de terceiros, inclua licença e links quando exigidos.
         coverCredit: z
           .object({
             author: z.string().trim().min(2),
-            license: z.string().trim().min(2),
-            licenseUrl: z.url(),
-            sourceUrl: z.url(),
+            license: z.string().trim().min(2).optional(),
+            licenseUrl: z.url().optional(),
+            sourceUrl: z.url().optional(),
             changes: z.string().trim().min(2).optional(),
           })
           .optional(),

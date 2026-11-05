@@ -45,12 +45,28 @@ function captionChildren(caption) {
   return children;
 }
 
-const WIDE_PREFIX = /^wide\s*(?:\|\s*|$)/;
+const OPTION = /^(?:wide|\d+\/\d+|\d+%,\d+%)$/;
+
+/** Separa as opções ("wide 16/9 50%,40% | Legenda") da legenda. */
+function parseImageTitle(title) {
+  const separator = title.indexOf('|');
+  const head = (separator === -1 ? title : title.slice(0, separator)).trim();
+  const tokens = head.split(/\s+/);
+  if (!head || !tokens.every((token) => OPTION.test(token))) return { caption: title.trim() };
+  return {
+    isWide: tokens.includes('wide'),
+    ratio: tokens.find((token) => token.includes('/')),
+    position: tokens.find((token) => token.includes('%')),
+    caption: separator === -1 ? '' : title.slice(separator + 1).trim(),
+  };
+}
+
 const MIN_ALT_LENGTH = 30;
 
 /**
  * Transforma um parágrafo com uma única imagem em <figure>:
- * `![alt](foto.jpg "Legenda")` ou, para ultrapassar a coluna, `![alt](foto.jpg "wide | Legenda")`.
+ * `![alt](foto.jpg "Legenda")` ou, com opções antes da barra, `![alt](foto.jpg "wide 16/9 50%,40% | Legenda")`.
+ * `wide` ultrapassa a coluna; a proporção recorta por CSS, sem deformar, e o par de porcentagens define o foco.
  */
 export const figurePlugin = {
   name: 'figures',
@@ -72,13 +88,18 @@ export const figurePlugin = {
       if (content.length !== 1 || image.tagName !== 'img') return;
 
       const { title = '', ...properties } = image.properties;
-      const isWide = WIDE_PREFIX.test(title);
-      const caption = title.replace(WIDE_PREFIX, '').trim();
+      const { isWide, ratio, position, caption } = parseImageTitle(title);
+      const classNames = ['article-figure'];
+      if (isWide) classNames.push('article-figure-wide');
+      if (ratio) classNames.push('article-figure-crop');
+      const cropStyle = ratio
+        ? `--figure-ratio: ${ratio}; --figure-position: ${(position ?? '50%,50%').replace(',', ' ')}`
+        : undefined;
 
       ctx.replaceNode(node, {
         type: 'element',
         tagName: 'figure',
-        properties: { className: isWide ? ['article-figure', 'article-figure-wide'] : ['article-figure'] },
+        properties: { className: classNames, ...(cropStyle && { style: cropStyle }) },
         children: [
           {
             type: 'element',

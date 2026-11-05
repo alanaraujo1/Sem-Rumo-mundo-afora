@@ -6,6 +6,8 @@ pubDate: 2026-11-04
 author: 'Alan'
 cover: '../../assets/blog/chapada-diamantina-morro-do-pai-inacio-canion.jpg'
 coverAlt: 'Vista panorâmica dos cânions e vales da Chapada Diamantina a partir do Morro do Pai Inácio'
+coverCredit:
+  author: 'Alan Primo'
 destination:
   name: 'Chapada Diamantina'
   region: 'Bahia'
@@ -134,13 +136,17 @@ O Morro do Pai Inácio fica a cerca de 26 km de Lençóis e é um dos mirantes m
 
 A trilha até o topo tem cerca de 500 m e é curta, mas pede um pouco de fôlego. É uma das poucas caminhadas da região que costumam ser feitas sem guia. A taxa de visitação cobrada pelo município é de R$ 20, com meia-entrada de R$ 10.
 
-![Alan Araujo de pé sobre as rochas no alto do Morro do Pai Inácio, de camiseta azul e óculos escuros, com o vale verde e os paredões da Chapada Diamantina ao fundo](../../assets/blog/trilha-morro-do-pai-inacio-alan-araujo.jpg "Alan no alto do Morro do Pai Inácio, ao fim da subida.")
+![Alan de pé sobre as rochas no alto do Morro do Pai Inácio, de camiseta azul e óculos escuros, com o vale verde e os paredões da Chapada Diamantina ao fundo](../../assets/blog/trilha-morro-do-pai-inacio-alan-araujo.jpg "Alan no alto do Morro do Pai Inácio, ao fim da subida. Foto: Alan Primo")
 
 ### O entardecer
 
 Do alto, a vista se abre para os paredões de arenito e os vales ao redor. Para ver o pôr do sol, confirme antes o horário-limite de subida e leve lanterna para a descida.
 
-![Céu alaranjado e nuvens escuras do pôr do sol sobre os paredões de arenito e o vale verde da Chapada Diamantina, vistos das rochas no alto do Morro do Pai Inácio](../../assets/blog/por-do-sol-morro-do-pai-inacio-bahia.jpg "wide | Pôr do sol no alto do Morro do Pai Inácio na Chapada Diamantina")
+![Sol se pondo na linha do horizonte, sob nuvens escuras e céu alaranjado, visto das rochas no alto do Morro do Pai Inácio, na Chapada Diamantina](../../assets/blog/entardecer-chapada-diamantina-horizonte.jpg "wide 16/9 50%,31% | Pôr do sol no horizonte a partir do Morro do Pai Inácio. Foto: Alan Primo")
+
+Antes de iniciar a descida, vale reservar alguns minutos para sentar nas rochas do cume e acompanhar o poente sobre os vales, sem pressa. É uma pausa simples, mas costuma ser o momento mais marcante da subida.
+
+![Pernas estendidas em primeira pessoa sobre as rochas do topo do Morro do Pai Inácio, diante do sol se pondo no horizonte entre nuvens escuras e céu alaranjado](../../assets/blog/momento-por-do-sol-morro-do-pai-inacio.jpg "4/3 50%,68% | Fim de tarde no topo do Pai Inácio: momento de pausa para acompanhar o poente sobre os vales. Foto: Alan Primo")
 
 ## Vale do Pati: o que saber antes de ir
 

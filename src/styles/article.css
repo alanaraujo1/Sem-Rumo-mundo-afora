@@ -39,6 +39,13 @@
   font-weight: 400;
 }
 
+/* Recorte opcional, sem deformar. O aspect-ratio reserva o espaço antes de a foto carregar. */
+.article-figure-crop img {
+  aspect-ratio: var(--figure-ratio);
+  object-fit: cover;
+  object-position: var(--figure-position);
+}
+
 /* Centraliza além da coluna; no celular, ocupa a mesma largura do texto. */
 .article-figure-wide {
   --figure-width: min(100vw - 2rem, 64rem);

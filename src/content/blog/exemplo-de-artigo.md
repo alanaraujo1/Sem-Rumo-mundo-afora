@@ -48,6 +48,10 @@ Comece a legenda com `wide |` para a imagem ultrapassar a coluna:
 
 ![Imagem provisória em tons de verde-azulado com silhuetas de montanhas, mais larga que a coluna de texto](../../assets/blog/exemplo-capa.jpg "wide | Legenda de uma imagem horizontal ampla.")
 
+Antes da barra, também é possível recortar sem deformar, informando a proporção e o foco horizontal e vertical:
+
+![Imagem provisória em tons de verde-azulado com silhuetas de montanhas, recortada na proporção 16 por 9](../../assets/blog/exemplo-capa.jpg "16/9 50%,70% | Legenda de uma imagem recortada.")
+
 ### Subtítulo de exemplo
 
 Títulos H2 e H3 entram automaticamente no sumário.

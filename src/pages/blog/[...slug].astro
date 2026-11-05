@@ -47,8 +47,13 @@ const columnClass = 'mx-auto max-w-[752px] px-4';
         {
           coverCredit && (
             <figcaption class="mx-auto mt-2 max-w-[752px] px-4 text-sm text-stone-600">
-              Foto: <a href={coverCredit.sourceUrl} rel="noopener" class="underline">{coverCredit.author}</a>,{' '}
-              <a href={coverCredit.licenseUrl} rel="license noopener" class="underline">{coverCredit.license}</a>
+              Foto: {coverCredit.sourceUrl ? <a href={coverCredit.sourceUrl} rel="noopener" class="underline">{coverCredit.author}</a> : coverCredit.author}
+              {coverCredit.license && (
+                <>
+                  {', '}
+                  <a href={coverCredit.licenseUrl} rel="license noopener" class="underline">{coverCredit.license}</a>
+                </>
+              )}
               {coverCredit.changes && ` (${coverCredit.changes})`}.
             </figcaption>
           )
