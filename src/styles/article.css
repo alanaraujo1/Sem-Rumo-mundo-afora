@@ -19,9 +19,11 @@
 }
 
 .article-figure img {
+  display: block;
   width: 100%;
   height: auto;
   margin: 0;
+  object-fit: contain;
   border-radius: 0.5rem;
 }
 

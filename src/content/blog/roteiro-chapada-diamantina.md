@@ -4,8 +4,8 @@ description: 'Roteiro de 5 a 7 dias pela Chapada Diamantina com Lençóis, Vale 
 category: 'Roteiros'
 pubDate: 2026-11-04
 author: 'Alan'
-cover: '../../assets/blog/morro-pai-inacio.jpg'
-coverAlt: 'Vista panorâmica do pôr do sol no Morro do Pai Inácio, na Chapada Diamantina (Bahia): céu alaranjado sobre paredões de arenito e vales cobertos de vegetação'
+cover: '../../assets/blog/chapada-diamantina-morro-do-pai-inacio-canion.jpg'
+coverAlt: 'Vista panorâmica dos cânions e vales da Chapada Diamantina a partir do Morro do Pai Inácio'
 destination:
   name: 'Chapada Diamantina'
   region: 'Bahia'
@@ -126,11 +126,25 @@ Escolha a versão conforme a sua prioridade.
 
 A versão com o Pati deixa de fora os poços e a Fumaça, e tem pouca margem para atrasos. Na dúvida, prefira a versão sem o trekking ou acrescente dias à viagem.
 
+## Morro do Pai Inácio: a subida e o pôr do sol
+
+O Morro do Pai Inácio fica a cerca de 26 km de Lençóis e é um dos mirantes mais conhecidos da Chapada Diamantina. Como a caminhada é curta, é fácil encaixá-lo no fim de um dia de passeio, como no dia 2 do roteiro de 7 dias.
+
+### A subida
+
+A trilha até o topo tem cerca de 500 m e é curta, mas pede um pouco de fôlego. É uma das poucas caminhadas da região que costumam ser feitas sem guia. A taxa de visitação cobrada pelo município é de R$ 20, com meia-entrada de R$ 10.
+
+![Alan Araujo de pé sobre as rochas no alto do Morro do Pai Inácio, de camiseta azul e óculos escuros, com o vale verde e os paredões da Chapada Diamantina ao fundo](../../assets/blog/trilha-morro-do-pai-inacio-alan-araujo.jpg "Alan no alto do Morro do Pai Inácio, ao fim da subida.")
+
+### O entardecer
+
+Do alto, a vista se abre para os paredões de arenito e os vales ao redor. Para ver o pôr do sol, confirme antes o horário-limite de subida e leve lanterna para a descida.
+
+![Céu alaranjado e nuvens escuras do pôr do sol sobre os paredões de arenito e o vale verde da Chapada Diamantina, vistos das rochas no alto do Morro do Pai Inácio](../../assets/blog/por-do-sol-morro-do-pai-inacio-bahia.jpg "wide | Pôr do sol no alto do Morro do Pai Inácio na Chapada Diamantina")
+
 ## Vale do Pati: o que saber antes de ir
 
 O Pati fica dentro do Parque Nacional da Chapada Diamantina. Segundo o ICMBio, é a exceção do parque em termos de pernoite, porque permite hospedagem na casa de moradores.
-
-![Panorâmica da Rampa do Vale do Pati: trilha de terra cruzando encostas verdes, com paredões de rocha e morros de topo plano sob céu azul com nuvens](../../assets/blog/vale-do-pati-panoramica-rampa.jpg "wide | Rampa do Vale do Pati. Foto: [Carlos Perez Couto](https://commons.wikimedia.org/wiki/File:Panoramica_da_Rampa_do_Vale_do_Pati.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.pt-br) (imagem redimensionada).")
 
 - **Duração:** os formatos mais comuns têm de 3 a 5 dias, com entrada frequente pelo Guiné.
 - **Distância:** um dos operadores informa cerca de 36 km em 3 dias, 49 km em 4 dias e 60 km em 5 dias.
@@ -141,8 +155,6 @@ O Pati fica dentro do Parque Nacional da Chapada Diamantina. Segundo o ICMBio, �
 :::alerta
 Não há sinal de celular no parque. Antes de entrar, deixe o seu roteiro e um contato de emergência com alguém de confiança.
 :::
-
-![Vale do Pati visto do alto do Morro do Castelo: vale coberto de mata verde entre paredões de rocha, com sombras de nuvens e vegetação em primeiro plano](../../assets/blog/vale-do-pati-vista-do-castelo.jpg "Vale do Pati visto do Morro do Castelo. Foto: [AndréOlmos](https://commons.wikimedia.org/wiki/File:Vista_do_Vale_do_Pati_de_cima_do_Castelo.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br) (imagem redimensionada).")
 
 ### É obrigatório ter guia?
 
