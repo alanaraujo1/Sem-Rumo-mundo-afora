@@ -4,14 +4,8 @@ description: 'Roteiro de 5 a 7 dias pela Chapada Diamantina com Lençóis, Vale 
 category: 'Roteiros'
 pubDate: 2026-11-04
 author: 'Alan'
-cover: '../../assets/blog/morro-do-pai-inacio-chapada-diamantina.jpg'
-coverAlt: 'Vista do alto do Morro do Pai Inácio, na Chapada Diamantina: pessoa na borda de um paredão de arenito diante de vales verdes e montanhas de topo plano'
-coverCredit:
-  author: 'Rodolfo Bazetto'
-  license: 'CC BY-SA 4.0'
-  licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br'
-  sourceUrl: 'https://commons.wikimedia.org/wiki/File:PNM_do_Morro_do_Pai_In%C3%A1cio_-_Rodolfo_Bazetto(001).jpg'
-  changes: 'imagem redimensionada e recortada'
+cover: '../../assets/blog/morro-pai-inacio.jpg'
+coverAlt: 'Vista panorâmica do pôr do sol no Morro do Pai Inácio, na Chapada Diamantina (Bahia): céu alaranjado sobre paredões de arenito e vales cobertos de vegetação'
 destination:
   name: 'Chapada Diamantina'
   region: 'Bahia'
