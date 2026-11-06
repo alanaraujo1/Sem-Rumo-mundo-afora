@@ -45,6 +45,8 @@ O que torna a estadia mais rica, porém, são as pessoas. A simpatia e a recepti
 Guarde um fim de tarde sem programa. Caminhe sem pressa pelas ruas de pedra, entre nas lojinhas e converse com quem mora ali. Os guias nativos também são uma ótima fonte de indicações sobre a região.
 :::
 
+![Ruela de pedras no centro histórico de Lençóis, entre casarões azuis e brancos com base de pedra, postes e fios, com bandeirinhas coloridas ao fundo sob céu azul](../../assets/blog/lencois/lencois-ruela-historica-casas-coloridas.jpg "4/3 50%,55% | Casarios coloridos e ruelas de pedras enfeitadas no centro histórico de Lençóis. Foto: Alan Primo")
+
 ## Logística e base operacional
 
 ### Como chegar
@@ -67,11 +69,13 @@ Sem carro, combine com a pousada como ir do aeroporto até o centro. Verifique s
 
 O centro histórico é compacto e funciona bem a pé: restaurantes, lojas e agências ficam a uma caminhada curta de distância. Para os atrativos mais distantes da região, a saída costuma ser contratar um passeio por agência ou alugar um carro.
 
-![Praça no centro de Lençóis com árvores, canteiros e piso de pedra, coberta por centenas de bandeirolas coloridas sob céu azul com nuvens](../../assets/blog/lencois/praca-centro-lencois-bandeirolas.jpg "wide 16/9 50%,52% | Bandeirolas coloridas sobre uma praça do centro de Lençóis. Foto: Alan Primo")
+![Rua de pedra no centro histórico de Lençóis coberta por centenas de bandeirinhas coloridas, entre casarões de janelas em arco e fachadas claras, com veículos estacionados junto à calçada](../../assets/blog/lencois/lencois-centro-historico-bandeirinhas.jpg "4/3 50%,45% | Caminhar pelas ruas de pedra é a melhor forma de explorar o centro histórico da cidade. Foto: Alan Primo")
 
 :::alerta
 O calçamento de pedra é irregular e pode ficar escorregadio depois da chuva. Use calçado firme, principalmente à noite, e redobre a atenção com malas de rodinhas.
 :::
+
+![Praça no centro de Lençóis com árvores, canteiros e piso de pedra, coberta por centenas de bandeirolas coloridas sob céu azul com nuvens](../../assets/blog/lencois/praca-centro-lencois-bandeirolas.jpg "wide 16/9 50%,52% | Bandeirolas coloridas sobre uma praça do centro de Lençóis. Foto: Alan Primo")
 
 ![Coreto verde e branco sobre base de pedra em uma praça de Lençóis, cercado por árvores e bandeirolas coloridas que partem do seu telhado](../../assets/blog/lencois/coreto-praca-centro-lencois-bandeirolas.jpg "4/3 50%,52% | Coreto em uma praça do centro, um bom ponto de partida para caminhar pela cidade. Foto: Alan Primo")
 
@@ -103,6 +107,8 @@ Depois das trilhas, comer bem faz parte do programa. O polo gastronômico fica n
 - **Rua das Pedras:** concentra boa parte dos restaurantes, muitos com mesas do lado de fora. Quilombola, de cozinha regional, e Cozinha Italiana da Marisa são endereços citados com frequência.
 - **Rua da Baderna (Rua Miguel Calmon):** reúne bares e restaurantes, como Garimpo Gourmet e Quarar. Segundo relatos de viajantes, a rua fecha para carros à noite.
 - **Praça das Nagôs (hoje Praça Aureliano Sá):** o entorno inclui opções como o Lampião Cozinha Nordestina.
+
+![Mesas e cadeiras de madeira escura dispostas dos dois lados de uma rua de lajedo em Lençóis, em frente a restaurantes de fachadas coloridas, com clientes sentados e bandeirinhas ao fundo](../../assets/blog/lencois/lencois-gastronomia-mesas-ao-ar-livre.jpg "wide 16/9 50%,72% | O movimento das mesas ao ar livre no centro histórico de Lençóis ao entardecer. Foto: Alan Primo")
 
 Em 2023, um levantamento de pratos em restaurantes da cidade encontrou valores entre cerca de R$ 25 e R$ 85. Use essa faixa só como referência e confirme se os restaurantes continuam abertos.
 
