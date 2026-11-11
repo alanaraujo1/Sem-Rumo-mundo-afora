@@ -137,6 +137,8 @@ Outras propriedades também recebem visitantes para mostrar o processo, do pé �
 
 As noites frescas de Mucugê combinam com refeições sem pressa, em restaurantes pequenos e acolhedores no centro. Entre os endereços citados por guias da cidade estão o Restaurante Dona Nena, na Rua Direita do Comércio, o Point da Chapada, na Praça dos Garimpeiros, e o Beco da Bateia, na Rua da Várzea. Como essa lista é de 2023, confirme se continuam abertos.
 
+Para uma experiência de alta gastronomia, a cerca de 25 minutos da cidade, a Vinícola UVVA serve almoço com vista para os vinhedos. Contamos como foi no nosso [guia da Vinícola UVVA](/blog/visita-vinicola-uvva-mucuge-chapada-diamantina/), com as regras de reserva.
+
 ![Salão de restaurante em Mucugê à noite, com mesas e cadeiras de madeira, paredes laranja e um teto coberto de bandeirolas coloridas e luzes acesas](../../assets/blog/mucuge/restaurante-mucuge-noite-bandeirolas.jpg "4/3 50%,55% | Restaurante decorado com bandeirolas em uma noite em Mucugê. Foto: Alan Primo")
 
 ![Porção de petisco dourado em camadas servida em prato de barro sobre mesa de madeira, com o salão iluminado de um restaurante de Mucugê ao fundo](../../assets/blog/mucuge/gastronomia-mucuge-petisco.jpg "4/3 50%,62% | Petisco servido em um restaurante do centro. Foto: Alan Primo")
