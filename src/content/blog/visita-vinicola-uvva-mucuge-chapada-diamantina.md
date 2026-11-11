@@ -53,16 +53,16 @@ O Arenito é o restaurante da vinícola, comandado pelo chef André Chequer, e f
 
 ![Restaurante Arenito, da Vinícola UVVA, visto de fora: salão envidraçado sob telhado de madeira, com clientes à mesa e canteiros de lavanda em primeiro plano](../../assets/blog/vinicola-uvva/vinicola-uvva-restaurante-arenito-vista-externa.jpg "wide 16/9 50%,42% | O salão envidraçado do Arenito, com vista para os vinhedos. Foto: Alan Primo")
 
-A experiência à mesa combina pratos com produtos regionais tratados de forma sofisticada e a harmonização com os rótulos da casa. Almoçar olhando para os vinhedos de onde vem o vinho da taça é o que torna o programa tão especial.
+A experiência à mesa combina pratos com produtos regionais tratados de forma sofisticada e a harmonização com os rótulos da casa. No nosso almoço, o destaque foi um ragu com farofa e ervas frescas, servido sobre um creme macio, bem alinhado à proposta autoral do Arenito. Almoçar olhando para os vinhedos de onde vem o vinho da taça é o que torna o programa tão especial.
 
 ![Prato de cerâmica com creme claro, ragu vermelho, farofa crocante, pesto e brotos, servido à mesa do Arenito com garrafa e taças de vinho tinto e branco ao fundo](../../assets/blog/vinicola-uvva/vinicola-uvva-almoco-restaurante-arenito.jpg "4/3 50%,55% | Almoço no Arenito, harmonizado com vinhos da casa. Foto: Alan Primo")
 
-![Detalhe de prato do Arenito em tigela de cerâmica, com creme amarelado, ragu vermelho, farofa dourada, pesto verde e brotos frescos sobre a mesa escura](../../assets/blog/vinicola-uvva/vinicola-uvva-prato-almoco-arenito.jpg "4/3 50%,52% | Prato do almoço no Arenito. Foto: Alan Primo")
+![Detalhe de prato do Arenito em tigela de cerâmica, com creme amarelado, ragu vermelho, farofa dourada, pesto verde e brotos frescos sobre a mesa escura](../../assets/blog/vinicola-uvva/vinicola-uvva-prato-almoco-arenito.jpg "4/3 50%,52% | Ragu com farofa e ervas frescas, prato do almoço no Arenito. Foto: Alan Primo")
 
 ![Garrafa de vinho da UVVA ao lado de uma taça de tinto e uma taça vazia sobre a mesa do Arenito, diante das janelas com vista para a paisagem](../../assets/blog/vinicola-uvva/vinicola-uvva-harmonizacao-vinhos-da-casa.jpg "4/3 50%,45% | Rótulo da casa servido à mesa, junto às janelas do salão. Foto: Alan Primo")
 
 :::alerta
-O Arenito funciona exclusivamente com reserva prévia, feita pelo site oficial da vinícola. No agendamento, é cobrado um sinal por pessoa para confirmar a mesa, e esse valor é integralmente descontado da conta ao fim do almoço. Pela alta procura, reserve com boa antecedência.
+O Arenito funciona exclusivamente com reserva prévia, feita pelo site oficial da vinícola. No agendamento, é cobrado um sinal de R$ 80 por pessoa para confirmar a mesa. Segundo o regulamento da vinícola, esse valor é integralmente convertido em consumação de alimentos no restaurante. Pela alta procura, reserve com boa antecedência.
 :::
 
 ## Visitação, cave e loja
@@ -95,11 +95,13 @@ A UVVA fica às margens da BA-142, a cerca de 25 km do centro de Mucugê, por es
 Vai degustar? Defina antes quem será o motorista da rodada ou contrate um transfer a partir de Mucugê. Assim todos aproveitam os vinhos com tranquilidade, e ninguém dirige na estrada depois de beber.
 :::
 
+*Nota de transparência: a experiência na Vinícola UVVA foi realizada e custeada integralmente por nós, de forma independente e sem qualquer vínculo comercial ou cortesia. Nossas avaliações refletem exclusivamente a experiência real vivida no local.*
+
 ## Perguntas frequentes
 
 ### Precisa reservar para almoçar na Vinícola UVVA?
 
-Sim. O restaurante Arenito funciona só com reserva prévia pelo site oficial, com cobrança de sinal por pessoa, descontado da conta.
+Sim. O restaurante Arenito funciona só com reserva prévia pelo site oficial, com sinal de R$ 80 por pessoa, integralmente convertido em consumação de alimentos no restaurante.
 
 ### Quanto custa visitar a Vinícola UVVA?
 
