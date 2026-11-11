@@ -117,19 +117,21 @@ Em Mucugê, a nossa base de hospedagem e vivência rural foi o Licuri Experience
 
 A fazenda também produz chocolates artesanais, que nos surpreenderam pelo sabor e pela qualidade.
 
-As conversas foram além do café. O proprietário é parente direto do coronel Horácio de Matos, figura lendária da história da Chapada Diamantina, e cada conversa virou uma verdadeira aula de história viva sobre a região e o garimpo.
+As conversas foram além do café. Segundo os próprios anfitriões, o proprietário é parente direto do coronel Horácio de Matos, figura lendária da história da Chapada Diamantina. As memórias e os relatos que eles compartilharam durante a estadia transformaram cada conversa em uma verdadeira aula de história viva sobre a região e o garimpo.
 
 ![Grãos de café secando em terreiros suspensos de tela no Licuri Experience, em Mucugê, com frutos avermelhados em primeiro plano e grãos amarelos ao fundo](../../assets/blog/mucuge/secagem-cafe-terreiro-suspenso-mucuge.jpg "wide 16/9 50%,58% | Café secando em terreiros suspensos no Licuri Experience. Foto: Alan Primo")
 
 Não teve como voltar para São Paulo sem trazer na mala os pacotes do café especial Licuri Experience e as barras de chocolate da fazenda.
 
+:::dica
+Antes de pegar a estrada de terra até a fazenda, entre em contato pelo Instagram (@licuriexperience) e alinhe com antecedência o horário de chegada e a degustação. O sinal de celular oscila fora do perímetro urbano de Mucugê, então não deixe para combinar no caminho.
+:::
+
+*Nota de transparência: a hospedagem e a experiência no Licuri Experience foram pagas por nós, de forma independente, sem nenhuma parceria comercial. As opiniões refletem apenas a nossa vivência.*
+
 ### Outras fazendas de café na região
 
 Outras propriedades também recebem visitantes para mostrar o processo, do pé à xícara. A Latitude 13, por exemplo, reúne duas fazendas em Mucugê e torra na origem desde 2015. Na divisa entre Mucugê e Ibicoara, o Agrocafé Igaraçu oferece uma imersão no processo do café.
-
-:::dica
-As visitas às fazendas costumam depender de agendamento. Entre em contato com antecedência e pergunte se a experiência inclui degustação e compra de café direto do produtor.
-:::
 
 ## Gastronomia da serra
 
