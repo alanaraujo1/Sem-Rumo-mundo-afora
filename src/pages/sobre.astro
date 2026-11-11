@@ -1,5 +1,6 @@
 ---
-import { AUTHOR_BIO, AUTHOR_NAME, SITE_NAME } from '../consts';
+import InstagramLink from '../components/InstagramLink.astro';
+import { AUTHOR_BIO, AUTHOR_NAME, INSTAGRAM, SITE_NAME } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const pageUrl = new URL('/sobre/', Astro.site).href;
@@ -16,6 +17,7 @@ const schema = [
       url: pageUrl,
       jobTitle: 'Realizador audiovisual, fotógrafo e criador de conteúdos',
       description: AUTHOR_BIO,
+      sameAs: [INSTAGRAM.author.url],
       knowsAbout: ['Viagens', 'Expedições', 'Turismo de natureza', 'Ecoturismo', 'Fotografia de viagem'],
     },
   },
@@ -32,6 +34,14 @@ const schema = [
 
     <h2>Quem escreve</h2>
     <p>{AUTHOR_BIO}</p>
+    <p>
+      Acompanhe as viagens e fotografias em{' '}
+      <InstagramLink url={INSTAGRAM.author.url} class="font-semibold">{INSTAGRAM.author.handle}</InstagramLink>.
+    </p>
+    <p>
+      Siga também as novidades da comunidade do {SITE_NAME} em{' '}
+      <InstagramLink url={INSTAGRAM.blog.url} class="font-semibold">{INSTAGRAM.blog.handle}</InstagramLink>.
+    </p>
 
     <h2>A proposta do blog</h2>
     <p>

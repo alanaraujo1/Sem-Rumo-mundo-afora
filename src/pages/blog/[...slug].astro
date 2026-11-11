@@ -2,6 +2,7 @@
 import type { GetStaticPaths } from 'astro';
 import { type CollectionEntry, render } from 'astro:content';
 import { Image } from 'astro:assets';
+import AuthorBox from '../../components/AuthorBox.astro';
 import TableOfContents from '../../components/TableOfContents.astro';
 import { AUTHOR_NAME } from '../../consts';
 import BaseLayout from '../../layouts/BaseLayout.astro';
@@ -94,6 +95,7 @@ const columnClass = 'mx-auto max-w-[752px] px-4';
       <ul class="mt-10 flex flex-wrap gap-2" aria-label="Tags">
         {tags.map((tag) => <li class="rounded-full bg-stone-200 px-3 py-1 text-sm text-stone-800">{tag}</li>)}
       </ul>
+      {author === AUTHOR_NAME && <AuthorBox />}
     </div>
   </article>
 </BaseLayout>

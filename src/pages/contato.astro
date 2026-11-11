@@ -1,5 +1,5 @@
 ---
-import { CONTACT_EMAIL, SITE_NAME } from '../consts';
+import { CONTACT_EMAIL, INSTAGRAM, SITE_NAME } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const schema = [
@@ -13,6 +13,7 @@ const schema = [
       name: SITE_NAME,
       url: Astro.site?.href,
       email: CONTACT_EMAIL,
+      sameAs: [INSTAGRAM.blog.url],
       contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: CONTACT_EMAIL },
     },
   },
