@@ -223,7 +223,7 @@ Sim. É possível chegar de ônibus a Lençóis e fazer os passeios com agência
 
 ### Qual é a melhor base na Chapada Diamantina?
 
-Lençóis é a base mais prática para uma primeira viagem, pela oferta de agências, hospedagem e transporte, como detalhamos no [guia da cidade](/blog/o-que-fazer-em-lencois-chapada-diamantina/). Para atrativos do sul, como o Buracão, pode valer a pena dormir mais perto.
+Lençóis é a base mais prática para uma primeira viagem, pela oferta de agências, hospedagem e transporte, como detalhamos no [guia da cidade](/blog/o-que-fazer-em-lencois-chapada-diamantina/). Para atrativos do sul, como o Buracão e o Poço Encantado, pode valer a pena dormir mais perto, em [Mucugê](/blog/o-que-fazer-em-mucuge-chapada-diamantina/).
 
 ## Fontes consultadas
 

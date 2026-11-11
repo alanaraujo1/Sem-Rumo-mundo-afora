@@ -4,3 +4,6 @@ dist/
 .env
 .env.*
 .DS_Store
+
+# Fotos brutas (RAW, HEIC e originais com GPS). Ficam só no computador.
+fotos-originais/
