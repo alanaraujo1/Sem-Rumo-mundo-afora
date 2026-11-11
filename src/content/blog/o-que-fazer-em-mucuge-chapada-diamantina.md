@@ -54,7 +54,7 @@ A construção é associada a uma epidemia de cólera que atingiu a região em m
 ![Mausoléus brancos em forma de pequenas igrejas no Cemitério Santa Isabel, em Mucugê, com uma cruz em primeiro plano e o paredão de rocha coberto de vegetação ao fundo](../../assets/blog/mucuge/cemiterio-santa-isabel-mucuge-mausoleus.jpg "4/3 50%,50% | Mausoléus do Cemitério Santa Isabel, tombado pelo IPHAN. Foto: Alan Primo")
 
 :::dica
-Reserve um tempo para observar os detalhes dos mausoléus e a vista da cidade a partir do cemitério. Lembre-se de que é um espaço de memória: circule com respeito e não suba nos túmulos.
+O cemitério fica na encosta logo na entrada da cidade. O melhor momento para visitar e fotografar é no começo da manhã ou no final da tarde, quando a luz suave destaca o branco dos túmulos contra o paredão de pedra sem a incidência de sol forte a pino. A visita é rápida e pode ser combinada facilmente com uma caminhada a pé a partir do centro histórico.
 :::
 
 ## Logística e base operacional
@@ -124,7 +124,7 @@ As conversas foram além do café. Segundo os próprios anfitriões, o propriet�
 Não teve como voltar para São Paulo sem trazer na mala os pacotes do café especial Licuri Experience e as barras de chocolate da fazenda.
 
 :::dica
-Antes de pegar a estrada de terra até a fazenda, entre em contato pelo Instagram (@licuriexperience) e alinhe com antecedência o horário de chegada e a degustação. O sinal de celular oscila fora do perímetro urbano de Mucugê, então não deixe para combinar no caminho.
+Antes de pegar a estrada de terra até a fazenda, entre em contato pelo Instagram (<a href="https://www.instagram.com/licuriexperience/" target="_blank" rel="noopener noreferrer">@licuriexperience</a>) e alinhe com antecedência o horário de chegada e a degustação. O sinal de celular oscila fora do perímetro urbano de Mucugê, então não deixe para combinar no caminho.
 :::
 
 *Nota de transparência: a hospedagem e a experiência no Licuri Experience foram pagas por nós, de forma independente, sem nenhuma parceria comercial. As opiniões refletem apenas a nossa vivência.*
