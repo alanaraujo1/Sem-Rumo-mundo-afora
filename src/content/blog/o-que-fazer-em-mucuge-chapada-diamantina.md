@@ -89,9 +89,9 @@ O Parque Natural Municipal de Mucugê fica na BA-142, cerca de 10 minutos de car
 
 As trilhas até as cachoeiras são descritas como praticamente planas. A Cachoeira do Piabinha fica a poucos minutos da trilha principal, e a Cachoeira do Tiburtino, cerca de 25 minutos adiante, segundo relatos de visitantes.
 
-![Alan Primo de pé sobre lajedo de pedra à margem do Rio Cumbuca, na região de Mucugê, com corredeiras e paredões de rocha cobertos de vegetação ao fundo](../../assets/blog/mucuge/parque-municipal-mucuge-rio-cumbuca.jpg "4/3 50%,62% | Alan Primo às margens do Rio Cumbuca, na região do Parque Municipal. Foto: Alan Primo")
+![Alan Primo de pé sobre lajedo de pedra à margem do Rio Cumbuca, no Parque Municipal de Mucugê, com corredeiras e paredões de rocha cobertos de vegetação ao fundo](../../assets/blog/mucuge/parque-municipal-mucuge-rio-cumbuca.jpg "4/3 50%,62% | Alan Primo às margens do Rio Cumbuca, no complexo do Parque Municipal de Mucugê. Foto: Alan Primo")
 
-![Corredeiras do Rio Cumbuca descendo sobre degraus de rocha com espuma e água cor de chá, entre margens de pedra e vegetação de cerrado sob céu azul](../../assets/blog/mucuge/corredeiras-rio-cumbuca-parque-municipal-mucuge.jpg "wide 16/9 50%,62% | Corredeiras do Rio Cumbuca. Foto: Alan Primo")
+![Corredeiras do Rio Cumbuca descendo sobre degraus de rocha com espuma e água cor de chá, entre margens de pedra e vegetação de cerrado, no Parque Municipal de Mucugê](../../assets/blog/mucuge/corredeiras-rio-cumbuca-parque-municipal-mucuge.jpg "wide 16/9 50%,62% | Corredeiras do Rio Cumbuca no complexo do Parque Municipal de Mucugê. Foto: Alan Primo")
 
 :::alerta
 As fontes divergem sobre as regras do parque. Os relatos mais citados indicam funcionamento das 8h30 às 17h30 e taxa de R$ 20 por pessoa, mas há quem informe guia obrigatório na alta temporada. Confirme antes de ir e não salte nos poços: as águas escuras escondem pedras.
@@ -109,11 +109,23 @@ O Poço Encantado, em Itaetê, fica a cerca de 46 km de Mucugê. A visita é pag
 
 A Chapada Diamantina se tornou referência em café especial, com cafés reconhecidos em concursos nacionais e internacionais. Segundo a Associação Brasileira de Cafés Especiais (BSCA), Piatã e Mucugê são os maiores produtores do estado. Piatã reúne vários premiados no Cup of Excellence Brasil, e Mucugê tem produtores que torram o café na própria origem.
 
-![Cacho de frutos de café maduros, vermelhos e verdes, em um pé carregado em uma fazenda da região de Mucugê, com folhas verdes e céu claro ao fundo](../../assets/blog/mucuge/cafe-especial-mucuge-frutos-maduros.jpg "4/3 50%,48% | Frutos de café amadurecendo no pé, na região de Mucugê. Foto: Alan Primo")
+### Nossa base em Mucugê: Licuri Experience
 
-Algumas propriedades recebem visitantes para mostrar o processo, do pé à xícara. A Latitude 13, por exemplo, reúne duas fazendas em Mucugê e torra na origem desde 2015. Na divisa entre Mucugê e Ibicoara, o Agrocafé Igaraçu oferece uma imersão no processo do café.
+Em Mucugê, a nossa base de hospedagem e vivência rural foi o Licuri Experience, uma fazenda de café nos arredores da cidade. O que mais marcou foi o acolhimento: os anfitriões, extremamente simpáticos e agradáveis, conduziram conversas ricas sobre todo o ciclo do café, do cultivo e do manejo no pé até o ponto de torra e a extração dos cafés especiais, deliciosos, preparados ali mesmo na propriedade.
 
-![Grãos de café secando em terreiros suspensos de tela em uma fazenda da região de Mucugê, com frutos avermelhados em primeiro plano e grãos amarelos ao fundo](../../assets/blog/mucuge/secagem-cafe-terreiro-suspenso-mucuge.jpg "wide 16/9 50%,58% | Café secando em terreiros suspensos em uma fazenda da região. Foto: Alan Primo")
+![Cacho de frutos de café maduros, vermelhos e verdes, em um pé carregado no Licuri Experience, fazenda de café em Mucugê, com folhas verdes e céu claro ao fundo](../../assets/blog/mucuge/cafe-especial-mucuge-frutos-maduros.jpg "4/3 50%,48% | Frutos de café amadurecendo no pé, no Licuri Experience. Foto: Alan Primo")
+
+A fazenda também produz chocolates artesanais, que nos surpreenderam pelo sabor e pela qualidade.
+
+As conversas foram além do café. O proprietário é parente direto do coronel Horácio de Matos, figura lendária da história da Chapada Diamantina, e cada conversa virou uma verdadeira aula de história viva sobre a região e o garimpo.
+
+![Grãos de café secando em terreiros suspensos de tela no Licuri Experience, em Mucugê, com frutos avermelhados em primeiro plano e grãos amarelos ao fundo](../../assets/blog/mucuge/secagem-cafe-terreiro-suspenso-mucuge.jpg "wide 16/9 50%,58% | Café secando em terreiros suspensos no Licuri Experience. Foto: Alan Primo")
+
+Não teve como voltar para São Paulo sem trazer na mala os pacotes do café especial Licuri Experience e as barras de chocolate da fazenda.
+
+### Outras fazendas de café na região
+
+Outras propriedades também recebem visitantes para mostrar o processo, do pé à xícara. A Latitude 13, por exemplo, reúne duas fazendas em Mucugê e torra na origem desde 2015. Na divisa entre Mucugê e Ibicoara, o Agrocafé Igaraçu oferece uma imersão no processo do café.
 
 :::dica
 As visitas às fazendas costumam depender de agendamento. Entre em contato com antecedência e pergunte se a experiência inclui degustação e compra de café direto do produtor.
