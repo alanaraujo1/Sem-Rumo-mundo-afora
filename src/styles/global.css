@@ -1,2 +1,7 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+/* A família serifada vem da API de fontes do Astro (variável --font-display, com fonte de reserva ajustada). */
+@theme inline {
+  --font-heading: var(--font-display);
+}

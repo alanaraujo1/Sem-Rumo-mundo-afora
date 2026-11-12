@@ -11,12 +11,13 @@ const posts = await getPosts();
   title={`Artigos de viagem | ${SITE_NAME}`}
   description="Todos os artigos do blog: roteiros, dicas práticas e relatos para planejar a sua próxima viagem."
 >
-  <h1 class="text-4xl font-bold tracking-tight">Artigos de viagem</h1>
+  <h1 class="font-heading text-[2.125rem] leading-[1.12] font-semibold tracking-tight text-stone-950 sm:text-5xl">Artigos de viagem</h1>
+  <p class="mt-4 max-w-2xl text-lg leading-relaxed text-stone-600">Roteiros, guias de passeios e dicas práticas, do mais recente ao mais antigo.</p>
   {
     posts.length > 0 ? (
-      <div class="mt-10 grid gap-10 md:grid-cols-2 lg:grid-cols-3">
-        {posts.map((post) => (
-          <PostCard post={post} />
+      <div class="mt-10 grid gap-x-8 gap-y-12 border-t border-stone-200 pt-10 md:grid-cols-2 lg:grid-cols-3">
+        {posts.map((post, index) => (
+          <PostCard post={post} eager={index === 0} />
         ))}
       </div>
     ) : (

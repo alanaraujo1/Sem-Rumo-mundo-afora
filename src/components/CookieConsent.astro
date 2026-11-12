@@ -6,13 +6,13 @@
   id="cookie-consent"
   hidden
   aria-labelledby="cookie-consent-title"
-  class="fixed inset-x-0 bottom-0 z-50 border-t border-stone-300 bg-white shadow-lg"
+  class="fixed inset-x-2 bottom-2 z-50 max-h-[calc(100dvh-1rem)] overflow-y-auto rounded-xl border border-stone-300 bg-white shadow-xl sm:inset-x-4 sm:bottom-4 sm:mx-auto sm:max-w-3xl"
 >
-  <div class="mx-auto max-w-5xl px-4 py-4 text-sm text-stone-800">
-    <h2 id="cookie-consent-title" class="font-semibold">Sua privacidade</h2>
-    <p class="mt-1">
-      Usamos cookies opcionais para medir a audiência e exibir anúncios, somente com o seu consentimento. Você pode
-      mudar de ideia quando quiser. Saiba mais na <a href="/politica-de-privacidade/" class="text-teal-700 underline">Política de Privacidade</a>.
+  <div class="px-4 py-3 text-[0.8125rem] leading-snug text-stone-800 sm:px-5 sm:py-4 sm:text-sm">
+    <p>
+      <strong id="cookie-consent-title" class="font-semibold">Sua privacidade.</strong>{' '}
+      Usamos cookies opcionais para medir a audiência e exibir anúncios, só com o seu consentimento. Você pode mudar de ideia
+      quando quiser. Saiba mais na <a href="/politica-de-privacidade/" class="text-teal-700 underline">Política de Privacidade</a>.
     </p>
     <details class="mt-2">
       <summary class="cursor-pointer font-medium">Escolher por categoria</summary>
@@ -30,14 +30,14 @@
         </button>
       </div>
     </details>
-    <div class="mt-3 flex flex-wrap gap-2">
-      <button type="button" data-consent="accept" class="rounded-md bg-teal-800 px-4 py-2 font-medium text-white hover:bg-teal-900">
+    <div class="mt-3 flex gap-2">
+      <button type="button" data-consent="accept" class="flex-1 rounded-md bg-teal-800 px-3 py-2 font-medium text-white hover:bg-teal-900 sm:flex-none sm:px-4">
         Aceitar todos
       </button>
-      <button type="button" data-consent="reject" class="rounded-md bg-teal-800 px-4 py-2 font-medium text-white hover:bg-teal-900">
+      <button type="button" data-consent="reject" class="flex-1 rounded-md bg-teal-800 px-3 py-2 font-medium text-white hover:bg-teal-900 sm:flex-none sm:px-4">
         Rejeitar todos
       </button>
-      <button type="button" data-consent="close" hidden class="rounded-md border border-stone-400 px-4 py-2 font-medium hover:bg-stone-100">
+      <button type="button" data-consent="close" hidden class="rounded-md border border-stone-400 px-3 py-2 font-medium hover:bg-stone-100 sm:px-4">
         Fechar
       </button>
     </div>

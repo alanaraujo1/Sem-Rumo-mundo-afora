@@ -1,0 +1,36 @@
+---
+import { Image } from 'astro:assets';
+import avatar from '../assets/alan-primo-avatar.jpg';
+import { AUTHOR_NAME } from '../consts';
+
+interface Props {
+  /** Diâmetro em pixels CSS. */
+  size: number;
+  /** Autor do artigo; quem não é o Alan recebe a inicial. */
+  author?: string;
+}
+
+const { size, author = AUTHOR_NAME } = Astro.props;
+---
+
+{
+  author === AUTHOR_NAME ? (
+    <Image
+      src={avatar}
+      alt=""
+      width={size}
+      height={size}
+      densities={[1, 2]}
+      class="shrink-0 rounded-full object-cover"
+      style={{ width: `${size}px`, height: `${size}px` }}
+    />
+  ) : (
+    <span
+      aria-hidden="true"
+      class="flex shrink-0 items-center justify-center rounded-full bg-teal-800 font-bold text-white"
+      style={{ width: `${size}px`, height: `${size}px` }}
+    >
+      {author.charAt(0)}
+    </span>
+  )
+}

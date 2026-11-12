@@ -24,3 +24,11 @@ export function getReadingStats(body = '') {
 }
 
 export const formatDate = (date: Date) => dateFormatter.format(date);
+
+const shortDateFormatter = new Intl.DateTimeFormat('pt-BR', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+
+/** Data curta para cards: "12 nov 2026". */
+export function formatShortDate(date: Date) {
+  const parts = Object.fromEntries(shortDateFormatter.formatToParts(date).map(({ type, value }) => [type, value]));
+  return `${parts.day} ${parts.month.replace('.', '')} ${parts.year}`;
+}

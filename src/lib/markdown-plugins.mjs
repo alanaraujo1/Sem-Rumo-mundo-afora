@@ -45,6 +45,22 @@ function captionChildren(caption) {
   return children;
 }
 
+/** Separa o crédito final ("... Foto: Alan Primo") para exibi-lo em estilo próprio. */
+function figcaptionChildren(caption) {
+  const match = caption.match(/^(.*?)\s*(Foto: .+?)\.?$/s);
+  if (!match) return captionChildren(caption);
+  const [, text, credit] = match;
+  return [
+    ...(text ? captionChildren(text) : []),
+    {
+      type: 'element',
+      tagName: 'span',
+      properties: { className: ['figure-credit'] },
+      children: captionChildren(credit),
+    },
+  ];
+}
+
 const OPTION = /^(?:wide|\d+\/\d+|\d+%,\d+%)$/;
 
 /** Separa as opções ("wide 16/9 50%,40% | Legenda") da legenda. */
@@ -116,9 +132,7 @@ export const figurePlugin = {
             },
             children: [],
           },
-          ...(caption
-            ? [{ type: 'element', tagName: 'figcaption', properties: {}, children: captionChildren(caption) }]
-            : []),
+          ...(caption ? [{ type: 'element', tagName: 'figcaption', properties: {}, children: figcaptionChildren(caption) }] : []),
         ],
       });
     },

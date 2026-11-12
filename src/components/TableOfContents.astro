@@ -16,22 +16,22 @@ for (const heading of Astro.props.headings) {
     parent.children.push(heading);
   }
 }
-const linkClass = 'block py-1 text-stone-700 hover:text-teal-700 hover:underline';
+const linkClass = 'block py-1 text-stone-700 hover:text-teal-800 hover:underline';
 ---
 
 {
   sections.length > 0 && (
-    <nav aria-labelledby="toc-title" class="rounded-lg border border-stone-200 bg-white px-5 py-4">
+    <nav aria-labelledby="toc-title" class="border-y border-stone-200 py-5">
       <details open>
-        <summary id="toc-title" class="cursor-pointer font-semibold text-stone-900">
+        <summary id="toc-title" class="cursor-pointer text-xs font-semibold tracking-[0.14em] text-stone-500 uppercase">
           Neste artigo
         </summary>
-        <ol class="mt-3 text-[0.95rem] leading-snug">
+        <ol class="toc-list mt-3 text-[0.95rem] leading-snug">
           {sections.map((section) => (
             <li>
               <a href={`#${section.slug}`} class={linkClass}>{section.text}</a>
               {section.children.length > 0 && (
-                <ol class="mb-1 border-l border-stone-200 pl-4">
+                <ol class="mb-1 border-l border-stone-200 pl-4 text-[0.9rem]">
                   {section.children.map((child) => (
                     <li>
                       <a href={`#${child.slug}`} class={linkClass}>{child.text}</a>

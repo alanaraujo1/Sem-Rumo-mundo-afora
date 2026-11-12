@@ -4,19 +4,40 @@ import { SITE_DESCRIPTION, SITE_NAME } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getPosts } from '../lib/posts';
 
-const posts = (await getPosts()).slice(0, 6);
+// O roteiro pilar abre a Home; sem ele, o artigo mais recente.
+const FEATURED_ID = 'roteiro-chapada-diamantina';
+const posts = await getPosts();
+const featured = posts.find((post) => post.id === FEATURED_ID) ?? posts[0];
+const recent = posts.filter((post) => post !== featured).slice(0, 6);
 ---
 
 <BaseLayout title={SITE_NAME}>
-  <h1 class="text-4xl font-bold tracking-tight text-balance sm:text-5xl">{SITE_NAME}</h1>
-  <p class="mt-4 max-w-2xl text-lg text-stone-700">{SITE_DESCRIPTION}</p>
+  <div class="max-w-3xl">
+    <h1 class="font-heading text-[2.125rem] leading-[1.12] font-semibold tracking-tight text-balance text-stone-950 sm:text-5xl">
+      Roteiros e guias práticos de viagem
+    </h1>
+    <p class="mt-4 text-lg leading-relaxed text-stone-600">{SITE_DESCRIPTION}</p>
+  </div>
   {
-    posts.length > 0 ? (
-      <div class="mt-10 grid gap-10 md:grid-cols-2 lg:grid-cols-3">
-        {posts.map((post) => (
-          <PostCard post={post} />
-        ))}
-      </div>
+    featured ? (
+      <>
+        <section aria-label="Em destaque" class="mt-10 border-t border-stone-200 pt-10">
+          <PostCard post={featured} featured />
+        </section>
+        {recent.length > 0 && (
+          <section aria-labelledby="recentes" class="mt-16">
+            <div class="flex items-baseline justify-between gap-4 border-b border-stone-200 pb-3">
+              <h2 id="recentes" class="font-heading text-2xl font-semibold tracking-tight">Artigos recentes</h2>
+              <a href="/blog/" class="text-sm font-semibold text-teal-800 hover:underline">Ver todos →</a>
+            </div>
+            <div class="mt-8 grid gap-x-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
+              {recent.map((post) => (
+                <PostCard post={post} headingLevel="h3" />
+              ))}
+            </div>
+          </section>
+        )}
+      </>
     ) : (
       <p class="mt-10 text-stone-600">Os primeiros artigos estão a caminho.</p>
     )
