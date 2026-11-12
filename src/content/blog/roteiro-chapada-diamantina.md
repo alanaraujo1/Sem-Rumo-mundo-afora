@@ -102,7 +102,7 @@ O volume de água depende da chuva, não só do calendário: há relato de viaja
 | 4 | Vale do Pati: entrada pelo Guiné, cerca de 12 km | Casa de morador |
 | 5 | Vale do Pati: Morro do Castelo, se o tempo permitir, cerca de 8 km | Casa de morador |
 | 6 | Vale do Pati: mirante do Cachoeirão e saída, cerca de 17 km | Lençóis |
-| 7 | Dia reserva ou Cachoeira do Mosquito, conforme o horário de volta | Retorno |
+| 7 | Dia reserva ou [Cachoeira do Mosquito](/blog/cachoeira-do-mosquito-chapada-diamantina/), conforme o horário de volta | Retorno |
 
 **Dia 1: Lençóis.** Chegando cedo, caminhe até o Serrano e o Ribeirão do Meio. Para aproveitar melhor a cidade, veja [o que fazer em Lençóis](/blog/o-que-fazer-em-lencois-chapada-diamantina/), com os passeios a pé e onde comer. Se o ônibus chegar à noite, deixe esses passeios para o dia 7.
 
@@ -112,7 +112,7 @@ O volume de água depende da chuva, não só do calendário: há relato de viaja
 
 **Dias 4 a 6: Vale do Pati.** Esta versão usa o formato mais curto, com cerca de 36 km e subidas consideráveis. Veja os detalhes na próxima seção.
 
-**Dia 7: reserva.** Depois de três dias de caminhada, uma margem evita perder o transporte de volta se algo atrasar. Se sobrar tempo, inclua a Cachoeira do Mosquito ou os passeios do dia 1.
+**Dia 7: reserva.** Depois de três dias de caminhada, uma margem evita perder o transporte de volta se algo atrasar. Se sobrar tempo, inclua a [Cachoeira do Mosquito](/blog/cachoeira-do-mosquito-chapada-diamantina/), com trilha curta e poço para banho, ou os passeios do dia 1.
 
 ## Roteiro de 5 dias
 

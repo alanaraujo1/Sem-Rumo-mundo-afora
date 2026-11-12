@@ -94,7 +94,7 @@ Uma das vantagens de Lençóis é poder sair do centro caminhando em direção �
 Ir a pé não significa ir sem guia. Fontes recentes indicam taxa de visitação a partir de R$ 20 e guia local obrigatório em parte do circuito da Muritiba, geralmente das 8h às 17h. Confirme as regras em Lençóis antes de sair. O ICMBio também recomenda não saltar nos poços, porque as chuvas alteram o leito dos rios.
 :::
 
-Passeios mais longos, como a Cachoeira da Fumaça e o Poço Azul, exigem transporte. Eles aparecem no [roteiro de 7 dias pela Chapada](/blog/roteiro-chapada-diamantina/#roteiro-de-7-dias-com-o-vale-do-pati).
+Passeios mais longos, como a Cachoeira da Fumaça, o Poço Azul e a [Cachoeira do Mosquito](/blog/cachoeira-do-mosquito-chapada-diamantina/), a cerca de 40 km da cidade, exigem transporte. Eles aparecem no [roteiro de 7 dias pela Chapada](/blog/roteiro-chapada-diamantina/#roteiro-de-7-dias-com-o-vale-do-pati).
 
 ## Gastronomia de destaque
 
