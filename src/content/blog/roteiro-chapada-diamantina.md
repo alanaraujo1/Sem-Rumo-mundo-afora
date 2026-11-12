@@ -75,6 +75,7 @@ Os atrativos ficam longe uns dos outros, e as distâncias pesam mais do que pare
 | Poço Encantado | 140 km | Visita de observação, sem banho |
 | Cachoeira do Buracão | 250 km | Guia exigido, segundo fontes de viagem |
 | [Gruta da Lapa Doce](/blog/gruta-da-lapa-doce-chapada-diamantina/) | Cerca de 70 km | Travessia guiada de cerca de 850 m, em Iraquara |
+| [Gruta da Pratinha e Gruta Azul](/blog/gruta-da-pratinha-chapada-diamantina/) | Cerca de 70 a 75 km | Flutuação e feixe de sol, em Iraquara |
 
 Há três formas de se organizar: **passeios por agência**, que incluem transporte e guia; **carro alugado com guia contratado à parte**; ou uma combinação das duas. Sem carro, as agências de Lençóis são o caminho mais prático. Peça por escrito o que está incluído, principalmente almoço, ingressos e tamanho do grupo.
 
