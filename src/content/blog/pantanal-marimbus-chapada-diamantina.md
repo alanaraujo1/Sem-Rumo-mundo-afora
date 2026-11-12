@@ -63,7 +63,7 @@ Há duas portas de entrada principais para o Marimbus.
 | Comunidade Quilombola do Remanso | Cerca de 40 minutos de carro de Lençóis | Guias remadores da própria comunidade |
 
 :::logistica
-Pelo lado do Remanso, o passeio de canoa costuma seguir até a foz do Rio Roncador. De lá, uma trilha leva às piscinas naturais do rio, e por isso o Marimbus e o banho no Roncador costumam ser feitos no mesmo dia. Agências de Lençóis vendem esse roteiro combinado, com transporte e guia; os valores publicados variam bastante, então compare antes de fechar.
+Pelo lado do Remanso, o passeio de canoa costuma seguir até a foz do [Rio Roncador](/blog/rio-roncador-chapada-diamantina/). De lá, uma trilha leva às piscinas naturais do rio, e por isso o Marimbus e o banho no Roncador costumam ser feitos no mesmo dia. Agências de Lençóis vendem esse roteiro combinado, com transporte e guia; os valores publicados variam bastante, então compare antes de fechar.
 :::
 
 :::dica

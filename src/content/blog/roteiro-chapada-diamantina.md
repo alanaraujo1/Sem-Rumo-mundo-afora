@@ -126,7 +126,7 @@ Escolha a versão conforme a sua prioridade.
 | 2 | Cachoeira da Fumaça e Morro do Pai Inácio | Vale do Pati, dia 1 |
 | 3 | Poço Encantado e Poço Azul | Vale do Pati, dia 2 |
 | 4 | Cachoeira do Mosquito e Poço do Diabo | Vale do Pati, dia 3 |
-| 5 | [Pantanal Marimbus](/blog/pantanal-marimbus-chapada-diamantina/) ou Igatu, e retorno | Morro do Pai Inácio e retorno |
+| 5 | [Pantanal Marimbus](/blog/pantanal-marimbus-chapada-diamantina/) e [Rio Roncador](/blog/rio-roncador-chapada-diamantina/), ou Igatu, e retorno | Morro do Pai Inácio e retorno |
 
 A versão com o Pati deixa de fora os poços e a Fumaça, e tem pouca margem para atrasos. Na dúvida, prefira a versão sem o trekking ou acrescente dias à viagem.
 
