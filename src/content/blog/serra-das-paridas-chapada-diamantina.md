@@ -5,8 +5,8 @@ description: 'Guia da Serra das Paridas, perto de Lençóis: pinturas rupestres,
 category: 'Destinos'
 pubDate: 2026-11-12
 author: 'Alan Primo'
-cover: '../../assets/blog/serra-das-paridas/alan-primo-serra-das-paridas-mirante.jpg'
-coverAlt: 'Alan Primo em um mirante da Serra das Paridas, ao lado de um paredão de arenito avermelhado, com a serra coberta de vegetação ao fundo sob céu nublado'
+cover: '../../assets/blog/serra-das-paridas/serra-das-paridas-pinturas-rupestres-chapada-diamantina.jpg'
+coverAlt: 'Painel de pinturas rupestres da Serra das Paridas em vermelho e branco sobre o arenito alaranjado, com um grande grafismo geométrico de grade de pontos e zigue-zague ao lado de figuras menores'
 coverPosition: '50% 45%'
 coverCredit:
   author: 'Alan Primo'
@@ -35,8 +35,6 @@ Este guia explica o que é o complexo, como funciona a visita e como encaixá-la
 
 O complexo fica na zona rural de Lençóis, na região de Tanquinho, e reúne 18 sítios arqueológicos, dos quais só uma parte está aberta ao público. As pinturas foram encontradas em 2005, depois de um incêndio na vegetação, por catadores de mangaba. O proprietário da área chamou o arqueólogo Carlos Etchevarne, da UFBA, que confirmou a importância do achado, e o sítio passou a receber visitantes por volta de 2008.
 
-![Painel de pinturas rupestres da Serra das Paridas em vermelho e amarelo sobre o arenito, com um grande grafismo geométrico de linhas em zigue-zague e pontos, ao lado de figuras menores](../../assets/blog/serra-das-paridas/serra-das-paridas-pinturas-rupestres-chapada-diamantina.jpg "4/3 50%,40% | Painel de grafismos geométricos, um dos destaques da visita. Foto: Alan Primo")
-
 ### As pinturas
 
 As pinturas foram feitas com pigmentos minerais, em tons de vermelho, amarelo, preto e branco. Os vermelhos e amarelos da arte rupestre costumam vir de óxidos de ferro. Os temas incluem figuras humanas, animais e muitos grafismos geométricos. A ocupação humana da área é estimada em pelo menos 8 mil anos, mas a idade exata das pinturas ainda é discutida pelos pesquisadores.
@@ -64,6 +62,8 @@ O guia conduz a leitura das pinturas em cada parada: aponta as figuras humanas, 
 ![Pinturas rupestres em vermelho-escuro e amarelo-ocre sobrepostas no paredão da Serra das Paridas, com formas curvas e uma figura em pente](../../assets/blog/serra-das-paridas/serra-das-paridas-pigmentos-vermelho-amarelo.jpg "4/3 50%,55% | Os pigmentos vermelho e amarelo sobrepostos na rocha. Foto: Alan Primo")
 
 Entre os abrigos, a trilha chega a mirantes naturais com vista para a serra, um bom momento para uma pausa.
+
+![Alan Primo de pé num mirante natural da Serra das Paridas, junto a um paredão de arenito avermelhado e a um guarda-corpo de madeira, com a serra coberta de vegetação ao fundo](../../assets/blog/serra-das-paridas/alan-primo-serra-das-paridas-mirante.jpg "4/3 50%,68% | Alan Primo num dos mirantes naturais da trilha, com a serra ao fundo. Foto: Alan Primo")
 
 ![Abrigo sob grande paredão de arenito na Serra das Paridas, com painel informativo no chão de areia e vegetação ao lado sob céu nublado](../../assets/blog/serra-das-paridas/serra-das-paridas-paredao-arenito-chapada-diamantina.jpg "wide 16/9 50%,55% | Paredão de arenito e painel informativo na área de visitação. Foto: Alan Primo")
 
