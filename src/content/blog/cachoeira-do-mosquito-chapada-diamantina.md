@@ -57,7 +57,7 @@ A estrada de terra exige atenção, principalmente depois de chuvas, quando pode
 
 ### Combinar com a Serra das Paridas
 
-O Complexo Serra das Paridas, com pinturas rupestres, fica no mesmo caminho, a cerca de 36 km de Lençóis, e as agências costumam combinar os dois passeios no mesmo dia. Nas Paridas, porém, a visita só é permitida com agência ou guia credenciado, e o voucher precisa ser comprado com antecedência em Lençóis.
+O [Complexo Serra das Paridas](/blog/serra-das-paridas-chapada-diamantina/), com pinturas rupestres, fica na mesma região, a cerca de 36 km de Lençóis, e as agências costumam combinar os dois passeios no mesmo dia. Nas Paridas, porém, a visita só é permitida com agência ou guia credenciado, e o voucher precisa ser comprado com antecedência em Lençóis.
 
 ## A trilha e o mirante
 

@@ -112,7 +112,7 @@ O volume de água depende da chuva, não só do calendário: há relato de viaja
 
 **Dias 4 a 6: Vale do Pati.** Esta versão usa o formato mais curto, com cerca de 36 km e subidas consideráveis. Veja os detalhes na próxima seção.
 
-**Dia 7: reserva.** Depois de três dias de caminhada, uma margem evita perder o transporte de volta se algo atrasar. Se sobrar tempo, inclua a [Cachoeira do Mosquito](/blog/cachoeira-do-mosquito-chapada-diamantina/), com trilha curta e poço para banho, ou os passeios do dia 1.
+**Dia 7: reserva.** Depois de três dias de caminhada, uma margem evita perder o transporte de volta se algo atrasar. Se sobrar tempo, inclua a [Cachoeira do Mosquito](/blog/cachoeira-do-mosquito-chapada-diamantina/), com trilha curta e poço para banho, e as pinturas rupestres da [Serra das Paridas](/blog/serra-das-paridas-chapada-diamantina/), que ficam na mesma região, ou os passeios do dia 1.
 
 ## Roteiro de 5 dias
 
