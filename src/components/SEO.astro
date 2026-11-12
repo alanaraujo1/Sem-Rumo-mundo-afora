@@ -10,6 +10,8 @@ export interface Props {
   image?: ImageMetadata;
   imageAlt?: string;
   noindex?: boolean;
+  /** Pasta das imagens de compartilhamento recortadas com o foco da capa, como `/og/<slug>/`. */
+  socialImageBase?: string;
   /** Nós extras de JSON-LD da página, como AboutPage ou ContactPage. */
   schema?: Record<string, unknown>[];
   /** Presente apenas em artigos: ativa og:type=article e o JSON-LD de BlogPosting. */
@@ -19,7 +21,16 @@ export interface Props {
   > & { wordCount: number; readingMinutes: number };
 }
 
-const { title, description = SITE_DESCRIPTION, image, imageAlt, noindex = false, schema = [], article } = Astro.props;
+const {
+  title,
+  description = SITE_DESCRIPTION,
+  image,
+  imageAlt,
+  noindex = false,
+  schema = [],
+  socialImageBase,
+  article,
+} = Astro.props;
 
 const site = Astro.site!;
 const canonical = new URL(Astro.url.pathname, site).href;
@@ -27,7 +38,11 @@ const absolute = (path: string) => new URL(path, site).href;
 const resized = async (src: ImageMetadata, width: number, height: number) =>
   absolute((await getImage({ src, width, height, format: 'jpeg' })).src);
 
-const ogImage = image && (await resized(image, 1200, 630));
+// Com socialImageBase, as imagens seguem o foco da capa; sem ele, o recorte é centralizado.
+const socialImage = async (size: 'og' | '16x9' | '4x3' | '1x1', width: number, height: number) =>
+  socialImageBase ? absolute(`${socialImageBase}${size}.jpg`) : image && (await resized(image, width, height));
+
+const ogImage = image && (await socialImage('og', 1200, 630));
 
 const websiteId = `${site.href}#website`;
 const organizationId = `${site.href}#organization`;
@@ -62,9 +77,9 @@ if (article) {
       description,
       // O Google recomenda as proporções 16:9, 4:3 e 1:1 para artigos.
       image: image && [
-        await resized(image, 1200, 675),
-        await resized(image, 1200, 900),
-        await resized(image, 1200, 1200),
+        await socialImage('16x9', 1200, 675),
+        await socialImage('4x3', 1200, 900),
+        await socialImage('1x1', 1200, 1200),
       ],
       datePublished: article.pubDate.toISOString(),
       dateModified: (article.updatedDate ?? article.pubDate).toISOString(),
