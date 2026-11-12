@@ -71,7 +71,7 @@ Os atrativos ficam longe uns dos outros, e as distâncias pesam mais do que pare
 | Ribeirão do Meio | 4 km | Passeio curto a partir do centro |
 | Morro do Pai Inácio | 26 km | Subida curta, de cerca de 500 m |
 | Cachoeira da Fumaça | 80 km | Trilha de 10 a 12 km, ida e volta |
-| Poço Azul | 94 km | Costuma ser combinado com o Poço Encantado |
+| [Poço Azul](/blog/poco-azul-chapada-diamantina/) | 94 km | Costuma ser combinado com o Poço Encantado |
 | Poço Encantado | 140 km | Visita de observação, sem banho |
 | Cachoeira do Buracão | 250 km | Guia exigido, segundo fontes de viagem |
 | [Gruta da Lapa Doce](/blog/gruta-da-lapa-doce-chapada-diamantina/) | Cerca de 70 km | Travessia guiada de cerca de 850 m, em Iraquara |
@@ -87,7 +87,7 @@ Não existe uma única época ideal: a escolha é entre trilhas mais secas e cac
 |---|---|---|
 | Maio a setembro | Seca, com trilhas mais firmes; noites que podem ficar abaixo de 15 °C | Trekking, incluindo o Vale do Pati |
 | Abril a setembro | Raio de sol dentro do Poço Encantado, das 10h às 13h30 | Fotografar o Poço Encantado |
-| Fevereiro a outubro | Raio de sol no Poço Azul, das 12h30 às 14h | Flutuação no Poço Azul |
+| Fim de fevereiro a fim de outubro | Raio de sol no Poço Azul, a partir de 12h20 a 13h40, conforme o mês | Flutuação no Poço Azul |
 | Novembro a março | Mais chuva, cachoeiras potencialmente mais cheias e trilhas escorregadias | Quem prioriza volume de água e aceita mudar o roteiro |
 
 Dezembro a fevereiro, o São João em junho e o mês de julho concentram mais turistas. Nesses períodos, reserve hospedagem e passeios com antecedência.
@@ -110,7 +110,7 @@ O volume de água depende da chuva, não só do calendário: há relato de viaja
 
 **Dia 2: Fumaça e Pai Inácio.** O ICMBio descreve a trilha por cima da Fumaça como um passeio de contemplação, sem banho de rio no percurso, com cerca de duas horas em cada sentido. Termine o dia no Pai Inácio. A taxa municipal é de R$ 20 (meia-entrada de R$ 10), e vale confirmar o horário-limite de subida.
 
-**Dia 3: Poços.** É um dia longo de estrada. No Poço Encantado, a visita é de observação; no Poço Azul, a flutuação é a principal atração. Ajuste a ordem das visitas ao horário do raio de sol.
+**Dia 3: Poços.** É um dia longo de estrada. No Poço Encantado, a visita é de observação; no [Poço Azul](/blog/poco-azul-chapada-diamantina/), a flutuação é a principal atração. Ajuste a ordem das visitas ao horário do raio de sol.
 
 **Dias 4 a 6: Vale do Pati.** Esta versão usa o formato mais curto, com cerca de 36 km e subidas consideráveis. Veja os detalhes na próxima seção.
 
@@ -185,7 +185,7 @@ Os valores abaixo são por pessoa, em reais, e não incluem a passagem até Salv
 | Vale do Pati, 3 dias | R$ 1.700 a R$ 2.300 |
 | Vale do Pati, 5 dias | R$ 2.700 a R$ 3.700 |
 
-O Poço Encantado publica R$ 70 no site oficial. Para o Poço Azul, esse valor vem de guias de 2026, e fontes mais antigas citam R$ 30, então vale confirmar. Os ingressos também podem já estar incluídos no pacote do passeio. No Pati, os pacotes costumam incluir guia, hospedagem e refeições, mas transporte e seguro variam conforme a agência.
+O Poço Encantado e o Poço Azul publicam R$ 70 em seus sites oficiais. Os ingressos também podem já estar incluídos no pacote do passeio. No Pati, os pacotes costumam incluir guia, hospedagem e refeições, mas transporte e seguro variam conforme a agência.
 
 Somando esses valores, o custo de cada roteiro fica assim:
 

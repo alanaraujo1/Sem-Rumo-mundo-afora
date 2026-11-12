@@ -105,6 +105,8 @@ O Buracão fica no Parque Municipal do Espalhado, em Ibicoara, a cerca de 80 km 
 
 O Poço Encantado, em Itaetê, fica a cerca de 46 km de Mucugê. A visita é paga, e não é permitido nadar. O raio de sol que atravessa a água aparece em parte do ano, no fim da manhã. Veja o ingresso e o período do raio de sol no [roteiro completo](/blog/roteiro-chapada-diamantina/#melhor-época-para-visitar).
 
+Na mesma região, a cerca de 51 km de Mucugê, o [Poço Azul](/blog/poco-azul-chapada-diamantina/), em Nova Redenção, permite flutuar na água cristalina e costuma ser combinado com o Poço Encantado no mesmo dia.
+
 ## Rota do café especial
 
 A Chapada Diamantina se tornou referência em café especial, com cafés reconhecidos em concursos nacionais e internacionais. Segundo a Associação Brasileira de Cafés Especiais (BSCA), Piatã e Mucugê são os maiores produtores do estado. Piatã reúne vários premiados no Cup of Excellence Brasil, e Mucugê tem produtores que torram o café na própria origem.

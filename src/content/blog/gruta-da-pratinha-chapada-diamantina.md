@@ -51,7 +51,7 @@ O rio nasce numa gruta, e é nela que acontece a flutuação. Paga à parte, a a
 
 ## A Gruta Azul
 
-A Gruta Azul fica dentro da mesma fazenda, mas a experiência é outra. Na Gruta da Pratinha você entra na água; na Gruta Azul, a visita é só de contemplação, e não é permitido nadar. O espetáculo é o fenômeno óptico: em parte do ano, no início da tarde, um feixe de luz do sol entra pela abertura da gruta e acende o poço em tons de azul profundo. O melhor horário costuma ser entre 14h e 15h.
+A Gruta Azul fica dentro da mesma fazenda, mas a experiência é outra. Na Gruta da Pratinha você entra na água; na Gruta Azul, a visita é só de contemplação, e não é permitido nadar. Não confunda com o [Poço Azul](/blog/poco-azul-chapada-diamantina/), em Nova Redenção, onde a flutuação é permitida. O espetáculo é o fenômeno óptico: em parte do ano, no início da tarde, um feixe de luz do sol entra pela abertura da gruta e acende o poço em tons de azul profundo. O melhor horário costuma ser entre 14h e 15h.
 
 ![Poço da Gruta Azul visto de cima, com o feixe de sol iluminando a água em tons de azul intenso sob estalactites, e um guarda-corpo de madeira no primeiro plano](../../assets/blog/gruta-da-pratinha/gruta-azul-poco-iluminado-chapada-diamantina.jpg "wide 16/9 50%,55% | O feixe de sol iluminando o poço da Gruta Azul. Foto: Alan Primo")
 
