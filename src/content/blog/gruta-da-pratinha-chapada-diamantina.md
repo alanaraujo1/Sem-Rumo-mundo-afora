@@ -72,7 +72,7 @@ Leve sapatilha aquática: as margens e o acesso ao rio têm pedras lisas e irreg
 A Fazenda Pratinha fica em Iraquara, a cerca de 70 a 75 km de Lençóis e a poucos quilômetros da [Gruta da Lapa Doce](/blog/gruta-da-lapa-doce-chapada-diamantina/). Segundo a fazenda, a rota principal a partir de Lençóis é mais longa, mas permite a passagem de ônibus; a alternativa encurta o caminho, com cerca de 15 km de estrada de terra. O horário mais citado é das 8h às 16h.
 
 :::logistica
-A fazenda tem estacionamento, restaurante, cafeteria e banheiros, além das atividades opcionais, como tirolesa e foto subaquática, cobradas à parte. O roteiro clássico de um dia é visitar a Lapa Doce pela manhã, seguir para a Pratinha para almoçar, fazer a flutuação e ver a Gruta Azul no início da tarde, e fechar com o pôr do sol no Morro do Pai Inácio, no caminho de volta para Lençóis.
+A fazenda tem estacionamento, restaurante, cafeteria e banheiros, além das atividades opcionais, como tirolesa e foto subaquática, cobradas à parte. O roteiro clássico de um dia é visitar a Lapa Doce pela manhã, seguir para a Pratinha para almoçar, fazer a flutuação e ver a Gruta Azul no início da tarde, e fechar com o pôr do sol no [Morro do Pai Inácio](/blog/morro-do-pai-inacio-chapada-diamantina/), no caminho de volta para Lençóis.
 :::
 
 ## Perguntas frequentes

@@ -74,7 +74,7 @@ A visita só é permitida com guia, contratado na portaria da propriedade. Ajude
 A Lapa Doce fica a cerca de 70 km de Lençóis e a 11 km do centro de Iraquara. O acesso é asfaltado pela BR-242 e pela BA-122, com um trecho final curto de estrada de terra. O valor mais recente que encontramos para a entrada é de R$ 50 por pessoa, de 2023; confirme na portaria.
 
 :::logistica
-Use tênis ou bota fechada com boa aderência: o piso alterna areia fofa com trechos irregulares e úmidos. Para aproveitar o dia em Iraquara, combine a Lapa Doce com a [Gruta da Pratinha e a Gruta Azul](/blog/gruta-da-pratinha-chapada-diamantina/), também no município, e termine o fim de tarde no Morro do Pai Inácio, no caminho de volta para Lençóis.
+Use tênis ou bota fechada com boa aderência: o piso alterna areia fofa com trechos irregulares e úmidos. Para aproveitar o dia em Iraquara, combine a Lapa Doce com a [Gruta da Pratinha e a Gruta Azul](/blog/gruta-da-pratinha-chapada-diamantina/), também no município, e termine o fim de tarde no [Morro do Pai Inácio](/blog/morro-do-pai-inacio-chapada-diamantina/), no caminho de volta para Lençóis.
 :::
 
 ## Perguntas frequentes

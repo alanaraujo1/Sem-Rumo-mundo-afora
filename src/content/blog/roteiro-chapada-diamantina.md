@@ -132,7 +132,7 @@ A versão com o Pati deixa de fora os poços e a Fumaça, e tem pouca margem par
 
 ## Morro do Pai Inácio: a subida e o pôr do sol
 
-O Morro do Pai Inácio fica a cerca de 26 km de Lençóis e é um dos mirantes mais conhecidos da Chapada Diamantina. Como a caminhada é curta, é fácil encaixá-lo no fim de um dia de passeio, como no dia 2 do roteiro de 7 dias.
+O Morro do Pai Inácio fica a cerca de 26 km de Lençóis e é um dos mirantes mais conhecidos da Chapada Diamantina. Como a caminhada é curta, é fácil encaixá-lo no fim de um dia de passeio, como no dia 2 do roteiro de 7 dias. Trilha, platô, pôr do sol e dicas de segurança estão no nosso [guia do Morro do Pai Inácio](/blog/morro-do-pai-inacio-chapada-diamantina/).
 
 ### A subida
 

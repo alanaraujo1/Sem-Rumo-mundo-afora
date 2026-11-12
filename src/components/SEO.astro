@@ -2,7 +2,7 @@
 import type { CollectionEntry } from 'astro:content';
 import { getImage } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
-import { AUTHOR_NAME, INSTAGRAM, SITE_DESCRIPTION, SITE_LOCALE, SITE_NAME } from '../consts';
+import { AUTHOR_NAME, INSTAGRAM, SITE_DESCRIPTION, SITE_LOCALE, SITE_NAME, tagLabel } from '../consts';
 
 export interface Props {
   title: string;
@@ -91,7 +91,7 @@ if (article) {
       publisher: { '@id': organizationId },
       inLanguage: SITE_LOCALE,
       articleSection: article.category,
-      keywords: article.tags.join(', '),
+      keywords: article.tags.map(tagLabel).join(', '),
       wordCount: article.wordCount,
       timeRequired: `PT${article.readingMinutes}M`,
       contentLocation: {
