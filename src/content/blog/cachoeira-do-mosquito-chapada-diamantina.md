@@ -5,9 +5,9 @@ description: 'Guia da Cachoeira do Mosquito, perto de Lençóis: como chegar pel
 category: 'Destinos'
 pubDate: 2026-11-12
 author: 'Alan Primo'
-cover: '../../assets/blog/cachoeira-do-mosquito/cachoeira-do-mosquito-chapada-diamantina.jpg'
-coverAlt: 'Cachoeira do Mosquito vista do alto, com duas colunas de água caindo por um cânion de paredões de rocha escura, cercado de mata verde na Chapada Diamantina'
-coverPosition: '50% 45%'
+cover: '../../assets/blog/cachoeira-do-mosquito/cachoeira-do-mosquito-base-da-queda.jpg'
+coverAlt: 'Cachoeira do Mosquito vista da base, com a queda branca descendo entre um paredão de rocha escura e paredes de arenito em camadas, sobre as pedras e o poço do cânion'
+coverPosition: '50% 65%'
 coverCredit:
   author: 'Alan Primo'
 destination:
@@ -67,13 +67,13 @@ A caminhada é curta, de 15 a 20 minutos, e começa pelo melhor ponto de vista: 
 
 Do mirante, a trilha desce até a base do cânion por uma sequência de escadas e degraus esculpidos na pedra. Uma das fontes fala em cerca de 800 degraus. A descida é tranquila, mas a volta é toda em subida, então guarde fôlego e água para o retorno.
 
+![Cachoeira do Mosquito vista do alto, com duas colunas de água caindo entre paredões de rocha escura no cânion, cercadas de mata verde e iluminadas pelo sol](../../assets/blog/cachoeira-do-mosquito/cachoeira-do-mosquito-chapada-diamantina.jpg "4/3 50%,35% | As duas colunas de água vistas do alto, antes da descida ao cânion. Foto: Alan Primo")
+
 ![Rio de águas escuras correndo sobre lajes de pedra acima do cânion da Cachoeira do Mosquito, entre encostas cobertas de mata e céu azul com nuvens](../../assets/blog/cachoeira-do-mosquito/rio-acima-cachoeira-do-mosquito-canion.jpg "wide 16/9 50%,62% | O rio que forma a cachoeira, correndo entre lajes antes do cânion. Foto: Alan Primo")
 
 ## O banho no pé da cachoeira
 
 Lá embaixo, a recompensa é o poço grande de águas escuras e geladas, bem perto da queda. Entrar na água com o borrifo da cachoeira no rosto é o ponto alto do passeio, e a luz que atravessa a névoa rende ótimas fotos.
-
-![Cachoeira do Mosquito vista da base, com a queda branca de água emoldurada por um paredão de rocha escura à esquerda e árvores à direita, sobre um leito de pedras](../../assets/blog/cachoeira-do-mosquito/cachoeira-do-mosquito-base-da-queda.jpg "4/3 50%,50% | A queda vista da base do cânion. Foto: Alan Primo")
 
 ![Névoa da Cachoeira do Mosquito iluminada pelo sol na base do cânion, com a queda d'água ao centro, galhos em primeiro plano e um paredão de rocha à esquerda](../../assets/blog/cachoeira-do-mosquito/cachoeira-do-mosquito-queda-nevoa.jpg "wide 16/9 50%,45% | A névoa da queda iluminada pelo sol. Foto: Alan Primo")
 
