@@ -38,11 +38,29 @@ const gtmId = import.meta.env.PROD ? GTM_ID : null;
     });
     if (!gtmId || gtmLoaded || !(choice.analytics || choice.ads)) return;
     gtmLoaded = true;
+    afterLoadAndIdle(loadGtm);
+  }
+
+  function loadGtm() {
     window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
     const script = document.createElement('script');
     script.async = true;
     script.src = `https://www.googletagmanager.com/gtm.js?id=${gtmId}`;
     document.head.appendChild(script);
+  }
+
+  /*
+   * O gtm.js tem cerca de 180 KB: baixado junto com a página, disputa banda com a foto de capa (LCP).
+   * Por isso ele só entra depois do evento load e de um momento ocioso do navegador.
+   * O consentimento já foi registrado no dataLayer, então nada se perde na espera.
+   */
+  function afterLoadAndIdle(callback) {
+    const whenIdle = () => {
+      if ('requestIdleCallback' in window) window.requestIdleCallback(callback, { timeout: 1500 });
+      else setTimeout(callback, 1500);
+    };
+    if (document.readyState === 'complete') whenIdle();
+    else window.addEventListener('load', whenIdle, { once: true });
   }
 
   let stored = null;
