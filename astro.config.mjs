@@ -4,12 +4,14 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig, fontProviders } from 'astro/config';
 import { calloutPlugin, figurePlugin } from './src/lib/markdown-plugins.mjs';
+import { trailingSlashRedirects } from './src/lib/trailing-slash-redirects.mjs';
 
 export default defineConfig({
   // Canonical, Open Graph, JSON-LD, sitemap e robots.txt derivam desta URL.
   site: 'https://semrumomundoafora.com.br',
   trailingSlash: 'always',
-  integrations: [sitemap()],
+  // URLs sem barra final recebem um 301 para a versão com barra (ver src/lib/trailing-slash-redirects.mjs).
+  integrations: [sitemap(), trailingSlashRedirects()],
   // Serifada só nos títulos: um peso, subconjunto latino, com fonte de reserva de métricas ajustadas (CLS 0).
   fonts: [
     {
