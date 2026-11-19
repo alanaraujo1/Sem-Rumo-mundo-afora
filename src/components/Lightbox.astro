@@ -1,0 +1,288 @@
+---
+/**
+ * Lightbox das fotos do artigo, com <dialog> nativo e sem bibliotecas.
+ * Abre qualquer `figure img` dentro de um elemento com `data-lightbox`, na versão de 1600px do srcset,
+ * baixada só no clique. Navega com botões, setas do teclado e deslize; fecha com Esc, X ou clique fora da foto.
+ */
+---
+
+<dialog class="lightbox" aria-label="Foto ampliada">
+  <div class="lightbox-stage">
+    <figure class="lightbox-figure">
+      <img class="lightbox-image" alt="" decoding="async" />
+      <figcaption class="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+  <p class="lightbox-counter" aria-live="polite"></p>
+  <button type="button" class="lightbox-button lightbox-close" aria-label="Fechar">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+  </button>
+  <button type="button" class="lightbox-button lightbox-prev" aria-label="Foto anterior">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg>
+  </button>
+  <button type="button" class="lightbox-button lightbox-next" aria-label="Próxima foto">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"></path></svg>
+  </button>
+</dialog>
+
+<style is:global>
+  [data-lightbox] figure img {
+    cursor: zoom-in;
+  }
+
+  [data-lightbox] figure img:focus-visible {
+    outline: 3px solid #0f766e;
+    outline-offset: 3px;
+  }
+
+  html:has(.lightbox[open]) {
+    overflow: hidden;
+  }
+
+  .lightbox {
+    width: 100vw;
+    max-width: none;
+    height: 100dvh;
+    max-height: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #0c0a09;
+    color: #e7e5e4;
+  }
+
+  .lightbox::backdrop {
+    background: #0c0a09;
+  }
+
+  .lightbox-stage {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: calc(3.5rem + env(safe-area-inset-top, 0px)) 1rem calc(1.5rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  .lightbox-figure {
+    display: flex;
+    max-height: 100%;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Tamanho fixado pela proporção da foto: a troca pela versão de 1600px não muda o layout. */
+  .lightbox-image {
+    display: block;
+    width: min(100vw - 2rem, 1600px, calc((100dvh - 11rem) * var(--lightbox-ratio, 1.5)));
+    height: auto;
+    aspect-ratio: var(--lightbox-ratio, 1.5);
+    border-radius: 0.375rem;
+    background: #292524;
+  }
+
+  .lightbox-caption {
+    max-width: 48rem;
+    margin-top: 0.875rem;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #e7e5e4;
+  }
+
+  .lightbox-caption .figure-credit {
+    color: #a8a29e;
+  }
+
+  .lightbox-caption a {
+    color: inherit;
+  }
+
+  .lightbox-counter {
+    position: absolute;
+    top: calc(1.25rem + env(safe-area-inset-top, 0px));
+    left: 1.25rem;
+    margin: 0;
+    font-size: 0.8125rem;
+    letter-spacing: 0.06em;
+    color: #a8a29e;
+  }
+
+  .lightbox-button {
+    position: absolute;
+    display: grid;
+    width: 2.75rem;
+    height: 2.75rem;
+    place-items: center;
+    border: 0;
+    border-radius: 999px;
+    background: rgb(41 37 36 / 0.85);
+    color: #fafaf9;
+    cursor: pointer;
+  }
+
+  .lightbox-button:hover {
+    background: #44403c;
+  }
+
+  .lightbox-button:focus-visible {
+    outline: 2px solid #5eead4;
+    outline-offset: 2px;
+  }
+
+  .lightbox-button[disabled] {
+    opacity: 0.3;
+    cursor: default;
+  }
+
+  .lightbox-button svg {
+    width: 1.375rem;
+    height: 1.375rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .lightbox-close {
+    top: calc(0.625rem + env(safe-area-inset-top, 0px));
+    right: 0.75rem;
+  }
+
+  .lightbox-prev,
+  .lightbox-next {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .lightbox-prev {
+    left: 0.75rem;
+  }
+
+  .lightbox-next {
+    right: 0.75rem;
+  }
+
+  /* No celular, as setas descem para a base, longe da foto, e o deslize lateral também navega. */
+  @media (max-width: 639px) {
+    .lightbox-prev,
+    .lightbox-next {
+      top: auto;
+      bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
+      transform: none;
+    }
+
+    .lightbox-stage {
+      padding-bottom: calc(4.5rem + env(safe-area-inset-bottom, 0px));
+    }
+
+    .lightbox-image {
+      width: min(100vw - 2rem, calc((100dvh - 14rem) * var(--lightbox-ratio, 1.5)));
+    }
+  }
+</style>
+
+<script>
+  const dialog = document.querySelector<HTMLDialogElement>('dialog.lightbox');
+  const scope = document.querySelector<HTMLElement>('[data-lightbox]');
+
+  if (dialog && scope) {
+    const image = dialog.querySelector<HTMLImageElement>('.lightbox-image')!;
+    const caption = dialog.querySelector<HTMLElement>('.lightbox-caption')!;
+    const counter = dialog.querySelector<HTMLElement>('.lightbox-counter')!;
+    const prev = dialog.querySelector<HTMLButtonElement>('.lightbox-prev')!;
+    const next = dialog.querySelector<HTMLButtonElement>('.lightbox-next')!;
+    const photos = [...scope.querySelectorAll<HTMLImageElement>('figure img')];
+    let current = 0;
+
+    /** Versão de 1600px do srcset (ou a maior disponível até 1600, ou a maior de todas). */
+    const fullSource = (photo: HTMLImageElement) => {
+      const candidates = (photo.getAttribute('srcset') ?? '')
+        .split(',')
+        .map((entry) => entry.trim().split(/\s+/))
+        .map(([url, size]) => ({ url, width: Number.parseInt(size, 10) }))
+        .filter((candidate) => candidate.url && candidate.width)
+        .sort((a, b) => a.width - b.width);
+      const upTo1600 = candidates.filter((candidate) => candidate.width <= 1600);
+      return (upTo1600.at(-1) ?? candidates.at(-1))?.url ?? photo.currentSrc ?? photo.src;
+    };
+
+    const show = (index: number) => {
+      current = index;
+      const photo = photos[index];
+      const full = fullSource(photo);
+      // Mostra na hora a versão já baixada pela página e troca pela de 1600px quando ela chegar.
+      const ratio = Number(photo.getAttribute('width')) / Number(photo.getAttribute('height'));
+      image.style.setProperty('--lightbox-ratio', String(ratio || 1.5));
+      image.src = photo.currentSrc || photo.src;
+      image.alt = photo.alt;
+      if (full !== image.src) {
+        const loader = new Image();
+        loader.onload = () => {
+          if (current === index) image.src = full;
+        };
+        loader.src = full;
+      }
+      caption.innerHTML = photo.closest('figure')?.querySelector('figcaption')?.innerHTML ?? '';
+      counter.textContent = `${index + 1} / ${photos.length}`;
+      prev.disabled = index === 0;
+      next.disabled = index === photos.length - 1;
+    };
+
+    const go = (step: number) => {
+      const target = current + step;
+      if (target >= 0 && target < photos.length) show(target);
+    };
+
+    photos.forEach((photo, index) => {
+      // Acessível pelo teclado: Tab chega à foto, Enter ou espaço abre.
+      photo.tabIndex = 0;
+      photo.setAttribute('role', 'button');
+      photo.setAttribute('aria-haspopup', 'dialog');
+      const open = () => {
+        show(index);
+        dialog.showModal();
+      };
+      photo.addEventListener('click', open);
+      photo.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          open();
+        }
+      });
+    });
+
+    prev.addEventListener('click', () => go(-1));
+    next.addEventListener('click', () => go(1));
+    dialog.querySelector('.lightbox-close')!.addEventListener('click', () => dialog.close());
+
+    dialog.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowLeft') go(-1);
+      if (event.key === 'ArrowRight') go(1);
+    });
+
+    // Clique fora da foto e da legenda (no fundo escuro) fecha.
+    dialog.addEventListener('click', (event) => {
+      const target = event.target as HTMLElement;
+      if (target === dialog || target.classList.contains('lightbox-stage') || target.classList.contains('lightbox-figure')) {
+        dialog.close();
+      }
+    });
+
+    // Deslize lateral no celular.
+    let touchX: number | null = null;
+    dialog.addEventListener('touchstart', (event) => (touchX = event.touches[0].clientX), { passive: true });
+    dialog.addEventListener('touchend', (event) => {
+      if (touchX === null) return;
+      const distance = event.changedTouches[0].clientX - touchX;
+      touchX = null;
+      if (Math.abs(distance) > 50) go(distance < 0 ? 1 : -1);
+    });
+
+    dialog.addEventListener('close', () => {
+      image.removeAttribute('src');
+      photos[current]?.focus({ preventScroll: true });
+    });
+  }
+</script>

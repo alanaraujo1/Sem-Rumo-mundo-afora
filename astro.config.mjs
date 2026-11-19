@@ -12,6 +12,11 @@ export default defineConfig({
   trailingSlash: 'always',
   // URLs sem barra final recebem um 301 para a versão com barra (ver src/lib/trailing-slash-redirects.mjs).
   integrations: [sitemap(), trailingSlashRedirects()],
+  // Larguras candidatas do srcset. Os padrões do Astro mais 1600 (e 360/480 para miniaturas); a de 1600 é a
+  // versão em alta que o lightbox dos artigos abre sob demanda.
+  image: {
+    breakpoints: [360, 480, 640, 750, 828, 1080, 1280, 1600, 1668, 2048, 2560],
+  },
   // Serifada só nos títulos: um peso, subconjunto latino, com fonte de reserva de métricas ajustadas (CLS 0).
   fonts: [
     {

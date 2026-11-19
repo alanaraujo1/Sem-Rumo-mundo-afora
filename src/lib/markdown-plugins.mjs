@@ -4,13 +4,46 @@ const CALLOUTS = {
   logistica: 'Logística',
 };
 
-/** Blocos `:::dica`, `:::alerta` e `:::logistica`. Nome desconhecido interrompe o build. */
+/**
+ * Devolve os parágrafos de uma galeria com as imagens marcadas como `thumb` (e `lead` a primeira), mantendo as
+ * demais opções e a legenda. O figurePlugin usa essas marcas para a classe e o `sizes` de miniatura.
+ * Os nós recebidos são somente leitura, por isso são copiados.
+ */
+function galleryChildren(node) {
+  // Uma imagem por parágrafo (linha em branco entre elas), para cada uma virar um <figure>.
+  const images = node.children.map((child) => {
+    if (child.type !== 'paragraph') return null;
+    const content = child.children.filter((item) => item.type !== 'text' || item.value.trim());
+    return content.length === 1 && content[0].type === 'image' ? content[0] : null;
+  });
+  if (images.includes(null) || images.length < 2) {
+    throw new Error('Bloco ":::galeria" aceita só imagens, uma por parágrafo (separadas por linha em branco), e pelo menos duas.');
+  }
+  return images.map((image, index) => {
+    const title = image.title ?? '';
+    const separator = title.indexOf('|');
+    const head = separator === -1 ? '' : title.slice(0, separator).trim();
+    const caption = separator === -1 ? title : title.slice(separator + 1);
+    const tokens = ['thumb', ...(index === 0 ? ['lead'] : []), ...(head ? head.split(/\s+/) : [])];
+    return { type: 'paragraph', children: [{ ...image, title: `${tokens.join(' ')} | ${caption.trim()}` }] };
+  });
+}
+
+/** Blocos `:::dica`, `:::alerta`, `:::logistica` e `:::galeria`. Nome desconhecido interrompe o build. */
 export const calloutPlugin = {
   name: 'callouts',
   containerDirective(node, ctx) {
+    if (node.name === 'galeria') {
+      ctx.replaceNode(node, {
+        type: 'blockquote',
+        data: { hName: 'div', hProperties: { className: ['article-gallery'] } },
+        children: galleryChildren(node),
+      });
+      return;
+    }
     const title = CALLOUTS[node.name];
     if (!title) {
-      throw new Error(`Bloco ":::${node.name}" desconhecido. Use: ${Object.keys(CALLOUTS).join(', ')}.`);
+      throw new Error(`Bloco ":::${node.name}" desconhecido. Use: ${[...Object.keys(CALLOUTS), 'galeria'].join(', ')}.`);
     }
     ctx.replaceNode(node, {
       type: 'blockquote',
@@ -61,7 +94,7 @@ function figcaptionChildren(caption) {
   ];
 }
 
-const OPTION = /^(?:wide|\d+\/\d+|\d+%,\d+%)$/;
+const OPTION = /^(?:wide|thumb|lead|\d+\/\d+|\d+%,\d+%)$/;
 
 /** Separa as opções ("wide 16/9 50%,40% | Legenda") da legenda. */
 function parseImageTitle(title) {
@@ -71,6 +104,8 @@ function parseImageTitle(title) {
   if (!head || !tokens.every((token) => OPTION.test(token))) return { caption: title.trim() };
   return {
     isWide: tokens.includes('wide'),
+    isThumb: tokens.includes('thumb'),
+    isLead: tokens.includes('lead'),
     ratio: tokens.find((token) => token.includes('/')),
     position: tokens.find((token) => token.includes('%')),
     caption: separator === -1 ? '' : title.slice(separator + 1).trim(),
@@ -83,6 +118,7 @@ const MIN_ALT_LENGTH = 30;
  * Transforma um parágrafo com uma única imagem em <figure>:
  * `![alt](foto.jpg "Legenda")` ou, com opções antes da barra, `![alt](foto.jpg "wide 16/9 50%,40% | Legenda")`.
  * `wide` ultrapassa a coluna; a proporção recorta por CSS, sem deformar, e o par de porcentagens define o foco.
+ * `thumb` e `lead` são postas pelo bloco `:::galeria`; não é preciso escrevê-las.
  */
 export const figurePlugin = {
   name: 'figures',
@@ -104,13 +140,21 @@ export const figurePlugin = {
       if (content.length !== 1 || image.tagName !== 'img') return;
 
       const { title = '', ...properties } = image.properties;
-      const { isWide, ratio, position, caption } = parseImageTitle(title);
+      const { isWide, isThumb, isLead, ratio: chosenRatio, position, caption } = parseImageTitle(title);
+      // Miniaturas de galeria sempre têm recorte (4/3 por padrão), para alinhar a grade.
+      const ratio = chosenRatio ?? (isThumb ? '4/3' : undefined);
       const classNames = ['article-figure'];
-      if (isWide) classNames.push('article-figure-wide');
-      if (ratio) classNames.push('article-figure-crop');
+      if (isThumb) classNames.push('article-figure-thumb');
+      else if (isWide) classNames.push('article-figure-wide');
+      // Miniaturas não usam a classe de recorte, para não entrarem na regra de pares lado a lado.
+      if (ratio && !isThumb) classNames.push('article-figure-crop');
       const cropStyle = ratio
         ? `--figure-ratio: ${ratio}; --figure-position: ${(position ?? '50%,50%').replace(',', ' ')}`
         : undefined;
+      // No celular, a primeira miniatura ocupa a largura toda e as outras, meia coluna.
+      const thumbSizes = isLead
+        ? '(min-width: 1056px) 330px, (min-width: 640px) calc((100vw - 4rem) / 3), calc(100vw - 2rem)'
+        : '(min-width: 1056px) 330px, (min-width: 640px) calc((100vw - 4rem) / 3), calc(50vw - 1.375rem)';
 
       ctx.replaceNode(node, {
         type: 'element',
@@ -123,10 +167,14 @@ export const figurePlugin = {
             properties: {
               ...properties,
               layout: 'constrained',
-              width: isWide ? 1024 : 720,
-              sizes: isWide
-                ? '(min-width: 1056px) 1024px, calc(100vw - 2rem)'
-                : '(min-width: 752px) 720px, calc(100vw - 2rem)',
+              // O dobro desta largura limita o maior arquivo do srcset: com 800 (ou 1024), o Astro gera a versão
+              // de 1600px, usada pelo lightbox. O que o navegador baixa na página continua decidido pelo `sizes`.
+              width: isWide && !isThumb ? 1024 : 800,
+              sizes: isThumb
+                ? thumbSizes
+                : isWide
+                  ? '(min-width: 1056px) 1024px, calc(100vw - 2rem)'
+                  : '(min-width: 752px) 720px, calc(100vw - 2rem)',
               loading: 'lazy',
               decoding: 'async',
             },

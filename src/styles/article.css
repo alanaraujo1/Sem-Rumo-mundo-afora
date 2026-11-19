@@ -106,6 +106,57 @@
   }
 }
 
+/*
+ * Galeria (`:::galeria`): faixa larga com miniaturas 4/3 em grade. No celular, duas colunas, e a primeira
+ * foto ocupa a linha inteira quando o total é ímpar. O aspect-ratio reserva a altura (CLS 0).
+ */
+.article-gallery {
+  --figure-width: min(100vw - 2rem, 64rem);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 0.75rem;
+  width: var(--figure-width);
+  max-width: none;
+  margin-block: 2.5rem;
+  margin-inline: calc((100% - var(--figure-width)) / 2);
+}
+
+.article-gallery > :first-child:nth-last-child(odd) {
+  grid-column: 1 / -1;
+}
+
+.article-gallery .article-figure {
+  margin: 0;
+}
+
+.article-figure-thumb img {
+  aspect-ratio: var(--figure-ratio);
+  object-fit: cover;
+  object-position: var(--figure-position);
+}
+
+.article-gallery figcaption {
+  font-size: 0.8125rem;
+}
+
+/* Colunas estreitas: o crédito vai para a linha de baixo em vez de vazar da tela. */
+.article-gallery .figure-credit {
+  display: block;
+  margin-left: 0;
+  margin-top: 0.125rem;
+}
+
+@media (min-width: 640px) {
+  .article-gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 1rem;
+  }
+
+  .article-gallery > :first-child:nth-last-child(odd) {
+    grid-column: auto;
+  }
+}
+
 /* Caixas: mesma superfície neutra; o tipo aparece no ícone e na cor do rótulo. */
 .callout {
   margin-block: 2.25rem;
