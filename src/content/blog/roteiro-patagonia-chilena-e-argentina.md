@@ -113,7 +113,7 @@ A Patagônia chilena (região de Magallanes) e a Argentina usam o mesmo fuso hor
 
 ## Puerto Natales e Torres del Paine (14 a 19/10)
 
-Puerto Natales é uma cidade pequena à beira do Canal Señoret e a base mais prática para o Parque Nacional Torres del Paine. A estrada é asfaltada até Cerro Castillo e segue em rípio até a entrada do parque. São cerca de 129 km até a portaria de Laguna Amarga. Ficar cinco noites permitiu ir ao parque em quatro dias diferentes e esperar o tempo abrir.
+Puerto Natales é uma cidade pequena à beira do Canal Señoret e a base mais prática para o Parque Nacional Torres del Paine. A estrada é asfaltada até Cerro Castillo e segue em rípio até a entrada do parque. São cerca de 129 km até a portaria de Laguna Amarga. Ficar cinco noites permitiu ir ao parque em quatro dias diferentes e esperar o tempo abrir. Os detalhes de cada dia, a entrada no parque e o que fazer na cidade estão no [guia de Torres del Paine e Puerto Natales](/blog/o-que-fazer-em-torres-del-paine-e-puerto-natales/).
 
 A entrada do parque é comprada pela internet, no sistema oficial da Conaf (Pases Parques). Na portaria, apresente o QR Code da entrada. Se for dormir dentro do parque, as reservas de hospedagem são separadas e também precisam estar garantidas.
 
