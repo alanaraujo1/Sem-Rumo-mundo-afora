@@ -173,7 +173,7 @@ Ainda pela manhã, seguimos para a passarela da ilha do Lago Pehoé e os mirante
 
 ### Dia 6 (19/10): rumo a El Calafate
 
-Na manhã do dia 19, deixamos Puerto Natales em direção à Argentina. A fronteira e a estrada até El Calafate estão descritas no [roteiro completo da viagem](/blog/roteiro-patagonia-chilena-e-argentina/#el-calafate-e-o-glaciar-perito-moreno-19-a-2210).
+Na manhã do dia 19, deixamos Puerto Natales em direção à Argentina. A fronteira, os documentos do carro e a estrada até El Calafate estão no [guia de El Calafate e do Glaciar Perito Moreno](/blog/o-que-fazer-em-el-calafate-glaciar-perito-moreno/#como-ir-de-carro-de-puerto-natales-a-el-calafate).
 
 ## O que fazer em Puerto Natales no fim do dia
 
@@ -217,7 +217,7 @@ Não. Não há postos dentro do parque nem nos arredores. Abasteça em Puerto Na
 
 ## Próxima parada: El Calafate
 
-Depois de Torres del Paine, cruzamos a fronteira para a Argentina e seguimos até El Calafate, para ver o Glaciar Perito Moreno pelas passarelas e de barco, pelo Lago Argentino. O guia completo de El Calafate será o próximo desta série. Até lá, a ordem das bases, as noites em cada cidade e as dicas de carro e fronteira estão no [roteiro de 15 dias pela Patagônia chilena e argentina](/blog/roteiro-patagonia-chilena-e-argentina/).
+Depois de Torres del Paine, cruzamos a fronteira para a Argentina e seguimos até El Calafate, para ver o Glaciar Perito Moreno pelas passarelas e de barco, pelo Lago Argentino. O que fizemos lá, dia a dia, está no [guia de El Calafate e do Glaciar Perito Moreno](/blog/o-que-fazer-em-el-calafate-glaciar-perito-moreno/). A ordem das bases e as noites em cada cidade estão no [roteiro de 15 dias pela Patagônia chilena e argentina](/blog/roteiro-patagonia-chilena-e-argentina/).
 
 ## Fontes consultadas
 

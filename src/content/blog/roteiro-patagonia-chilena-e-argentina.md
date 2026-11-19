@@ -103,7 +103,7 @@ Os postos de gasolina ficam distantes uns dos outros. Encha o tanque em Puerto N
 :::logistica
 **Distâncias de referência por estrada:**
 - Punta Arenas a Puerto Natales: cerca de 250 km, em umas 3 horas.
-- Puerto Natales a El Calafate: cerca de 270 km, de 4 a 5 horas com a fronteira.
+- Puerto Natales a El Calafate: de 270 a 360 km, conforme o caminho do lado argentino, de 4 a 6 horas com a fronteira.
 - El Calafate ao Glaciar Perito Moreno: cerca de 80 km pela Ruta Provincial 11, asfaltada.
 - El Calafate a El Chaltén: de 215 a 220 km, pela Ruta 40 e pela Ruta 23.
 - El Chaltén a Punta Arenas: cerca de 700 km por El Calafate, com fronteira no caminho. É o dia mais longo do roteiro; saia cedo.
@@ -169,7 +169,7 @@ Em Torres del Paine, as trilhas têm horários máximos de entrada e de saída, 
 
 ![A frente do Glaciar Perito Moreno, uma parede de gelo azulada sobre as águas do Lago Argentino, com montanhas nevadas ao fundo e céu azul, vista das passarelas do Parque Nacional Los Glaciares](../../assets/blog/roteiro-patagonia/glaciar-perito-moreno-passarelas.webp "4/3 50%,50% | O Perito Moreno visto das passarelas, num dia de céu aberto. Foto: Alan Primo")
 
-O ingresso do Parque Nacional Los Glaciares é cobrado na entrada do setor do Perito Moreno. A tabela oficial da Administración de Parques Nacionales prevê 50% de desconto no segundo dia de visita, dentro de 72 horas a partir da primeira entrada. Esse desconto ajuda quem pretende voltar ao glaciar ou combinar o parque com El Chaltén.
+O ingresso do Parque Nacional Los Glaciares é cobrado na entrada do setor do Perito Moreno. A tabela oficial da Administración de Parques Nacionales prevê 50% de desconto no segundo dia de visita, dentro de 72 horas a partir da primeira entrada. Esse desconto ajuda quem pretende voltar ao glaciar ou combinar o parque com El Chaltén. Os circuitos das passarelas, a navegação e o que fazer na cidade estão no [guia de El Calafate e do Glaciar Perito Moreno](/blog/o-que-fazer-em-el-calafate-glaciar-perito-moreno/).
 
 ## El Chaltén, a capital nacional do trekking (22 a 26/10)
 

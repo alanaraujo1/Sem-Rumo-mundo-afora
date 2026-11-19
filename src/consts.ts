@@ -15,6 +15,7 @@ export const AUTHOR_BIO =
 /** Rótulos legíveis das tags (slugs em kebab-case perdem acentos e maiúsculas). */
 const TAG_LABELS: Record<string, string> = {
   andarai: 'Andaraí',
+  argentina: 'Argentina',
   bahia: 'Bahia',
   'cachoeira-do-mosquito': 'Cachoeira do Mosquito',
   'cafe-especial': 'Café especial',
@@ -24,6 +25,7 @@ const TAG_LABELS: Record<string, string> = {
   'el-chalten': 'El Chaltén',
   flutuacao: 'Flutuação',
   gastronomia: 'Gastronomia',
+  glaciares: 'Glaciares',
   'gruta-azul': 'Gruta Azul',
   'gruta-da-lapa-doce': 'Gruta da Lapa Doce',
   'gruta-da-pratinha': 'Gruta da Pratinha',
@@ -36,6 +38,7 @@ const TAG_LABELS: Record<string, string> = {
   'pantanal-marimbus': 'Pantanal Marimbus',
   'passeio-de-barco': 'Passeio de barco',
   patagonia: 'Patagônia',
+  'perito-moreno': 'Perito Moreno',
   'poco-azul': 'Poço Azul',
   'por-do-sol': 'Pôr do sol',
   'puerto-natales': 'Puerto Natales',
