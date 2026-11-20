@@ -178,7 +178,7 @@ Saímos pouco depois das 7h, com o sol baixo iluminando as montanhas atrás da v
 ![Uma lebre parada no capim seco ao lado de uma cerca de arame, com arbustos, colinas e montanhas nevadas ao fundo](../../assets/blog/el-chalten/lebre-estepa-el-chalten.webp "50%,75% | Uma lebre ao lado da cerca, no acesso à Bahía Túnel. Foto: Alan Primo")
 :::
 
-Daí, voltamos pela Ruta 41 e pela Ruta 40 até El Calafate, cruzamos a fronteira para o Chile e seguimos até Punta Arenas. Foi o dia mais longo de carro da viagem.
+Daí, voltamos pela Ruta 41 e pela Ruta 40 até El Calafate, cruzamos a fronteira para o Chile e seguimos até Punta Arenas. Foi o dia mais longo de carro da viagem, e a estrada está no [guia de Punta Arenas](/blog/o-que-fazer-em-punta-arenas-isla-magdalena-pinguins/#como-ir-de-carro-de-el-chaltén-a-punta-arenas).
 
 ## O que fazer em El Chaltén à noite e nos dias de tempo ruim
 
@@ -226,7 +226,7 @@ Para as trilhas, não, porque elas começam na vila. O carro foi útil para o di
 
 ## Próxima parada: Punta Arenas
 
-De El Chaltén, seguimos para Punta Arenas, à beira do Estreito de Magalhães, onde passamos as duas últimas noites e fomos de barco ver os pinguins da Isla Magdalena. O guia de Punta Arenas será o próximo desta série. Até lá, o que fizemos está na [seção de Punta Arenas do roteiro completo](/blog/roteiro-patagonia-chilena-e-argentina/#punta-arenas-e-o-estreito-de-magalhães-26-a-2810). As paradas anteriores estão nos guias de [El Calafate e do Perito Moreno](/blog/o-que-fazer-em-el-calafate-glaciar-perito-moreno/) e de [Torres del Paine e Puerto Natales](/blog/o-que-fazer-em-torres-del-paine-e-puerto-natales/).
+De El Chaltén, seguimos para Punta Arenas, à beira do Estreito de Magalhães, onde passamos as duas últimas noites e fomos de barco ver os pinguins da Isla Magdalena. A estrada, a navegação e o que fazer na cidade estão no [guia de Punta Arenas e da Isla Magdalena](/blog/o-que-fazer-em-punta-arenas-isla-magdalena-pinguins/). As paradas anteriores estão nos guias de [El Calafate e do Perito Moreno](/blog/o-que-fazer-em-el-calafate-glaciar-perito-moreno/) e de [Torres del Paine e Puerto Natales](/blog/o-que-fazer-em-torres-del-paine-e-puerto-natales/).
 
 ## Fontes consultadas
 

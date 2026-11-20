@@ -223,7 +223,7 @@ As trilhas dia a dia, com horários, a Ruta 41 até o Lago del Desierto e as reg
 ![Pinguim-de-magalhães caminhando sobre uma praia de pedras arredondadas cinzentas na beira da água, na Isla Magdalena](../../assets/blog/roteiro-patagonia/pinguim-praia-isla-magdalena.webp "50%,60% | Na praia de pedras, perto do desembarque. Foto: Alan Primo")
 :::
 
-Na volta, o barco cruzou com golfinhos no estreito. Já perto da cidade, passamos por um antigo píer de concreto tomado por uma colônia de cormorões.
+Na volta da Isla Magdalena, avistamos golfinhos e leões-marinhos no estreito. Já perto da cidade, passamos por um antigo píer de concreto tomado por uma colônia de cormorões. A navegação hora a hora, as regras da ilha e o que fazer na cidade estão no [guia de Punta Arenas e da Isla Magdalena](/blog/o-que-fazer-em-punta-arenas-isla-magdalena-pinguins/).
 
 ![Colônia de cormorões pretos e brancos amontoados sobre os ninhos no topo de um antigo píer de pilares enferrujados, no Estreito de Magalhães, com Punta Arenas ao fundo](../../assets/blog/roteiro-patagonia/cormoroes-pier-punta-arenas.webp "wide 16/9 50%,40% | Cormorões no antigo píer, já de volta a Punta Arenas. Foto: Alan Primo")
 
