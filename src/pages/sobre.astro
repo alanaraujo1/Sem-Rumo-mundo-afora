@@ -1,7 +1,10 @@
 ---
+import { Image } from 'astro:assets';
+import avatar from '../assets/alan-primo-avatar.jpg';
 import InstagramLink from '../components/InstagramLink.astro';
-import { AUTHOR_BIO, AUTHOR_NAME, INSTAGRAM, SITE_NAME } from '../consts';
+import { AUTHOR_BIO, AUTHOR_JOB_TITLE, AUTHOR_NAME, INSTAGRAM, SITE_NAME } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { authorPerson } from '../lib/author-schema';
 
 const pageUrl = new URL('/sobre/', Astro.site).href;
 const schema = [
@@ -10,16 +13,7 @@ const schema = [
     url: pageUrl,
     name: `Sobre o ${SITE_NAME}`,
     inLanguage: 'pt-BR',
-    mainEntity: {
-      '@type': 'Person',
-      '@id': `${pageUrl}#autor`,
-      name: AUTHOR_NAME,
-      url: pageUrl,
-      jobTitle: 'Realizador audiovisual, fotógrafo e criador de conteúdos',
-      description: AUTHOR_BIO,
-      sameAs: [INSTAGRAM.author.url],
-      knowsAbout: ['Viagens', 'Expedições', 'Turismo de natureza', 'Ecoturismo', 'Fotografia de viagem'],
-    },
+    mainEntity: await authorPerson(Astro.site!, { full: true }),
   },
 ];
 ---
@@ -33,7 +27,32 @@ const schema = [
     <h1>Sobre o {SITE_NAME}</h1>
 
     <h2>Quem escreve</h2>
+    <div class="not-prose my-6 flex items-center gap-5">
+      <Image
+        src={avatar}
+        alt={`Retrato de ${AUTHOR_NAME}, autor do ${SITE_NAME}`}
+        width={112}
+        height={112}
+        densities={[1, 2]}
+        loading="eager"
+        class="size-28 shrink-0 rounded-full object-cover"
+      />
+      <div>
+        <p class="font-heading text-xl font-semibold text-stone-900">{AUTHOR_NAME}</p>
+        <p class="mt-1 text-sm text-stone-600">{AUTHOR_JOB_TITLE}</p>
+      </div>
+    </div>
     <p>{AUTHOR_BIO}</p>
+
+    <h2>Experiência de campo</h2>
+    <p>
+      Os guias do blog nascem de viagens feitas por {AUTHOR_NAME} e são ilustrados com fotografias do próprio autor. As
+      informações práticas, como tarifas, horários e regras de acesso, são conferidas em fontes oficiais.
+      Na Patagônia, foram 15 dias de carro em outubro de 2026, entre o Chile e a Argentina, contados no
+      <a href="/blog/roteiro-patagonia-chilena-e-argentina/">roteiro pela Patagônia chilena e argentina</a> e nos guias
+      de cada parada. No Brasil, a série da Chapada Diamantina reúne poços, cachoeiras, grutas e trilhas, a partir do
+      <a href="/blog/roteiro-chapada-diamantina/">roteiro completo pela Chapada Diamantina</a>.
+    </p>
     <p>
       Acompanhe as viagens e fotografias em{' '}
       <InstagramLink url={INSTAGRAM.author.url} class="font-semibold">{INSTAGRAM.author.handle}</InstagramLink>.
@@ -62,7 +81,8 @@ const schema = [
     <p>
       Cada artigo identifica o autor e mostra a data de publicação e, quando houver revisão, a data da última
       atualização. Preços, horários e regras de acesso mudam com frequência, por isso vale confirmá-los nos canais
-      oficiais antes de viajar. O site pode exibir anúncios, conforme explicado na <a href="/politica-de-privacidade/">Política de Privacidade</a>.
+      oficiais antes de viajar. O site pode exibir anúncios, conforme explicado na <a href="/politica-de-privacidade/">Política de Privacidade</a>,
+      e o uso do conteúdo segue os <a href="/termos-de-uso/">Termos de Uso</a>.
     </p>
     <p>
       Encontrou algum erro ou informação desatualizada? <a href="/contato/">Fale conosco</a> para que possamos corrigir.

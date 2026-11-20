@@ -2,12 +2,12 @@
 import { AUTHOR_NAME, CONTACT_EMAIL, GTM_ID, SITE_NAME } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const updatedAt = new Date('2026-11-04T00:00:00Z');
+const updatedAt = new Date('2026-11-20T00:00:00Z');
 ---
 
 <BaseLayout
   title={`Política de Privacidade | ${SITE_NAME}`}
-  description="Saiba como o Sem Rumo Mundo Afora trata dados pessoais e usa cookies, Google Tag Manager, Google Analytics e anúncios, conforme a LGPD."
+  description="Saiba como o Sem Rumo Mundo Afora trata dados pessoais e usa cookies, Google Analytics e anúncios do Google AdSense, conforme a LGPD."
 >
   <article class="prose prose-stone prose-a:text-teal-700 mx-auto max-w-3xl">
     <h1>Política de Privacidade</h1>
@@ -50,8 +50,13 @@ const updatedAt = new Date('2026-11-04T00:00:00Z');
           </tr>
           <tr>
             <td>Identificadores online, páginas visitadas e dados de navegação</td>
-            <td>Medir a audiência e exibir anúncios</td>
+            <td>Medir a audiência e exibir anúncios personalizados</td>
             <td>Consentimento</td>
+          </tr>
+          <tr>
+            <td>Endereço IP e dados técnicos enviados ao Google ao carregar anúncios não personalizados</td>
+            <td>Entregar os anúncios, limitar a frequência e combater fraudes</td>
+            <td>Legítimo interesse</td>
           </tr>
         </tbody>
       </table>
@@ -83,8 +88,8 @@ const updatedAt = new Date('2026-11-04T00:00:00Z');
           </tr>
           <tr>
             <td>Anúncios</td>
-            <td><code>__gads</code>, <code>__gpi</code>, <code>IDE</code></td>
-            <td>Exibir, limitar a repetição e medir anúncios</td>
+            <td><code>__gads</code>, <code>__gpi</code>, <code>__eoi</code> e, no domínio doubleclick.net, <code>IDE</code> e <code>DSID</code> (cookie DART)</td>
+            <td>Exibir, limitar a repetição, personalizar e medir anúncios</td>
             <td>Até 13 meses</td>
           </tr>
         </tbody>
@@ -98,7 +103,7 @@ const updatedAt = new Date('2026-11-04T00:00:00Z');
 
     <h2>Google Tag Manager</h2>
     <p>
-      Usamos o Google Tag Manager (contêiner {GTM_ID}) para gerenciar as ferramentas de medição e publicidade do site.
+      Usamos o Google Tag Manager (contêiner {GTM_ID}) para gerenciar as ferramentas de medição de audiência do site.
       Ele só é carregado depois que você aceita ao menos uma categoria opcional. Utilizamos o Modo de Consentimento v2 do
       Google, que informa às ferramentas quais categorias você autorizou. Ao carregar, o serviço recebe dados técnicos,
       como o seu endereço IP.
@@ -110,17 +115,34 @@ const updatedAt = new Date('2026-11-04T00:00:00Z');
       o dispositivo e a interação com o site, para produzir estatísticas de audiência. Saiba mais em <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">como o Google usa informações de sites parceiros</a>.
     </p>
 
-    <h2>Anúncios</h2>
+    <h2>Anúncios (Google AdSense)</h2>
     <p>
-      O site pode exibir anúncios por meio do Google AdSense, quando ativo e autorizado por você. Fornecedores terceiros,
-      incluindo o Google, usam cookies para veicular anúncios com base em visitas anteriores do usuário a este e a outros
-      sites. O uso de cookies de publicidade permite ao Google e aos seus parceiros veicular anúncios com base nessas
-      visitas.
+      O site exibe anúncios do Google AdSense. O código do AdSense é carregado diretamente nas páginas, sem passar pelo
+      Google Tag Manager, e recebe do Modo de Consentimento v2 a sua escolha sobre a categoria Anúncios. Enquanto você não
+      autorizar essa categoria, o Google é informado de que não há consentimento para cookies de publicidade nem para
+      anúncios personalizados, e pode exibir anúncios não personalizados ou limitados. Mesmo nesse caso, o carregamento
+      dos anúncios envolve o envio de dados técnicos ao Google, como o endereço IP, para entregá-los e combater fraudes.
     </p>
     <p>
-      Você pode desativar a publicidade personalizada nas <a href="https://myadcenter.google.com/" rel="noopener">configurações de anúncios do Google</a> e os cookies de
-      outros fornecedores em <a href="https://www.aboutads.info/choices/" rel="noopener">aboutads.info</a>.
+      Fornecedores terceiros, incluindo o Google, usam cookies para veicular anúncios com base em visitas anteriores do
+      usuário a este e a outros sites. O uso de cookies de publicidade, como o cookie DART da DoubleClick, permite ao
+      Google e aos seus parceiros veicular anúncios com base nessas visitas. Saiba mais em
+      <a href="https://policies.google.com/technologies/ads" rel="noopener">como o Google usa cookies em publicidade</a>.
     </p>
+    <p>Você pode desativar a publicidade personalizada a qualquer momento:</p>
+    <ul>
+      <li>
+        nas <a href="https://adssettings.google.com/" rel="noopener">configurações de anúncios do Google</a> (Minha Central
+        de Anúncios), inclusive o uso do cookie DART;
+      </li>
+      <li>
+        nos cookies de outros fornecedores, em <a href="https://www.aboutads.info/choices/" rel="noopener">aboutads.info</a>
+        e <a href="https://www.youronlinechoices.eu/" rel="noopener">youronlinechoices.eu</a>;
+      </li>
+      <li>
+        aqui no site, recusando a categoria Anúncios nas <button type="button" data-cookie-settings class="cursor-pointer font-medium text-teal-700 underline">preferências de cookies</button>.
+      </li>
+    </ul>
 
     <h2>Compartilhamento e transferência internacional</h2>
     <p>

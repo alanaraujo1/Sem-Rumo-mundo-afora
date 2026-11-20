@@ -5,6 +5,9 @@ export const SITE_LOCALE = 'pt-BR';
 export const GTM_ID = 'GTM-MMV8DDJ7';
 export const CONTACT_EMAIL = 'contato@semrumomundoafora.com.br';
 export const AUTHOR_NAME = 'Alan Primo';
+export const AUTHOR_JOB_TITLE = 'Realizador audiovisual, fotógrafo e criador de conteúdos';
+/** Caminho da entidade Person do autor no JSON-LD (página Sobre). */
+export const AUTHOR_SCHEMA_PATH = '/sobre/#autor';
 export const INSTAGRAM = {
   blog: { handle: '@semrumomundoafora', url: 'https://www.instagram.com/semrumomundoafora/' },
   author: { handle: '@euprimoalan', url: 'https://www.instagram.com/euprimoalan/' },

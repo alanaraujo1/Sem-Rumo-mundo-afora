@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import { getImage } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 import { AUTHOR_NAME, INSTAGRAM, SITE_DESCRIPTION, SITE_LOCALE, SITE_NAME, tagLabel } from '../consts';
+import { authorPerson } from '../lib/author-schema';
 
 export interface Props {
   title: string;
@@ -61,6 +62,7 @@ const graph: Record<string, unknown>[] = [
     '@id': organizationId,
     name: SITE_NAME,
     url: site.href,
+    logo: { '@type': 'ImageObject', url: absolute('/logo.png'), width: 512, height: 512 },
     sameAs: [INSTAGRAM.blog.url],
   },
 ];
@@ -83,11 +85,8 @@ if (article) {
       ],
       datePublished: article.pubDate.toISOString(),
       dateModified: (article.updatedDate ?? article.pubDate).toISOString(),
-      author: {
-        '@type': 'Person',
-        name: article.author,
-        ...(article.author === AUTHOR_NAME && { url: absolute('/sobre/'), sameAs: [INSTAGRAM.author.url] }),
-      },
+      author:
+        article.author === AUTHOR_NAME ? await authorPerson(site) : { '@type': 'Person', name: article.author },
       publisher: { '@id': organizationId },
       inLanguage: SITE_LOCALE,
       articleSection: article.category,

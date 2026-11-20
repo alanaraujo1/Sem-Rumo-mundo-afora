@@ -1,0 +1,108 @@
+---
+import { AUTHOR_NAME, CONTACT_EMAIL, SITE_NAME } from '../consts';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const updatedAt = new Date('2026-11-20T00:00:00Z');
+const pageUrl = new URL('/termos-de-uso/', Astro.site).href;
+const schema = [
+  {
+    '@type': 'WebPage',
+    url: pageUrl,
+    name: `Termos de Uso | ${SITE_NAME}`,
+    inLanguage: 'pt-BR',
+    dateModified: updatedAt.toISOString(),
+  },
+];
+---
+
+<BaseLayout
+  title={`Termos de Uso | ${SITE_NAME}`}
+  description="Termos de Uso do Sem Rumo Mundo Afora: direitos autorais das fotos e textos, caráter informativo dos roteiros, links externos e limitação de responsabilidade."
+  schema={schema}
+>
+  <article class="prose prose-stone prose-a:text-teal-700 mx-auto max-w-3xl">
+    <h1>Termos de Uso</h1>
+    <p>
+      Última atualização: <time datetime={updatedAt.toISOString()}>
+        {new Intl.DateTimeFormat('pt-BR', { dateStyle: 'long', timeZone: 'UTC' }).format(updatedAt)}
+      </time>
+    </p>
+    <p>
+      Ao acessar e usar o {SITE_NAME}, você concorda com estes Termos de Uso. Se não concordar com algum ponto, por
+      favor não utilize o site.
+    </p>
+
+    <h2>Direitos autorais</h2>
+    <p>
+      Os textos, fotografias, vídeos e demais conteúdos originais publicados no {SITE_NAME} são de autoria de
+      {AUTHOR_NAME}, salvo indicação em contrário, e estão protegidos pela Lei de Direitos Autorais (Lei nº 9.610/1998).
+      Cada fotografia traz o crédito do autor na legenda.
+    </p>
+    <ul>
+      <li>
+        É permitido compartilhar o link dos artigos e citar trechos curtos, desde que com o crédito ao {SITE_NAME} e o
+        link para a página original.
+      </li>
+      <li>
+        Não é permitido copiar, reproduzir, republicar, vender ou usar comercialmente os textos e as fotografias, no
+        todo ou em parte, nem usá-los para treinar sistemas de inteligência artificial, sem autorização prévia e por
+        escrito.
+      </li>
+      <li>
+        Para licenciar uma fotografia ou propor outro uso, escreva para <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+      </li>
+    </ul>
+
+    <h2>Caráter informativo dos conteúdos</h2>
+    <p>
+      Os roteiros, guias e dicas do {SITE_NAME} têm caráter informativo e editorial e refletem a experiência do autor
+      na data da viagem e da pesquisa indicadas em cada artigo. Tarifas, horários, regras de acesso a parques,
+      exigências de fronteira, condições de estradas e trilhas e a oferta de serviços mudam com frequência, muitas
+      vezes sem aviso.
+    </p>
+    <p>
+      Antes de viajar, confirme as informações nos canais oficiais, como órgãos de parques, prefeituras, consulados,
+      empresas de transporte e operadoras de passeios. Avalie também o seu preparo físico, o clima e a segurança de cada
+      atividade. Os conteúdos do site não substituem a orientação de guias credenciados, autoridades locais ou
+      profissionais de saúde.
+    </p>
+
+    <h2>Links externos</h2>
+    <p>
+      Os artigos citam fontes e indicam sites de terceiros, como órgãos oficiais, empresas e serviços. Esses links são
+      oferecidos por conveniência e não significam endosso. O {SITE_NAME} não controla nem responde pelo conteúdo, pelas
+      políticas de privacidade ou pelas práticas desses sites.
+    </p>
+
+    <h2>Anúncios e parcerias</h2>
+    <p>
+      O site pode exibir anúncios de terceiros, como os do Google AdSense, conforme descrito na
+      <a href="/politica-de-privacidade/">Política de Privacidade</a>. Os anúncios são selecionados pelas próprias
+      redes de publicidade e não representam recomendação do autor. Conteúdos patrocinados ou feitos em parceria, quando
+      houver, serão identificados como tal no próprio artigo.
+    </p>
+
+    <h2>Limitação de responsabilidade</h2>
+    <p>
+      O {SITE_NAME} se esforça para manter as informações corretas e atualizadas, mas não garante que estejam completas,
+      livres de erros ou válidas no momento da sua viagem. Na máxima extensão permitida pela lei, o site e o autor não
+      se responsabilizam por prejuízos, despesas, acidentes ou transtornos decorrentes de decisões tomadas com base nos
+      conteúdos publicados, nem por serviços prestados por terceiros.
+    </p>
+
+    <h2>Correções</h2>
+    <p>
+      Encontrou alguma informação desatualizada ou incorreta? Avise pelo <a href="/contato/">contato</a>, com o link do
+      artigo, para que possamos revisar.
+    </p>
+
+    <h2>Alterações nestes termos</h2>
+    <p>
+      Estes Termos de Uso podem ser atualizados a qualquer momento. A data da última atualização aparece no topo desta
+      página. O uso do site depois de uma alteração significa que você concorda com a nova versão.
+    </p>
+
+    <h2>Legislação aplicável</h2>
+    <p>Estes termos são regidos pelas leis da República Federativa do Brasil.</p>
+  </article>
+</BaseLayout>
