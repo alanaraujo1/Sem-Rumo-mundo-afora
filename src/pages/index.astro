@@ -4,11 +4,18 @@ import { SITE_DESCRIPTION, SITE_NAME } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getPosts } from '../lib/posts';
 
-// O roteiro pilar abre a Home; sem ele, o artigo mais recente.
-const FEATURED_ID = 'roteiro-chapada-diamantina';
+// O roteiro pilar da Patagônia abre a Home; sem ele, o artigo mais recente.
+const FEATURED_ID = 'roteiro-patagonia-chilena-e-argentina';
+// Pilares que sempre entram na grade, mesmo quando não estão entre os mais recentes.
+const PINNED_IDS = ['roteiro-chapada-diamantina'];
+const GRID_SIZE = 6;
 const posts = await getPosts();
 const featured = posts.find((post) => post.id === FEATURED_ID) ?? posts[0];
-const recent = posts.filter((post) => post !== featured).slice(0, 6);
+const rest = posts.filter((post) => post !== featured);
+const pinned = rest.filter((post) => PINNED_IDS.includes(post.id));
+const recent = [...rest.filter((post) => !pinned.includes(post)).slice(0, GRID_SIZE - pinned.length), ...pinned].sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
 ---
 
 <BaseLayout title={SITE_NAME}>
