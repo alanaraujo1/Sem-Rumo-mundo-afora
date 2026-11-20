@@ -105,7 +105,7 @@ Os postos de gasolina ficam distantes uns dos outros. Encha o tanque em Puerto N
 - Punta Arenas a Puerto Natales: cerca de 250 km, em umas 3 horas.
 - Puerto Natales a El Calafate: de 270 a 360 km, conforme o caminho do lado argentino, de 4 a 6 horas com a fronteira.
 - El Calafate ao Glaciar Perito Moreno: cerca de 80 km pela Ruta Provincial 11, asfaltada.
-- El Calafate a El Chaltén: de 215 a 220 km, pela Ruta 40 e pela Ruta 23.
+- El Calafate a El Chaltén: de 215 a 220 km, pela Ruta 40 e pela Ruta Provincial 41 (antiga Ruta 23).
 - El Chaltén a Punta Arenas: cerca de 700 km por El Calafate, com fronteira no caminho. É o dia mais longo do roteiro; saia cedo.
 
 A Patagônia chilena (região de Magallanes) e a Argentina usam o mesmo fuso horário, UTC-3, então o relógio não muda nas fronteiras.
@@ -175,18 +175,18 @@ O ingresso do Parque Nacional Los Glaciares é cobrado na entrada do setor do Pe
 
 El Chaltén é uma vila pequena, criada aos pés do Cerro Fitz Roy e do Cerro Torre, e se apresenta como a capital nacional do trekking da Argentina. As principais trilhas começam na própria vila, sem carro e sem traslado.
 
-**Dia 9 (22/10): estrada até El Chaltén.** O trajeto de El Calafate segue pela Ruta 40 e pela Ruta 23, à beira do Lago Viedma. Nos últimos quilômetros, o Fitz Roy aparece de frente para a estrada. Vale parar no portal do parque, na chegada à vila.
+**Dia 9 (22/10): estrada até El Chaltén.** O trajeto de El Calafate segue pela Ruta 40 e pela Ruta Provincial 41, a antiga Ruta 23, à beira do Lago Viedma. Nos últimos quilômetros, o Fitz Roy aparece de frente para a estrada. Vale parar no portal do parque, na chegada à vila.
 
 ![O maciço do Fitz Roy, com picos de granito pontiagudos e geleiras, erguendo-se sobre a estepe plana na chegada a El Chaltén, sob céu azul com poucas nuvens](../../assets/blog/roteiro-patagonia/fitz-roy-estrada-chegada-el-chalten.webp "wide 16/9 50%,40% | O Fitz Roy na chegada a El Chaltén, ainda da estrada. Foto: Alan Primo")
 
 **Dia 10 (23/10): Laguna Torre.** A trilha segue o vale do Rio Fitz Roy até a lagoa aos pés do Cerro Torre, com o glaciar descendo até a água. As fontes citam cerca de 11 km em cada sentido e de 7 a 8 horas ida e volta. O desnível é mais suave que o da Laguna de los Tres, e por isso ela é uma boa primeira trilha.
 
-**Dia 11 (24/10): Ruta 23, Chorrillo del Salto e Lago del Desierto.** No dia de descanso das pernas, usamos o carro para seguir a Ruta 23 ao norte da vila. A estrada vira rípio e acompanha rios de água clara até o Lago del Desierto. No caminho ficam o Chorrillo del Salto, uma cachoeira a poucos minutos de caminhada do estacionamento, e vários pontos com vista para o Fitz Roy.
+**Dia 11 (24/10): Ruta 41, Chorrillo del Salto e Lago del Desierto.** No dia de descanso das pernas, usamos o carro para seguir a Ruta 41 ao norte da vila. A estrada vira rípio e acompanha rios de água clara até o Lago del Desierto. No caminho ficam o Chorrillo del Salto, uma cachoeira a poucos minutos de caminhada do estacionamento, e vários pontos com vista para o Fitz Roy.
 
 :::galeria
 ![Chorrillo del Salto, cachoeira estreita caindo de um paredão de rocha clara até um poço entre pedras, perto de El Chaltén](../../assets/blog/roteiro-patagonia/chorrillo-del-salto-el-chalten.webp "50%,50% | O Chorrillo del Salto, a poucos minutos do estacionamento. Foto: Alan Primo")
 
-![O maciço do Fitz Roy nevado sobre montanhas avermelhadas, com um rio raso de leito de pedras em primeiro plano, à beira da Ruta 23, ao norte de El Chaltén](../../assets/blog/roteiro-patagonia/fitz-roy-sobre-rio-ruta-23-el-chalten.webp "50%,45% | O Fitz Roy sobre um rio de pedras, na Ruta 23. Foto: Alan Primo")
+![O maciço do Fitz Roy nevado sobre montanhas avermelhadas, com um rio raso de leito de pedras em primeiro plano, à beira da Ruta 41, ao norte de El Chaltén](../../assets/blog/roteiro-patagonia/fitz-roy-sobre-rio-ruta-23-el-chalten.webp "50%,45% | O Fitz Roy sobre um rio de pedras, na Ruta 41. Foto: Alan Primo")
 
 ![Píer de madeira na margem sul do Lago del Desierto, de água verde e transparente, com uma embarcação atracada e encosta coberta de bosque ao fundo](../../assets/blog/roteiro-patagonia/lago-del-desierto-pier-el-chalten.webp "50%,55% | O píer do Lago del Desierto, no fim da estrada. Foto: Alan Primo")
 :::
@@ -206,6 +206,8 @@ Para os dias de vento forte ou de montanha encoberta, há trilhas curtas que sae
 :::dica
 A Administración de Parques Nacionales cobra um passe diário no portal de El Chaltén do Parque Nacional Los Glaciares, com tarifas atualizadas em junho de 2026. Desde março de 2026, a vila também cobra uma taxa turística de quem visita El Chaltén sem dormir lá. Confira valores e regras antes de ir, porque mudaram várias vezes nos últimos anos.
 :::
+
+As trilhas dia a dia, com horários, a Ruta 41 até o Lago del Desierto e as regras de entrada, estão no [guia de El Chaltén e das trilhas do Fitz Roy e da Laguna Torre](/blog/o-que-fazer-em-el-chalten-trilhas-fitz-roy-laguna-torre/).
 
 ## Punta Arenas e o Estreito de Magalhães (26 a 28/10)
 

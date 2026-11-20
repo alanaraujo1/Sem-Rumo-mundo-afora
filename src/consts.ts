@@ -23,6 +23,7 @@ const TAG_LABELS: Record<string, string> = {
   chile: 'Chile',
   'el-calafate': 'El Calafate',
   'el-chalten': 'El Chaltén',
+  'fitz-roy': 'Fitz Roy',
   flutuacao: 'Flutuação',
   gastronomia: 'Gastronomia',
   glaciares: 'Glaciares',

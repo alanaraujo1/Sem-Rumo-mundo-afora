@@ -178,7 +178,7 @@ Leve óculos escuros e protetor solar: em dia de sol, a luz refletida no gelo é
 
 ### Dia 4 (22/10): rumo a El Chaltén
 
-No dia 22, deixamos El Calafate pela Ruta 40 e pela Ruta 23, à beira do Lago Viedma, rumo a El Chaltén. São de 215 a 220 km de estrada asfaltada, e o Fitz Roy aparece de frente para a estrada nos últimos quilômetros.
+No dia 22, deixamos El Calafate pela Ruta 40 e pela Ruta Provincial 41, a antiga Ruta 23, à beira do Lago Viedma, rumo a El Chaltén. São de 215 a 220 km de estrada asfaltada, e o Fitz Roy aparece de frente para a estrada nos últimos quilômetros.
 
 ## O que fazer em El Calafate
 
@@ -213,7 +213,7 @@ Dá, com folga. São de 4 a 6 horas de estrada, incluindo a fronteira. Saia cedo
 
 ## Próxima parada: El Chaltén
 
-Depois de El Calafate, seguimos para El Chaltén, a capital nacional do trekking, onde passamos quatro noites, de 22 a 26 de outubro, com as trilhas da Laguna Torre e do Fitz Roy. O guia de El Chaltén será o próximo desta série. Até lá, o que fizemos em cada dia está na [seção de El Chaltén do roteiro completo](/blog/roteiro-patagonia-chilena-e-argentina/#el-chaltén-a-capital-nacional-do-trekking-22-a-2610), e a parada anterior está no [guia de Torres del Paine e Puerto Natales](/blog/o-que-fazer-em-torres-del-paine-e-puerto-natales/).
+Depois de El Calafate, seguimos para El Chaltén, a capital nacional do trekking, onde passamos quatro noites, de 22 a 26 de outubro, com as trilhas da Laguna Torre e do Fitz Roy. O que fizemos em cada dia, as trilhas e a entrada no parque estão no [guia de El Chaltén e das trilhas do Fitz Roy e da Laguna Torre](/blog/o-que-fazer-em-el-chalten-trilhas-fitz-roy-laguna-torre/), e a parada anterior está no [guia de Torres del Paine e Puerto Natales](/blog/o-que-fazer-em-torres-del-paine-e-puerto-natales/).
 
 ## Fontes consultadas
 
