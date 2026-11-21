@@ -25,6 +25,15 @@ tags:
   - trekking
   - mirantes
   - viagem-de-carro
+fichaTecnica:
+  - label: "Quando fomos"
+    value: "14 a 19/10/2026"
+  - label: "Duração"
+    value: "5 noites"
+  - label: "Base"
+    value: "Puerto Natales (Chile)"
+  - label: "Estilo"
+    value: "Carro alugado, mirantes e trilha da Base Torres"
 draft: false
 ---
 

@@ -23,6 +23,15 @@ tags:
   - vale-do-pati
   - trekking
   - cachoeiras
+fichaTecnica:
+  - label: "Época mais seca"
+    value: "Maio a setembro"
+  - label: "Duração"
+    value: "7 dias com o Vale do Pati; 5 sem ele"
+  - label: "Base"
+    value: "Lençóis (BA)"
+  - label: "Estilo"
+    value: "Ecoturismo, cachoeiras e trekking"
 draft: false
 ---
 

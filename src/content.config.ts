@@ -65,6 +65,12 @@ const blog = defineCollection({
           .array(z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Use minúsculas sem acento, separadas por hífen.'))
           .min(1, 'Informe ao menos uma tag.')
           .max(8, 'Use no máximo 8 tags.'),
+        // Cartão de resumo entre a capa e o texto: época, duração, base, estilo etc.
+        fichaTecnica: z
+          .array(z.object({ label: z.string().trim().min(2).max(24), value: z.string().trim().min(2).max(90) }))
+          .min(2)
+          .max(8)
+          .optional(),
         draft: z.boolean().default(false),
       })
       .refine((post) => post.title.length <= 60 || post.seoTitle, {

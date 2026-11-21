@@ -6,7 +6,7 @@
 }
 
 .article-body :is(h2, h3) {
-  scroll-margin-top: 1.5rem;
+  scroll-margin-top: 2rem;
 }
 
 /* Títulos na serifada (só o peso 600 é carregado; 700 seria negrito sintetizado). */

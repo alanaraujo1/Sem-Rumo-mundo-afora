@@ -26,6 +26,15 @@ tags:
   - argentina
   - viagem-de-carro
   - mirantes
+fichaTecnica:
+  - label: "Quando fomos"
+    value: "22 a 26/10/2026"
+  - label: "Duração"
+    value: "4 noites"
+  - label: "Base"
+    value: "El Chaltén (Argentina)"
+  - label: "Estilo"
+    value: "Trilhas de dia inteiro e estrada de rípio"
 draft: false
 ---
 

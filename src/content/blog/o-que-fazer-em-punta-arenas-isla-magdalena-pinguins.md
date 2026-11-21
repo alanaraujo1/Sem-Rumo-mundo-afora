@@ -25,6 +25,15 @@ tags:
   - chile
   - passeio-de-barco
   - viagem-de-carro
+fichaTecnica:
+  - label: "Quando fomos"
+    value: "26 a 28/10/2026"
+  - label: "Duração"
+    value: "2 noites"
+  - label: "Base"
+    value: "Punta Arenas (Chile)"
+  - label: "Estilo"
+    value: "Navegação até a colônia de pinguins"
 draft: false
 ---
 

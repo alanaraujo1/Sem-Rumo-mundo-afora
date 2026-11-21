@@ -5,40 +5,38 @@ interface Props {
   headings: MarkdownHeading[];
 }
 
-type Section = MarkdownHeading & { children: MarkdownHeading[] };
-
-const sections: Section[] = [];
-for (const heading of Astro.props.headings) {
-  const parent = sections.at(-1);
-  if (heading.depth === 2 || !parent) {
-    if (heading.depth <= 3) sections.push({ ...heading, children: [] });
-  } else if (heading.depth === 3) {
-    parent.children.push(heading);
-  }
-}
-const linkClass = 'block py-1 text-stone-700 hover:text-teal-800 hover:underline';
+// Sumário compacto só com as seções principais (h2), exibido a partir de 3 seções.
+const sections = Astro.props.headings.filter((heading) => heading.depth === 2);
 ---
 
 {
-  sections.length > 0 && (
-    <nav aria-labelledby="toc-title" class="border-y border-stone-200 py-5">
-      <details open>
-        <summary id="toc-title" class="cursor-pointer text-xs font-semibold tracking-[0.14em] text-stone-500 uppercase">
-          Neste artigo
+  sections.length >= 3 && (
+    <nav aria-labelledby="toc-title" class="rounded-xl border border-stone-200 bg-white">
+      <details class="group">
+        <summary
+          id="toc-title"
+          class="flex cursor-pointer list-none items-center justify-between gap-3 px-5 py-4 text-xs font-semibold tracking-[0.14em] text-stone-600 uppercase hover:text-teal-800 [&::-webkit-details-marker]:hidden"
+        >
+          Neste guia
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="size-4 shrink-0 text-stone-400 transition-transform group-open:rotate-180"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 11.17l3.71-3.94a.75.75 0 1 1 1.08 1.04l-4.25 4.5a.75.75 0 0 1-1.08 0l-4.25-4.5a.75.75 0 0 1 .02-1.06Z"
+              clip-rule="evenodd"
+            />
+          </svg>
         </summary>
-        <ol class="toc-list mt-3 text-[0.95rem] leading-snug">
+        <ol class="toc-list border-t border-stone-200 px-5 py-3 text-[0.95rem] leading-snug">
           {sections.map((section) => (
             <li>
-              <a href={`#${section.slug}`} class={linkClass}>{section.text}</a>
-              {section.children.length > 0 && (
-                <ol class="mb-1 border-l border-stone-200 pl-4 text-[0.9rem]">
-                  {section.children.map((child) => (
-                    <li>
-                      <a href={`#${child.slug}`} class={linkClass}>{child.text}</a>
-                    </li>
-                  ))}
-                </ol>
-              )}
+              <a href={`#${section.slug}`} class="block py-1.5 text-stone-700 hover:text-teal-800 hover:underline">
+                {section.text}
+              </a>
             </li>
           ))}
         </ol>

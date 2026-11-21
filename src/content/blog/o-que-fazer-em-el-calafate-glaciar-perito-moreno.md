@@ -25,6 +25,15 @@ tags:
   - argentina
   - passeio-de-barco
   - viagem-de-carro
+fichaTecnica:
+  - label: "Quando fomos"
+    value: "19 a 22/10/2026"
+  - label: "Duração"
+    value: "3 noites"
+  - label: "Base"
+    value: "El Calafate (Argentina)"
+  - label: "Estilo"
+    value: "Navegação e passarelas do Perito Moreno"
 draft: false
 ---
 

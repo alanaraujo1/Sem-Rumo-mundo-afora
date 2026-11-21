@@ -26,6 +26,15 @@ tags:
   - el-chalten
   - punta-arenas
   - trekking
+fichaTecnica:
+  - label: "Quando fomos"
+    value: "Outubro de 2026"
+  - label: "Duração"
+    value: "15 dias e 14 noites"
+  - label: "Bases"
+    value: "Puerto Natales, El Calafate, El Chaltén e Punta Arenas"
+  - label: "Estilo"
+    value: "Carro alugado, com duas fronteiras"
 draft: false
 ---
 
