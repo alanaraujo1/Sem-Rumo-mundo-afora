@@ -1,4 +1,5 @@
 ---
+import DestinationHubs from '../components/DestinationHubs.astro';
 import PostCard from '../components/PostCard.astro';
 import { SITE_DESCRIPTION, SITE_NAME } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -31,6 +32,7 @@ const recent = [...rest.filter((post) => !pinned.includes(post)).slice(0, GRID_S
         <section aria-label="Em destaque" class="mt-10 border-t border-stone-200 pt-10">
           <PostCard post={featured} featured />
         </section>
+        <DestinationHubs posts={posts} />
         {recent.length > 0 && (
           <section aria-labelledby="recentes" class="mt-16">
             <div class="flex items-baseline justify-between gap-4 border-b border-stone-200 pb-3">

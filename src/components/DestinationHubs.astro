@@ -1,0 +1,72 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
+import chapadaPhoto from '../assets/blog/morro-do-pai-inacio/canion-vale-mirante-pai-inacio.jpg';
+import patagoniaPhoto from '../assets/blog/el-chalten/fitz-roy-trilha-mirante-nuvens-el-chalten.webp';
+
+interface Props {
+  posts: CollectionEntry<'blog'>[];
+}
+
+const { posts } = Astro.props;
+
+// Cada hub conta os artigos publicados com a sua tag e aponta para o artigo-pilar.
+const hubs = [
+  {
+    name: 'Patagônia',
+    tag: 'patagonia',
+    subtitle: 'Chile e Argentina: trilhas, glaciares e pinguins',
+    href: '/blog/roteiro-patagonia-chilena-e-argentina/',
+    photo: patagoniaPhoto,
+    alt: 'O maciço do Fitz Roy, com picos de granito nevados e nuvens brancas no céu azul, visto da trilha do Fitz Roy, com bosque de lengas e vale em primeiro plano',
+    position: '50% 45%',
+  },
+  {
+    name: 'Chapada Diamantina',
+    tag: 'chapada-diamantina',
+    subtitle: 'Bahia: cachoeiras, poços e travessias',
+    href: '/blog/roteiro-chapada-diamantina/',
+    photo: chapadaPhoto,
+    alt: 'Cânion largo coberto de mata entre paredões de arenito, visto da borda do Morro do Pai Inácio, com um morro tabular iluminado ao fundo e céu com nuvens',
+    position: '50% 55%',
+  },
+].map((hub) => ({ ...hub, count: posts.filter((post) => post.data.tags.includes(hub.tag)).length }));
+---
+
+<section aria-labelledby="destinos" class="mt-16">
+  <div class="border-b border-stone-200 pb-3">
+    <h2 id="destinos" class="font-heading text-2xl font-semibold tracking-tight">Explore por destino</h2>
+  </div>
+  <div class="mt-8 grid gap-x-8 gap-y-12 md:grid-cols-2">
+    {
+      hubs.map((hub) => (
+        <article class="group relative">
+          <div class="overflow-hidden rounded-xl bg-stone-200">
+            <Image
+              src={hub.photo}
+              alt={hub.alt}
+              width={960}
+              height={600}
+              widths={[360, 540, 720, 960]}
+              sizes="(min-width: 1024px) 484px, (min-width: 768px) calc(50vw - 2rem), calc(100vw - 2rem)"
+              loading="lazy"
+              decoding="async"
+              quality={64}
+              class="aspect-[16/10] h-auto w-full object-cover transition-transform duration-500 ease-out motion-safe:group-hover:scale-[1.03]"
+              style={{ objectPosition: hub.position }}
+            />
+          </div>
+          <div class="mt-4">
+            <p class="text-xs font-semibold tracking-[0.14em] text-teal-800 uppercase">
+              {hub.count} {hub.count === 1 ? 'guia' : 'guias'}
+            </p>
+            <h3 class="font-heading mt-2 text-[1.375rem] leading-snug font-semibold tracking-tight text-balance text-stone-950 group-hover:text-teal-800">
+              <a href={hub.href} class="after:absolute after:inset-0">{hub.name}</a>
+            </h3>
+            <p class="mt-2 text-stone-700">{hub.subtitle}</p>
+          </div>
+        </article>
+      ))
+    }
+  </div>
+</section>
