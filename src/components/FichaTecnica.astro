@@ -4,6 +4,8 @@ interface Props {
 }
 
 const { items } = Astro.props;
+// Número e unidade na mesma linha ("300 m", "40 km", "10 °C").
+const keepUnit = (text: string) => text.replace(/(\d) (?=(?:km|m|h|min|minutos|horas|noites|dias|°C)\b|°C)/g, '$1\u00a0');
 ---
 
 <section aria-labelledby="ficha-tecnica" class="rounded-xl border border-stone-200 bg-white px-5 py-5">
@@ -13,7 +15,7 @@ const { items } = Astro.props;
       items.map(({ label, value }) => (
         <div class="min-w-0">
           <dt class="text-xs font-semibold tracking-[0.14em] text-teal-800 uppercase">{label}</dt>
-          <dd class="mt-1.5 text-[0.95rem] leading-snug text-pretty break-words text-stone-800">{value}</dd>
+          <dd class="mt-1.5 text-[0.95rem] leading-snug text-pretty break-words text-stone-800">{keepUnit(value)}</dd>
         </div>
       ))
     }

@@ -24,6 +24,15 @@ tags:
   - por-do-sol
   - mirantes
   - roteiros
+fichaTecnica:
+  - label: "Onde fica"
+    value: "Palmeiras, a cerca de 26 km de Lençóis"
+  - label: "Trilha"
+    value: "Cerca de 500 m, de 20 a 30 minutos"
+  - label: "Guia"
+    value: "Não é obrigatório"
+  - label: "Melhor horário"
+    value: "Pôr do sol, com lanterna para descer"
 draft: false
 ---
 
@@ -98,6 +107,10 @@ Leve lanterna de cabeça (ou o celular bem carregado) para descer depois do ocas
 ## Como chegar e roteiro de um dia
 
 O Morro do Pai Inácio fica em Palmeiras, às margens da BR-242, a cerca de 26 km de Lençóis. O acesso é asfaltado e sinalizado, com estacionamento na base e controle de acesso na portaria, administrada pela Prefeitura de Palmeiras. Desde abril de 2026, a taxa é de R$ 20, com meia-entrada de R$ 10.
+
+![Vista do topo do Morro do Pai Inácio para o vale verde e uma sequência de morros tabulares de paredões alaranjados, com a rocha do platô em primeiro plano e céu azul com nuvens](../../assets/blog/morro-do-pai-inacio/vista-topo-pai-inacio-morros-tabulares.jpg "4/3 50%,58% | Os morros tabulares vistos do platô. Foto: Alan Primo")
+
+![Cactos colunares iluminados pelo sol do fim de tarde na borda do Morro do Pai Inácio, com o vale, a BR-242 e um morro tabular ao fundo sob nuvens](../../assets/blog/morro-do-pai-inacio/cactos-borda-pai-inacio-vale.jpg "4/3 50%,55% | Cactos na borda do morro, no fim da tarde. Foto: Alan Primo")
 
 | Período | Atração | Leia o guia |
 |---|---|---|

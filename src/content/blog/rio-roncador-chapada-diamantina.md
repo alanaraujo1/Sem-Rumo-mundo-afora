@@ -24,6 +24,15 @@ tags:
   - lencois
   - chapada-diamantina
   - cachoeiras
+fichaTecnica:
+  - label: "Onde fica"
+    value: "Andaraí, pela região da BA-142"
+  - label: "Acesso"
+    value: "Trilhas leves de 4 ou 6,5 km, ou de canoa pelo Marimbus"
+  - label: "Estilo"
+    value: "Poços, corredeiras e escorregadores naturais"
+  - label: "Leve"
+    value: "Sapatilha aquática com boa aderência"
 draft: false
 ---
 
@@ -56,6 +65,8 @@ Leve sapatilha aquática com boa aderência: os lajedos molhados e com limo esco
 ## Como chegar e combinar com o Pantanal Marimbus
 
 Há duas formas principais de chegar ao Roncador.
+
+![Poço de água escura cercado por lajedo de tons âmbar e ferrugem no Rio Roncador, com pequenas quedas espumando e paredões de rocha com mata ao fundo sob céu azul](../../assets/blog/roncador/poco-escuro-lajedo-ambar-rio-roncador.jpg "4/3 50%,62% | Um poço escuro no lajedo cor de âmbar. Foto: Alan Primo")
 
 | Acesso | Como é |
 |---|---|

@@ -24,6 +24,15 @@ tags:
   - flutuacao
   - cavernas
   - roteiros
+fichaTecnica:
+  - label: "Onde fica"
+    value: "Nova Redenção, a cerca de 51 km de Mucugê"
+  - label: "Flutuação"
+    value: "15 a 20 minutos, em grupos de até 14"
+  - label: "Feixe de luz"
+    value: "Do fim de fevereiro ao fim de outubro"
+  - label: "Ingresso"
+    value: "Com horário marcado"
 draft: false
 ---
 

@@ -24,6 +24,15 @@ tags:
   - chapada-diamantina
   - flutuacao
   - roteiros
+fichaTecnica:
+  - label: "Onde fica"
+    value: "Iraquara, a 70–75 km de Lençóis"
+  - label: "Atrações"
+    value: "Rio, flutuação na gruta e Gruta Azul"
+  - label: "Flutuação"
+    value: "25 a 30 minutos, paga à parte"
+  - label: "Gruta Azul"
+    value: "Feixe de sol por volta das 14h às 15h"
 draft: false
 ---
 
@@ -66,6 +75,10 @@ Para conservar a água cristalina, não entre no rio nem na gruta usando proteto
 :::dica
 Leve sapatilha aquática: as margens e o acesso ao rio têm pedras lisas e irregulares, e ela dá aderência e protege os pés. Chegue cedo, logo na abertura, para aproveitar o rio e a gruta com calma, antes dos ônibus de excursão.
 :::
+
+![Feixe de sol atravessando a água da Gruta Azul e iluminando de azul-turquesa o fundo de pedra, sob o teto escuro da caverna](../../assets/blog/gruta-da-pratinha/gruta-azul-feixe-de-luz-fundo.jpg "4/3 50%,65% | O feixe de sol no fundo da Gruta Azul, às 13h44. Foto: Alan Primo")
+
+![Manchas de luz azul-turquesa na água escura da Gruta Azul, sob camadas de rocha do teto, com o guarda-corpo de madeira do mirante em primeiro plano](../../assets/blog/gruta-da-pratinha/gruta-azul-feixe-de-luz-agua.jpg "4/3 50%,62% | A luz mudando de forma na água, às 14h25. Foto: Alan Primo")
 
 ## Como chegar e roteiro pela região
 

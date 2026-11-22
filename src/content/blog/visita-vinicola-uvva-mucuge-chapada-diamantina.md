@@ -24,6 +24,15 @@ tags:
   - enoturismo
   - gastronomia
   - roteiros
+fichaTecnica:
+  - label: "Onde fica"
+    value: "A cerca de 25 minutos de Mucugê"
+  - label: "Funcionamento"
+    value: "Terça a domingo, inclusive feriados"
+  - label: "Reserva"
+    value: "Obrigatória, pelo site oficial"
+  - label: "Idade mínima"
+    value: "12 anos"
 draft: false
 ---
 
@@ -90,6 +99,10 @@ Menores de 12 anos não podem entrar na vinícola, e a compra e o consumo de vin
 ## Logística e dicas práticas
 
 A UVVA fica às margens da BA-142, a cerca de 25 km do centro de Mucugê, por estrada asfaltada. São de 25 a 30 minutos de carro. Para conhecer a cidade e outros atrativos da região, consulte o [guia de Mucugê](/blog/o-que-fazer-em-mucuge-chapada-diamantina/).
+
+![Gramado verde em primeiro plano, uma estrada de terra e fileiras de vinhedos da Vinícola UVVA estendidas até a serra azulada no horizonte, sob céu nublado](../../assets/blog/vinicola-uvva/vinicola-uvva-vinhedos-e-serra.jpg "4/3 50%,62% | Os vinhedos se estendem até a serra. Foto: Alan Primo")
+
+![Garrafa de vinho tinto, uma taça servida e uma taça vazia sobre a mesa escura do restaurante, diante de uma janela de vidro com vista para o céu e a paisagem](../../assets/blog/vinicola-uvva/vinicola-uvva-garrafa-tacas-janela.jpg "4/3 50%,62% | A mesa junto à janela do restaurante. Foto: Alan Primo")
 
 :::logistica
 Vai degustar? Defina antes quem será o motorista da rodada ou contrate um transfer a partir de Mucugê. Assim todos aproveitam os vinhos com tranquilidade, e ninguém dirige na estrada depois de beber.

@@ -24,6 +24,15 @@ tags:
   - lencois
   - arqueologia
   - roteiros
+fichaTecnica:
+  - label: "Onde fica"
+    value: "A cerca de 35 a 40 km de Lençóis"
+  - label: "Trilha"
+    value: "Cerca de 300 m, leve"
+  - label: "Tempo de visita"
+    value: "De 40 minutos a 3 horas"
+  - label: "Guia"
+    value: "Obrigatório, com voucher comprado em Lençóis"
 draft: false
 ---
 
@@ -46,6 +55,10 @@ As pinturas foram feitas com pigmentos minerais, em tons de vermelho, amarelo, p
 ### De onde vem o nome
 
 Há mais de uma explicação para o nome. A mais citada liga "Paridas" a uma das pinturas, que lembraria uma mulher grávida de cócoras. Outra versão, contada por fazendeiros da região, fala das vacas que costumavam parir no local. Os moradores mais antigos chamavam a área de Serra das Guaribas.
+
+![Pinturas rupestres sobrepostas em vermelho e amarelo no paredão de arenito da Serra das Paridas, com linhas paralelas, formas curvas e figuras de traço fino](../../assets/blog/serra-das-paridas/serra-das-paridas-pinturas-sobrepostas.jpg "4/3 50%,40% | Pinturas sobrepostas, em vermelho e amarelo. Foto: Alan Primo")
+
+![Grafismos em forma de arcos e linhas paralelas pintados em vermelho-claro sobre o arenito rosado da Serra das Paridas](../../assets/blog/serra-das-paridas/serra-das-paridas-arcos-pintados.jpg "4/3 50%,45% | Grafismos em arco num dos painéis. Foto: Alan Primo")
 
 ## Como é a visita
 
@@ -70,6 +83,8 @@ Entre os abrigos, a trilha chega a mirantes naturais com vista para a serra, um 
 :::alerta
 A visita não pode ser feita por conta própria. É obrigatório contratar um guia credenciado ou uma agência e comprar o voucher com antecedência em Lençóis, antes de seguir para o complexo. Os valores mais recentes do site oficial são de R$ 60 por pessoa de taxa de visitação, além do guia do parque. Ajude a preservar o sítio: não toque nas rochas nem nas pinturas, não use flash perto dos pigmentos e siga só as trilhas e passarelas demarcadas.
 :::
+
+![Grandes blocos de arenito arredondados empilhados num abrigo da Serra das Paridas, com pinturas em vermelho e amarelo no centro da parede](../../assets/blog/serra-das-paridas/serra-das-paridas-abrigo-blocos-arenito.jpg "4/3 50%,55% | Pinturas entre os blocos de arenito de um abrigo. Foto: Alan Primo")
 
 ## Como chegar e roteiro combinado
 

@@ -26,6 +26,18 @@ const { title, seoTitle, description, cover, coverAlt, coverPosition, coverCredi
 const { Content, headings } = await render(post);
 const stats = getReadingStats(post.body);
 const columnClass = 'mx-auto max-w-[752px] px-4';
+// Capas verticais são recortadas em 4:3 já no build: o CSS nunca mostra mais que isso, e baixar a foto
+// inteira só para cortá-la pesa no LCP do celular. O sharp aceita posições por nome, não em porcentagem.
+const focusY = Number(coverPosition.split(' ')[1]?.replace('%', '') ?? 50);
+const coverSize =
+  cover.height / cover.width > 0.76
+    ? {
+        width: cover.width,
+        height: Math.round((cover.width * 3) / 4),
+        fit: 'cover' as const,
+        position: focusY < 39 ? 'top' : focusY > 61 ? 'bottom' : 'centre',
+      }
+    : { width: 1920 };
 ---
 
 <BaseLayout
@@ -71,7 +83,7 @@ const columnClass = 'mx-auto max-w-[752px] px-4';
         <Image
           src={cover}
           alt={coverAlt}
-          width={1920}
+          {...coverSize}
           widths={[480, 768, 1024, 1280, 1600, 1920]}
           quality={72}
           sizes="(min-width: 1152px) 1120px, (min-width: 640px) calc(100vw - 2rem), 100vw"

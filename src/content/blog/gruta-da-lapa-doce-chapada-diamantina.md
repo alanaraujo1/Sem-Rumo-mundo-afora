@@ -24,6 +24,15 @@ tags:
   - cavernas
   - trilhas
   - roteiros
+fichaTecnica:
+  - label: "Onde fica"
+    value: "Iraquara, a cerca de 70 km de Lençóis"
+  - label: "Visita"
+    value: "Travessia guiada de cerca de 850 m"
+  - label: "Ambiente"
+    value: "Caverna no escuro total, com lampiões e lanternas"
+  - label: "Combina com"
+    value: "Fazenda Pratinha e Morro do Pai Inácio"
 draft: false
 ---
 
@@ -34,6 +43,8 @@ Este guia explica como funciona a travessia, as regras de conservação e como e
 ## Uma das maiores cavernas do Brasil
 
 A Lapa Doce fica em Iraquara, município conhecido como a "Cidade das Grutas" por reunir um dos maiores conjuntos de cavernas da América do Sul. Reportagens recentes falam em mais de 40 km de galerias já mapeadas, e guias locais a colocam entre as maiores cavernas topografadas do país. A gruta também já revelou ossadas fósseis e outros registros paleontológicos.
+
+![Paredão de calcário em camadas claras e amareladas inclinado sobre a descida da dolina da Gruta da Lapa Doce, com árvores finas e blocos de rocha avermelhada](../../assets/blog/gruta-da-lapa-doce/gruta-da-lapa-doce-paredao-dolina.jpg "wide 16/9 50%,48% | O paredão da dolina, na descida para a gruta. Foto: Alan Primo")
 
 ![Portal de madeira com placa de acesso à Gruta da Lapa Doce sobre uma trilha de terra vermelha, entre árvores e sob céu azul, com visitantes caminhando ao fundo](../../assets/blog/gruta-da-lapa-doce/gruta-da-lapa-doce-portal-trilha-de-acesso.jpg "4/3 50%,50% | O portal de acesso, no início da trilha até a gruta. Foto: Alan Primo")
 
@@ -68,6 +79,10 @@ O percurso termina numa galeria que leva à outra dolina, onde a luz do dia volt
 :::alerta
 A visita só é permitida com guia, contratado na portaria da propriedade. Ajude a conservar a caverna: não toque nas formações, porque a gordura das mãos interrompe o crescimento do calcário, que leva milhares de anos, e mancha a rocha. Não saia da trilha demarcada e evite usar flash forte no rosto de outros visitantes e do guia, que ficam ofuscados no escuro.
 :::
+
+![Galeria ampla da Gruta da Lapa Doce com teto de calcário em camadas e chão de areia alaranjada, com blocos de pedra claros em primeiro plano e lanternas distantes no fundo](../../assets/blog/gruta-da-lapa-doce/gruta-da-lapa-doce-galeria-de-areia.jpg "4/3 50%,55% | Uma galeria de chão de areia, iluminada pelas lanternas do grupo. Foto: Alan Primo")
+
+![Estalactites pendendo do teto escuro da Gruta da Lapa Doce, iluminadas por lanternas que revelam um salão de calcário amarelado no meio da escuridão](../../assets/blog/gruta-da-lapa-doce/gruta-da-lapa-doce-estalactites-reflexo.jpg "4/3 50%,35% | Estalactites no escuro do salão: só as lanternas revelam as formações. Foto: Alan Primo")
 
 ## Como chegar e roteiro pela região
 

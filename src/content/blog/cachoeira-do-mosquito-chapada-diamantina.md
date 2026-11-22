@@ -24,6 +24,15 @@ tags:
   - trilhas
   - cachoeiras
   - roteiros
+fichaTecnica:
+  - label: "Onde fica"
+    value: "Fazenda Santo Antônio, a cerca de 40 km de Lençóis"
+  - label: "Acesso"
+    value: "BR-242 e estrada de terra"
+  - label: "Trilha"
+    value: "15 a 20 minutos, a partir de um mirante"
+  - label: "Guia"
+    value: "Não é obrigatório"
 draft: false
 ---
 
@@ -71,6 +80,10 @@ Do mirante, a trilha desce até a base do cânion por uma sequência de escadas 
 
 ![Rio de águas escuras correndo sobre lajes de pedra acima do cânion da Cachoeira do Mosquito, entre encostas cobertas de mata e céu azul com nuvens](../../assets/blog/cachoeira-do-mosquito/rio-acima-cachoeira-do-mosquito-canion.jpg "wide 16/9 50%,62% | O rio que forma a cachoeira, correndo entre lajes antes do cânion. Foto: Alan Primo")
 
+![Cachoeira do Mosquito vista do alto, caindo entre paredões de rocha cobertos de mata no fundo de um cânion verde, com a serra ao fundo sob céu claro](../../assets/blog/cachoeira-do-mosquito/cachoeira-do-mosquito-queda-no-canion.jpg "4/3 50%,58% | A queda vista do alto do cânion. Foto: Alan Primo")
+
+![Rio de águas escuras correndo sobre lajedos rosados acima da Cachoeira do Mosquito, com tufos de capim nas pedras, mata na margem e céu azul com nuvens](../../assets/blog/cachoeira-do-mosquito/lajedo-rio-acima-cachoeira-do-mosquito.jpg "4/3 50%,62% | O rio sobre o lajedo, antes de despencar no cânion. Foto: Alan Primo")
+
 ## O banho no pé da cachoeira
 
 Lá embaixo, a recompensa é o poço grande de águas escuras e geladas, bem perto da queda. Entrar na água com o borrifo da cachoeira no rosto é o ponto alto do passeio, e a luz que atravessa a névoa rende ótimas fotos.
@@ -96,6 +109,8 @@ Não salte no poço: as águas escuras escondem pedras, e o leito muda com as ch
 - Protetor solar, chapéu e repelente.
 - Dinheiro ou cartão para a taxa da portaria.
 - Saco para trazer o lixo de volta.
+
+![Base da Cachoeira do Mosquito com a queda envolta em névoa ao fundo, entre um paredão de arenito à esquerda e a mata à direita, e grandes blocos de pedra no rio em primeiro plano](../../assets/blog/cachoeira-do-mosquito/cachoeira-do-mosquito-paredao-e-pedras.jpg "4/3 50%,60% | Os blocos de pedra na base da queda: a sapatilha faz diferença aqui. Foto: Alan Primo")
 
 ## Perguntas frequentes
 

@@ -24,6 +24,15 @@ tags:
   - cafe-especial
   - roteiros
   - ecoturismo
+fichaTecnica:
+  - label: "Onde fica"
+    value: "Sul da Chapada, a cerca de 146 km de Lençóis"
+  - label: "Duração"
+    value: "2 dias; 3 a 4 com Buracão e Poço Encantado"
+  - label: "Clima"
+    value: "Noites de serra, perto de 10 °C"
+  - label: "Estilo"
+    value: "Casario colonial e base para o sul"
 draft: false
 ---
 
@@ -46,6 +55,10 @@ O ritmo é pacato, e a cidade se percorre a pé com facilidade. Mucugê fica na 
 ### Cemitério Bizantino
 
 O cartão-postal de Mucugê é o Cemitério Santa Isabel, conhecido como Cemitério Bizantino. Os mausoléus brancos lembram pequenas fachadas de igrejas e ficam sobre um paredão de rocha, na beira da BA-142, com o Morro do Cruzeiro ao fundo.
+
+![Coruja-buraqueira pousada no chão de areia e capim entre cruzes brancas de madeira no Cemitério Santa Isabel, em Mucugê, com mausoléus brancos ao fundo](../../assets/blog/mucuge/coruja-buraqueira-cemiterio-santa-isabel-mucuge.jpg "4/3 50%,72% | Uma coruja-buraqueira entre as cruzes do cemitério. Foto: Alan Primo")
+
+![Detalhe de túmulos brancos com pináculos e ornamentos em relevo no Cemitério Bizantino de Mucugê, com a mata e o paredão de rocha ao fundo sob céu nublado](../../assets/blog/mucuge/tumulos-brancos-detalhe-cemiterio-bizantino.jpg "4/3 50%,55% | Os pináculos brancos dos túmulos. Foto: Alan Primo")
 
 A construção é associada a uma epidemia de cólera que atingiu a região em meados do século XIX. As fontes divergem sobre as datas: algumas citam 1855, e outras falam em obras de 1854 a 1886. O conjunto foi reconhecido pelo IPHAN em 1980.
 
@@ -86,6 +99,8 @@ O Poço Encantado fica a cerca de 46 km de Mucugê, perto de 1 hora de carro, co
 ### Parque Municipal de Mucugê e Projeto Sempre-Viva
 
 O Parque Natural Municipal de Mucugê fica na BA-142, cerca de 10 minutos de carro da cidade, no sentido de Andaraí. É ali que funciona o Projeto Sempre-Viva, criado para preservar as sempre-vivas, plantas que se conservam por décadas depois de colhidas. O parque também abriga o Museu Vivo do Garimpo, que conta a história da mineração na região.
+
+![Pequena queda do Rio Cumbuca descendo em degraus de rocha cor de ferrugem, com a água escura e espumante em primeiro plano e a encosta de pedra e mata ao fundo](../../assets/blog/mucuge/queda-rio-cumbuca-mucuge.jpg "4/3 50%,60% | Uma das quedas do Rio Cumbuca. Foto: Alan Primo")
 
 As trilhas até as cachoeiras são descritas como praticamente planas. A Cachoeira do Piabinha fica a poucos minutos da trilha principal, e a Cachoeira do Tiburtino, cerca de 25 minutos adiante, segundo relatos de visitantes.
 
@@ -134,6 +149,8 @@ Antes de pegar a estrada de terra até a fazenda, entre em contato pelo Instagra
 ### Outras fazendas de café na região
 
 Outras propriedades também recebem visitantes para mostrar o processo, do pé à xícara. A Latitude 13, por exemplo, reúne duas fazendas em Mucugê e torra na origem desde 2015. Na divisa entre Mucugê e Ibicoara, o Agrocafé Igaraçu oferece uma imersão no processo do café.
+
+![Peneira redonda com grãos de café verdes e amarelos sobre um terreiro suspenso de madeira no Licuri Experience, em Mucugê, com frutos alaranjados em primeiro plano](../../assets/blog/mucuge/secagem-cafe-peneira-mucuge.jpg "4/3 50%,50% | Café em diferentes pontos de secagem no Licuri Experience. Foto: Alan Primo")
 
 ## Gastronomia da serra
 

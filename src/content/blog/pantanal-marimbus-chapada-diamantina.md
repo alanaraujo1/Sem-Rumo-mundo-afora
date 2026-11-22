@@ -24,6 +24,15 @@ tags:
   - lencois
   - chapada-diamantina
   - passeio-de-barco
+fichaTecnica:
+  - label: "Onde fica"
+    value: "Andaraí e Comunidade Quilombola do Remanso"
+  - label: "Acesso"
+    value: "4 km de Andaraí ou 40 min de carro de Lençóis"
+  - label: "Passeio"
+    value: "Canoa com remadores locais"
+  - label: "Ritmo"
+    value: "Contemplativo, sem subidas"
 draft: false
 ---
 
@@ -41,6 +50,8 @@ A região faz parte da Área de Proteção Ambiental Marimbus-Iraquara, criada e
 
 ![Aguapés em primeiro plano ao longo de um canal do Pantanal Marimbus, com a água espelhando as nuvens, um campo verde alagado e a serra azulada no horizonte](../../assets/blog/fazenda-marimbus/passeio-de-barco-fazenda-marimbus.jpg "wide 16/9 50%,45% | A planície alagada do Marimbus, com a serra ao fundo. Foto: Alan Primo")
 
+![Nuvens brancas e céu azul refletidos na água parada do Pantanal Marimbus, com uma faixa de plantas aquáticas e a serra ao fundo](../../assets/blog/fazenda-marimbus/reflexo-nuvens-marimbus.jpg "4/3 50%,62% | Nos dias sem vento, a lagoa vira espelho. Foto: Alan Primo")
+
 ## Como é o passeio de barco
 
 O passeio costuma ser feito em canoas conduzidas por remadores locais, que conhecem os canais. A canoa avança devagar, em silêncio, alternando canais estreitos entre a vegetação e lagoas abertas, onde a água parada vira um espelho.
@@ -56,6 +67,8 @@ O ritmo é contemplativo: dá tempo de fotografar os reflexos, observar as plant
 ## Como chegar e combinar com o Rio Roncador
 
 Há duas portas de entrada principais para o Marimbus.
+
+![Proa branca de canoa avançando sobre a água azul-escura e ondulada de uma lagoa do Pantanal Marimbus, com a mata na margem e céu azul com nuvens](../../assets/blog/fazenda-marimbus/proa-canoa-marimbus-horizonte.jpg "wide 16/9 50%,55% | A proa da canoa abrindo caminho pela lagoa. Foto: Alan Primo")
 
 | Acesso | Onde fica | Observação |
 |---|---|---|

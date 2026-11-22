@@ -88,6 +88,8 @@ Os atrativos ficam longe uns dos outros, e as distâncias pesam mais do que pare
 
 Há três formas de se organizar: **passeios por agência**, que incluem transporte e guia; **carro alugado com guia contratado à parte**; ou uma combinação das duas. Sem carro, as agências de Lençóis são o caminho mais prático. Peça por escrito o que está incluído, principalmente almoço, ingressos e tamanho do grupo.
 
+![A BR-242 cortando em linha reta o vale verde aos pés dos morros tabulares, vista do alto do Morro do Pai Inácio, com o paredão iluminado pelo sol do fim de tarde e céu com nuvens](../../assets/blog/roteiro-chapada/vale-br-242-vista-do-pai-inacio.jpg "4/3 50%,55% | A BR-242 atravessa o vale aos pés do Morro do Pai Inácio, a 26 km de Lençóis. Foto: Alan Primo")
+
 ## Melhor época para visitar
 
 Não existe uma única época ideal: a escolha é entre trilhas mais secas e cachoeiras mais cheias.
@@ -138,6 +140,10 @@ Escolha a versão conforme a sua prioridade.
 | 5 | [Pantanal Marimbus](/blog/pantanal-marimbus-chapada-diamantina/) e [Rio Roncador](/blog/rio-roncador-chapada-diamantina/), ou Igatu, e retorno | Morro do Pai Inácio e retorno |
 
 A versão com o Pati deixa de fora os poços e a Fumaça, e tem pouca margem para atrasos. Na dúvida, prefira a versão sem o trekking ou acrescente dias à viagem.
+
+![Rio de águas escuras descendo entre lajes avermelhadas no fundo de um cânion coberto de mata, visto do alto, na região da Cachoeira do Mosquito, sob céu azul com nuvens](../../assets/blog/roteiro-chapada/rio-mosquito-poco-vista-do-canion.jpg "4/3 50%,62% | O rio no cânion da Cachoeira do Mosquito, visto do alto. Foto: Alan Primo")
+
+![Lagoa do Pantanal Marimbus com a água escura e parada refletindo o céu azul e as nuvens brancas, entre margens de plantas aquáticas e a serra ao fundo](../../assets/blog/roteiro-chapada/lagoa-marimbus-ceu-refletido.jpg "4/3 50%,60% | O céu refletido numa lagoa do Pantanal Marimbus. Foto: Alan Primo")
 
 ## Morro do Pai Inácio: a subida e o pôr do sol
 
@@ -221,6 +227,8 @@ As recomendações abaixo são do ICMBio:
 - Se for acampar, use as áreas já estabelecidas e evite a beira de rios e as cavernas.
 
 A entrada no Parque Nacional é gratuita, mas atrativos em áreas municipais ou privadas cobram à parte. Em dezembro de 2025, a Câmara de Palmeiras também aprovou uma taxa de turismo para o Vale do Capão. Não confirmamos se ela já está em vigor, então verifique se o seu roteiro passar por lá.
+
+![Placa marrom de madeira com o texto Parque Nacional da Chapada Diamantina, na beira de uma estrada de terra vermelha, diante de arbustos e árvores do cerrado](../../assets/blog/roteiro-chapada/placa-parque-nacional-chapada-diamantina.jpg "4/3 50%,58% | A placa do Parque Nacional da Chapada Diamantina, perto de Mucugê. Foto: Alan Primo")
 
 ## Perguntas frequentes
 

@@ -24,6 +24,15 @@ tags:
   - gastronomia
   - roteiros
   - ecoturismo
+fichaTecnica:
+  - label: "Papel na viagem"
+    value: "A base mais prática da Chapada"
+  - label: "Tempo na cidade"
+    value: "Ao menos 1 dia, além dos passeios"
+  - label: "Desde Salvador"
+    value: "Cerca de 400 km; de 6h40 a 7 h de ônibus"
+  - label: "Estilo"
+    value: "Centro histórico, poços e trilhas a pé"
 draft: false
 ---
 
