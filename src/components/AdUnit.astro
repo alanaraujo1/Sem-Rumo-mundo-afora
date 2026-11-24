@@ -1,0 +1,13 @@
+---
+import { adUnitHtml } from '../lib/ads.mjs';
+
+interface Props {
+  slot: string;
+  format?: 'auto' | 'fluid';
+  label?: string;
+}
+
+const { slot, format = 'auto', label = 'Publicidade' } = Astro.props;
+---
+
+<Fragment set:html={adUnitHtml({ slot, format, label })} />

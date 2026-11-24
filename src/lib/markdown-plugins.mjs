@@ -1,3 +1,4 @@
+import { AD_SLOTS, adUnitHtml } from './ads.mjs';
 const CALLOUTS = {
   dica: 'Dica do Alan',
   alerta: 'Alerta Prático',
@@ -184,5 +185,23 @@ export const figurePlugin = {
         ],
       });
     },
+  },
+};
+
+// Títulos de fechamento: o anúncio do meio nunca entra logo antes deles.
+const CLOSING_SECTIONS = /^(perguntas frequentes|fontes consultadas|próxima parada|fim da viagem)/i;
+
+/**
+ * Bloco de anúncio do meio do artigo, antes do 4º <h2> (ou do 3º, se o 4º já for uma seção de fechamento).
+ * Entra entre seções, então nunca separa pares de fotos, galerias ou tabelas. A página decide se os anúncios
+ * aparecem (artigos com mais de 800 palavras); nos demais, o bloco fica oculto e nenhum script é carregado.
+ */
+export const adPlugin = {
+  name: 'ads',
+  before(root, ctx) {
+    const sections = root.children.filter((node) => node.type === 'element' && node.tagName === 'h2');
+    const target = [sections[3], sections[2]].find((h2) => h2 && !CLOSING_SECTIONS.test(ctx.textContent(h2).trim()));
+    if (!target) return;
+    ctx.insertBefore(target, { type: 'raw', value: adUnitHtml({ slot: AD_SLOTS.articleMiddle }) });
   },
 };

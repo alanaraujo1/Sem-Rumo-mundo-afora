@@ -3,12 +3,14 @@ import type { GetStaticPaths } from 'astro';
 import { type CollectionEntry, render } from 'astro:content';
 import { Image } from 'astro:assets';
 import AuthorAvatar from '../../components/AuthorAvatar.astro';
+import AdUnit from '../../components/AdUnit.astro';
 import AuthorBox from '../../components/AuthorBox.astro';
 import FichaTecnica from '../../components/FichaTecnica.astro';
 import Lightbox from '../../components/Lightbox.astro';
 import TableOfContents from '../../components/TableOfContents.astro';
 import { AUTHOR_NAME, tagLabel } from '../../consts';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { AD_CLIENT, AD_MIN_WORDS, AD_SLOTS } from '../../lib/ads.mjs';
 import { formatDate, getPosts, getReadingStats } from '../../lib/posts';
 import '../../styles/article.css';
 
@@ -25,6 +27,8 @@ const { post } = Astro.props;
 const { title, seoTitle, description, cover, coverAlt, coverPosition, coverCredit, pubDate, updatedDate, author, tags, destination, fichaTecnica } = post.data;
 const { Content, headings } = await render(post);
 const stats = getReadingStats(post.body);
+// Anúncios só em artigos longos; nos demais, o bloco do meio (posto pelo plugin de Markdown) fica oculto.
+const showAds = stats.wordCount > AD_MIN_WORDS;
 const columnClass = 'mx-auto max-w-[752px] px-4';
 // Capas verticais são recortadas em 4:3 já no build: o CSS nunca mostra mais que isso, e baixar a foto
 // inteira só para cortá-la pesa no LCP do celular. O sharp aceita posições por nome, não em porcentagem.
@@ -113,9 +117,15 @@ const coverSize =
       <div class:list={[fichaTecnica && 'mt-6']}>
         <TableOfContents headings={headings} />
       </div>
-      <div class="article-body prose prose-lg prose-stone prose-a:text-teal-700 prose-code:before:content-none prose-code:after:content-none prose-p:leading-[1.7] mt-10 max-w-none">
+      <div
+        class:list={[
+          'article-body prose prose-lg prose-stone prose-a:text-teal-700 prose-code:before:content-none prose-code:after:content-none prose-p:leading-[1.7] mt-10 max-w-none',
+          !showAds && 'ads-off',
+        ]}
+      >
         <Content />
       </div>
+      {showAds && <AdUnit slot={AD_SLOTS.articleEnd} />}
       <div class="mt-12 flex flex-wrap items-baseline gap-x-3 gap-y-1 border-t border-stone-200 pt-5 text-sm">
         <p class="text-xs font-semibold tracking-[0.14em] text-stone-500 uppercase">Temas</p>
         <ul class="flex flex-wrap text-stone-700" aria-label="Temas do artigo">
@@ -126,4 +136,35 @@ const coverSize =
     </div>
   </article>
   <Lightbox />
+  {
+    showAds && (
+      <script is:inline define:vars={{ client: AD_CLIENT }}>
+        // O adsbygoogle.js só é baixado na primeira interação (ou depois de 3,5 s), para não disputar banda com a
+        // foto de capa (LCP). O Consent Mode v2 já foi definido no <head>, então o AdSense lê a escolha do visitante.
+        (() => {
+          let started = false;
+          const events = ['scroll', 'pointerdown', 'keydown', 'touchstart'];
+          const start = () => {
+            if (started) return;
+            started = true;
+            events.forEach((name) => window.removeEventListener(name, start));
+            const script = document.createElement('script');
+            script.async = true;
+            script.crossOrigin = 'anonymous';
+            script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}`;
+            document.head.appendChild(script);
+            window.adsbygoogle = window.adsbygoogle || [];
+            // Um push por bloco visível, e nunca duas vezes no mesmo <ins>.
+            document.querySelectorAll('ins.adsbygoogle:not([data-ad-requested])').forEach((ins) => {
+              if (!ins.offsetParent) return;
+              ins.dataset.adRequested = 'true';
+              window.adsbygoogle.push({});
+            });
+          };
+          events.forEach((name) => window.addEventListener(name, start, { once: true, passive: true }));
+          setTimeout(start, 3500);
+        })();
+      </script>
+    )
+  }
 </BaseLayout>

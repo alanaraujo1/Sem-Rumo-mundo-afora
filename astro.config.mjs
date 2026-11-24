@@ -3,7 +3,7 @@ import { satteri } from '@astrojs/markdown-satteri';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig, fontProviders } from 'astro/config';
-import { calloutPlugin, figurePlugin } from './src/lib/markdown-plugins.mjs';
+import { adPlugin, calloutPlugin, figurePlugin } from './src/lib/markdown-plugins.mjs';
 import { trailingSlashRedirects } from './src/lib/trailing-slash-redirects.mjs';
 
 export default defineConfig({
@@ -33,7 +33,7 @@ export default defineConfig({
     processor: satteri({
       features: { directive: true },
       mdastPlugins: [calloutPlugin],
-      hastPlugins: [figurePlugin],
+      hastPlugins: [figurePlugin, adPlugin],
     }),
   },
   vite: {

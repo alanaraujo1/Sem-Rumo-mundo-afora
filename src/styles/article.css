@@ -238,3 +238,8 @@
 .toc-list > li > ol {
   grid-column: 2;
 }
+
+/* Artigos curtos não exibem anúncios: o bloco do meio, posto pelo plugin de Markdown, fica oculto. */
+.ads-off .ad-unit {
+  display: none;
+}

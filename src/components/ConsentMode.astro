@@ -7,7 +7,8 @@ const gtmId = import.meta.env.PROD ? GTM_ID : null;
 
 <!--
   Google Consent Mode v2: tudo começa negado. O GTM só é baixado depois de um
-  consentimento, então quem não aceitou não carrega nenhum script de terceiros.
+  consentimento. O AdSense dos artigos é carregado à parte (ver src/pages/blog/[...slug].astro) e lê
+  este default: sem consentimento, só anúncios não personalizados.
 -->
 <script is:inline define:vars={{ gtmId }}>
   const KEY = 'cookie-consent';
