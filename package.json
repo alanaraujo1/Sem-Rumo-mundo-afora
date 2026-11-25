@@ -11,7 +11,8 @@
     "og": "node scripts/generate-og.mjs",
     "prebuild": "node scripts/generate-og.mjs",
     "ga4": "node scripts/ga4-report.mjs",
-    "gsc": "node scripts/gsc-report.mjs"
+    "gsc": "node scripts/gsc-report.mjs",
+    "photos": "node scripts/photos-picker.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.12",

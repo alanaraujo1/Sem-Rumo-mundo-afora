@@ -24,6 +24,15 @@ Antes de otimizar artigos existentes ou planejar novos conteúdos, consulte o de
 Use `npm run gsc` para ver buscas, páginas e oportunidades (páginas entre a 8ª e a 20ª posição, com a busca principal de cada uma) antes de otimizar artigos. Mesmas opções do GA4: `--days`, `--limit` e `--json`. Os dados têm uns 2 dias de atraso.
 - Os números incluem apenas visitantes que aceitaram cookies de análise (Consent Mode v2 com tudo negado por padrão), então subestimam o tráfego real.
 
+## Mídias do Google Photos
+`npm run photos -- --dest <pasta>` abre o Google Photos no navegador para eu marcar fotos e vídeos e baixa os escolhidos em resolução original (fotos com `=d`, vídeos com `=dv`) pela Google Photos Picker API.
+- Script: `scripts/photos-picker.mjs`. Projeto `sem-rumo-analytics`, API `photospicker.googleapis.com`, escopo somente leitura `photospicker.mediaitems.readonly`.
+- Credenciais fora do Git: cliente OAuth desktop em `~/.config/gcloud/photos-oauth.json` e refresh token em `~/.config/gcloud/photos-token.json` (permissão 600, criado no primeiro login). Nunca copie esses arquivos para o repositório nem os envie ao Gemini.
+- Cada arquivo baixado fica com a data de captura como data de modificação, e a pasta ganha um `photos-manifest.json` com tipo, data de captura, dimensões, câmera e metadados de foto/vídeo de cada item.
+- Destino recomendado: uma pasta em `fotos-originais/<destino>/` (fora do Git) ou no SSD/Documents. Não baixe direto em `src/assets/`: os originais podem trazer EXIF e GPS e são pesados demais para o repositório.
+- Para artigos (Torres del Paine, El Calafate, El Chaltén e próximos): leia o `photos-manifest.json` para ordenar por horário e montar as legendas com hora, escolha as fotos, aplique a rotina de fotos do blog (LUT, conversão para `.webp` sem EXIF/GPS, lado maior até 1600 px) e só então grave em `src/assets/blog/<slug>/`.
+- Para Reels: use os vídeos baixados como fonte; os do iPhone costumam vir em HEVC HDR (HLG), então aplique o tone mapping HDR→SDR antes da cor.
+
 ## Protocolo de Revisão com Gemini
 Sempre que eu pedir uma "segunda opinião", "revisão cruzada" ou "debate de planejamento":
 1. Use as ferramentas do servidor MCP `gemini-cli` (wrapper `gemini-mcp-tool`, configurado em `.mcp.json`), por exemplo `ask-gemini`.
