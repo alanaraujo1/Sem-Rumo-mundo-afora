@@ -1,6 +1,7 @@
 ---
 title: 'Roteiro Completo pela Chapada Diamantina: O Guia Definitivo'
-description: 'Roteiro de 5 a 7 dias pela Chapada Diamantina com Lençóis, Vale do Pati, poços e cachoeiras: melhor época, transporte e custos médios.'
+seoTitle: 'Roteiro Chapada Diamantina: quantos dias ficar e o que fazer'
+description: 'Quantos dias ficar na Chapada Diamantina e roteiros de 4 a 10 dias com Lençóis, Vale do Pati, poços e grutas: melhor época, transporte e custos.'
 category: 'Roteiros'
 pubDate: 2026-11-04
 author: 'Alan Primo'
@@ -38,6 +39,19 @@ draft: false
 Sete dias são o tempo ideal para uma primeira viagem à Chapada Diamantina: dá para conhecer Lençóis, a Cachoeira da Fumaça, o Morro do Pai Inácio, os poços de água azul e ainda fazer um trekking de três dias no Vale do Pati. Com cinco dias, é preciso escolher entre o Pati e os demais atrativos.
 
 Este guia reúne a logística, a melhor época, duas versões de roteiro e uma estimativa de custos. **Preços e regras foram pesquisados em novembro de 2026** e mudam com frequência, por isso confirme os valores antes de fechar a viagem. As fontes estão listadas no fim do artigo.
+
+## Quantos dias ficar na Chapada Diamantina
+
+**Resposta curta: de 5 a 7 dias.** Cinco dias cobrem os principais atrativos a partir de Lençóis, e sete permitem incluir o Vale do Pati sem correria. Com 4 dias, dá para o essencial; com 10, sobra tempo para as grutas de Iraquara e para o sul da Chapada.
+
+| Dias | O que cabe | Para quem |
+|---|---|---|
+| 4 | Lençóis e Serrano; Cachoeira da Fumaça e Morro do Pai Inácio; Poço Encantado e Poço Azul; [Gruta da Pratinha e Gruta Azul](/blog/gruta-da-pratinha-chapada-diamantina/) | Quem tem só um feriado, sem trekking e com pouca folga |
+| 5 | O [roteiro de 5 dias](#roteiro-de-5-dias), com ou sem o Vale do Pati | A primeira viagem, no ritmo certo |
+| 7 | O [roteiro de 7 dias](#roteiro-de-7-dias-com-o-vale-do-pati), com três dias no Vale do Pati e um dia reserva | Quem quer o trekking mais famoso da Chapada |
+| 10 | Os 7 dias, mais [Iraquara](/blog/gruta-da-lapa-doce-chapada-diamantina/) (Lapa Doce, Pratinha e Gruta Azul), [Mucugê](/blog/o-que-fazer-em-mucuge-chapada-diamantina/) e Igatu, e o [Pantanal Marimbus](/blog/pantanal-marimbus-chapada-diamantina/) | Quem quer ver as várias regiões da Chapada |
+
+Sem carro, os passeios dependem dos horários das agências e dos transfers, o que deixa o roteiro menos flexível. Na época de chuva, de novembro a março, reserve um dia de folga para trilhas canceladas.
 
 ## Resumo da viagem
 
@@ -234,7 +248,7 @@ A entrada no Parque Nacional é gratuita, mas atrativos em áreas municipais ou 
 
 ### Quantos dias são necessários na Chapada Diamantina?
 
-Cinco dias permitem conhecer os principais atrativos a partir de Lençóis. Para incluir o Vale do Pati sem correria, considere ao menos sete.
+Quatro dias dão para o essencial a partir de Lençóis, com pouca folga. Cinco permitem conhecer os principais atrativos sem o Vale do Pati, sete incluem o Pati sem correria, e dez somam Iraquara, Mucugê e Igatu.
 
 ### Dá para ir à Chapada Diamantina sem carro?
 

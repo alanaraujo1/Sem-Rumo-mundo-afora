@@ -1,7 +1,7 @@
 ---
-title: 'Gruta da Pratinha e Gruta Azul na Chapada Diamantina: Flutuação, Como Chegar e Dicas'
-seoTitle: 'Gruta da Pratinha e Gruta Azul: Flutuação e Como Chegar'
-description: 'Guia da Fazenda Pratinha, em Iraquara: flutuação na Gruta da Pratinha, o feixe de sol da Gruta Azul, regras, como chegar e roteiro com a Lapa Doce.'
+title: 'Gruta da Pratinha e Gruta Azul na Chapada Diamantina: Flutuação, Horário do Sol e Preços'
+seoTitle: 'Gruta da Pratinha e Gruta Azul na Chapada Diamantina'
+description: 'Gruta da Pratinha e Gruta Azul, em Iraquara: flutuação, horário do feixe de sol, preços, como combinar as duas no mesmo dia e roteiro com a Lapa Doce.'
 category: 'Destinos'
 pubDate: 2026-11-12
 author: 'Alan Primo'
@@ -32,7 +32,9 @@ fichaTecnica:
   - label: "Flutuação"
     value: "25 a 30 minutos, paga à parte"
   - label: "Gruta Azul"
-    value: "Feixe de sol por volta das 14h às 15h"
+    value: "Feixe de sol no início da tarde; incluída na entrada"
+  - label: "Entrada"
+    value: "R$ 90 a R$ 110; flutuação, R$ 100"
 draft: false
 ---
 
@@ -80,9 +82,31 @@ Leve sapatilha aquática: as margens e o acesso ao rio têm pedras lisas e irreg
 
 ![Manchas de luz azul-turquesa na água escura da Gruta Azul, sob camadas de rocha do teto, com o guarda-corpo de madeira do mirante em primeiro plano](../../assets/blog/gruta-da-pratinha/gruta-azul-feixe-de-luz-agua.jpg "4/3 50%,62% | A luz mudando de forma na água, às 14h25. Foto: Alan Primo")
 
+## Pratinha e Gruta Azul no mesmo dia: horários, valores e logística
+
+Visitei a Fazenda Pratinha em 27 de maio de 2026. Cheguei por volta das 13h15 e fiquei até depois das 15h30. Foram pouco mais de duas horas, o bastante para o rio e para pegar o feixe de sol na Gruta Azul. Quem quiser fazer também a flutuação e almoçar com calma deve chegar mais cedo.
+
+**A ordem que funciona.** Comece pelo rio e pela flutuação na Gruta da Pratinha, almoce na fazenda e deixe a Gruta Azul para o início da tarde. O horário mais citado para o feixe de sol é entre 14h e 15h, mas, no fim de maio, às 13h44 a luz já acendia o fundo do poço. Às 14h25, ela tinha se espalhado em manchas pela água. O feixe depende da posição do sol, por isso muda ao longo do ano. Na dúvida, chegue à Gruta Azul um pouco antes das 14h e espere.
+
+| Item | Valor ou referência |
+|---|---|
+| Entrada (day use) | R$ 90 na baixa temporada e R$ 110 na alta; meia de R$ 45 e R$ 55 |
+| Meia-entrada | Idosos a partir de 60 anos e pessoas com deficiência, com documento com foto |
+| Crianças | Até 9 anos não pagam entrada |
+| Gruta Azul | Incluída na entrada; só contemplação, sem banho |
+| Flutuação na Gruta da Pratinha | R$ 100 por pessoa, de 25 a 30 minutos, com snorkel, colete e guia |
+| Horário | Todos os dias, das 8h às 16h, com permanência até as 17h |
+| Alta temporada | De 27 de dezembro a 17 de fevereiro, julho e feriados prolongados |
+
+Os valores são da tabela publicada pela fazenda, sem data, e podem mudar sem aviso. A entrada é paga na portaria e inclui o estacionamento.
+
+:::logistica
+Para não correr: chegue entre 10h e 11h, faça o rio e a flutuação, almoce no restaurante da fazenda e siga para a Gruta Azul por volta das 13h30. Saindo às 15h, ainda dá tempo de ver o pôr do sol no Morro do Pai Inácio a caminho de Lençóis. Para ver também a Lapa Doce, faça a gruta logo cedo e venha para a Pratinha em seguida.
+:::
+
 ## Como chegar e roteiro pela região
 
-A Fazenda Pratinha fica em Iraquara, a cerca de 70 a 75 km de Lençóis e a poucos quilômetros da [Gruta da Lapa Doce](/blog/gruta-da-lapa-doce-chapada-diamantina/). Segundo a fazenda, a rota principal a partir de Lençóis é mais longa, mas permite a passagem de ônibus; a alternativa encurta o caminho, com cerca de 15 km de estrada de terra. O horário mais citado é das 8h às 16h.
+A Fazenda Pratinha fica em Iraquara, a cerca de 70 a 75 km de Lençóis e a poucos quilômetros da [Gruta da Lapa Doce](/blog/gruta-da-lapa-doce-chapada-diamantina/). Segundo a fazenda, a rota principal a partir de Lençóis é mais longa, mas permite a passagem de ônibus; a alternativa encurta o caminho, com cerca de 15 km de estrada de terra. Segundo a tabela da fazenda, ela abre todos os dias, das 8h às 16h, com permanência até as 17h.
 
 :::logistica
 A fazenda tem estacionamento, restaurante, cafeteria e banheiros, além das atividades opcionais, como tirolesa e foto subaquática, cobradas à parte. O roteiro clássico de um dia é visitar a Lapa Doce pela manhã, seguir para a Pratinha para almoçar, fazer a flutuação e ver a Gruta Azul no início da tarde, e fechar com o pôr do sol no [Morro do Pai Inácio](/blog/morro-do-pai-inacio-chapada-diamantina/), no caminho de volta para Lençóis.
@@ -98,9 +122,13 @@ Não. Na Gruta Azul a visita é só de contemplação. O banho e a flutuação a
 
 No início da tarde, por volta das 14h às 15h, quando o feixe de sol ilumina o poço. O fenômeno depende da época do ano, então confirme com a fazenda.
 
-### Quanto custa?
+### Quanto custa a Gruta da Pratinha e a Gruta Azul?
 
-A entrada e a flutuação são cobradas separadamente, e os valores publicados variam muito entre as fontes. Confirme a tabela atual com a fazenda antes de ir.
+Pela tabela da fazenda, a entrada custa R$ 90 na baixa temporada e R$ 110 na alta, com meia-entrada para idosos a partir de 60 anos e pessoas com deficiência, e já inclui a visita à Gruta Azul. A flutuação na Gruta da Pratinha custa R$ 100 à parte. Crianças até 9 anos não pagam entrada.
+
+### Dá para ver a Pratinha e a Gruta Azul no mesmo dia?
+
+Sim, as duas ficam na mesma fazenda e entram no mesmo ingresso. Faça o rio e a flutuação primeiro e deixe a Gruta Azul para o início da tarde, quando o feixe de sol aparece. Eu cheguei por volta das 13h15, em maio, e às 13h44 a luz já iluminava o fundo do poço.
 
 ## Fontes consultadas
 
@@ -108,6 +136,7 @@ Acesso em novembro de 2026.
 
 - [Fazenda Pratinha: site oficial](https://www.fazendapratinha.com.br/)
 - [Fazenda Pratinha: flutuação na Gruta Pratinha](https://www.fazendapratinha.com.br/flutuacao-na-gruta-pratinha/)
+- [Fazenda Pratinha: tabela de preços](https://www.fazendapratinha.com.br/tabela-de-precos/)
 - [Melhores Destinos: Gruta da Pratinha e Gruta Azul](https://guia.melhoresdestinos.com.br/gruta-da-pratinha-e-gruta-azul-221-6131-l.html)
 - [Quanto Custa Viajar: Gruta da Pratinha e Gruta Azul](https://quantocustaviajar.com/blog/gruta-da-pratinha-e-gruta-azul/)
 - [Mala de Aventuras: Gruta da Pratinha e Gruta Azul](https://maladeaventuras.com/chapada-diamantina-conheca-a-gruta-da-pratinha-e-a-gruta-azul/)
