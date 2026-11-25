@@ -199,6 +199,10 @@ O preço de uma viagem de motorhome no Alasca vai muito além da diária. Na hor
 Reserve com bastante antecedência e fique de olho nas promoções. Nós reservamos o motorhome meses antes, aproveitando uma promoção de Black Friday, o que reduziu bastante o valor da diária e dos pacotes de milhas para maio.
 :::
 
+## Guias de cada região
+
+Para cada etapa da viagem, há um guia com o que fizemos, distâncias e dicas práticas: o [roteiro completo de 16 dias](/blog/roteiro-alasca-16-dias-motorhome/), o [Denali em maio](/blog/denali-national-park-em-maio-alasca/), [Fairbanks, Chena Hot Springs e North Pole](/blog/fairbanks-chena-hot-springs-north-pole-alasca/), a [Dalton Highway e o Círculo Polar Ártico](/blog/dalton-highway-circulo-polar-artico-alasca/), [Valdez e a Richardson Highway](/blog/valdez-richardson-highway-thompson-pass-alasca/), [Seward e o Exit Glacier](/blog/seward-exit-glacier-alasca/), [Homer e a Península Kenai](/blog/homer-peninsula-kenai-alasca/) e [Whittier e o Túnel Anton Anderson](/blog/whittier-tunel-anton-anderson-alasca/).
+
 ## Perguntas frequentes
 
 ### Dá para levar um motorhome alugado até o Círculo Polar Ártico?

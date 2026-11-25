@@ -65,6 +65,19 @@ Este guia é o ponto de partida do nosso conteúdo sobre o Alasca. Ele reúne a 
 
 **Transporte:** motorhome da Cruise America, retirado e devolvido em Anchorage. Dormimos nele as 15 noites.
 
+## Guias de cada região
+
+Cada etapa deste roteiro tem um guia próprio, com fotos, distâncias e dicas práticas:
+
+- [Viajar de motorhome no Alasca: aluguel, campings, frio e logística](/blog/viajar-de-motorhome-no-alasca/)
+- [Denali em maio: Park Road, trilhas e a montanha](/blog/denali-national-park-em-maio-alasca/)
+- [Fairbanks, Chena Hot Springs e North Pole](/blog/fairbanks-chena-hot-springs-north-pole-alasca/)
+- [Dalton Highway e Círculo Polar Ártico](/blog/dalton-highway-circulo-polar-artico-alasca/)
+- [Valdez e Richardson Highway: Thompson Pass, geleiras e cachoeiras](/blog/valdez-richardson-highway-thompson-pass-alasca/)
+- [Seward e Exit Glacier](/blog/seward-exit-glacier-alasca/)
+- [Homer e Península Kenai](/blog/homer-peninsula-kenai-alasca/)
+- [Whittier e o Túnel Anton Anderson](/blog/whittier-tunel-anton-anderson-alasca/)
+
 ## Por que um circuito saindo e voltando a Anchorage
 
 Anchorage tem o maior aeroporto do estado e concentra as locadoras de motorhome. Retirar e devolver o veículo no mesmo lugar simplifica o aluguel e permite desenhar o roteiro como um grande laço: subir pelo interior, onde estão o Denali, Fairbanks e a Dalton Highway, voltar pelo leste, por Tok e pela região dos vulcões Wrangell, e descer até o litoral de Valdez antes de fechar a viagem na Península Kenai.
@@ -133,7 +146,7 @@ No fim da tarde, seguimos para o norte até Palmer, no vale do Matanuska. A cida
 
 O pico do Denali, o mais alto da América do Norte, ficou escondido nas nuvens o dia inteiro. Isso é comum: a montanha cria o próprio tempo e passa boa parte do ano encoberta. Se ver o pico for prioridade, reserve mais de um dia no parque.
 
-No fim do dia, seguimos para o norte até Fairbanks e chegamos ao camping de Chena Lakes depois da meia-noite, ainda com o céu claro.
+No fim do dia, seguimos para o norte até Fairbanks e chegamos ao camping de Chena Lakes depois da meia-noite, ainda com o céu claro. A trilha, a Park Road em maio e as chances de ver a montanha estão no [guia do Denali em maio](/blog/denali-national-park-em-maio-alasca/).
 
 :::alerta
 A partir de 20 de maio, os ônibus de trânsito começam a operar e os carros particulares ficam restritos até Savage River, na milha 15. A data de abertura até Teklanika depende da neve e muda a cada ano. Confira os avisos do Serviço Nacional de Parques antes de ir.
@@ -149,11 +162,13 @@ O ponto alto do resort é o Rock Lake, um lago termal ao ar livre cercado de ped
 
 ![Lago calmo com placas de gelo refletindo a floresta e a lua num céu azul, às 23h, na Chena Hot Springs Road, perto de Fairbanks](../../assets/blog/roteiro-alasca/lago-chena-hot-springs-road-noite-clara.webp "3/4 50%,55% | A Chena Hot Springs Road às 23h, ainda com luz. Foto: Alan Primo")
 
+O lago termal, Chena Lakes, o Pioneer Park e North Pole estão no [guia de Fairbanks, Chena Hot Springs e North Pole](/blog/fairbanks-chena-hot-springs-north-pole-alasca/).
+
 ## Dalton Highway até o Círculo Polar Ártico (dias 6 e 7)
 
 A Dalton Highway é a estrada mais isolada do roteiro. Ela tem 414 milhas (666 km), começa em Livengood, ao norte de Fairbanks, e termina em Deadhorse, nos campos de petróleo de Prudhoe Bay, à beira do Oceano Ártico. Foi construída para os caminhões que abastecem os campos e acompanha o Oleoduto Trans-Alasca. A maior parte é de cascalho. Nós fomos até o Círculo Polar Ártico, na milha 115.
 
-**Dia 6 (08/05): Elliott Highway, Dalton e Finger Mountain.** De manhã, ainda na Chena Hot Springs Road, o rio Chena tinha placas de gelo na margem. Depois de voltar a Fairbanks, subimos a Elliott Highway até o começo da Dalton, marcado por uma placa de madeira com o mapa do Alasca.
+**Dia 6 (08/05): Elliott Highway, Dalton e Finger Mountain.** De manhã, ainda na Chena Hot Springs Road, o lago ao lado do pernoite tinha placas de gelo. Depois de voltar a Fairbanks, subimos a Elliott Highway até o começo da Dalton, marcado por uma placa de madeira com o mapa do Alasca.
 
 ![Placa de madeira de boas-vindas à Dalton Highway, com o nome da estrada e flores pintadas, diante de uma floresta de abetos e céu azul, no começo da estrada ao norte de Fairbanks](../../assets/blog/roteiro-alasca/placa-dalton-highway.webp "4/3 50%,55% | A placa que marca o começo da Dalton Highway. Foto: Alan Primo")
 
@@ -321,7 +336,7 @@ A cidade é conhecida pelas Begich Towers, um prédio de 14 andares construído 
 
 ![Placa azul e amarela do túnel de pedestres de Whittier que leva à orla, ao lado de um painel histórico sobre o Exército, com montanhas ao fundo](../../assets/blog/roteiro-alasca/tunel-pedestres-whittier.webp "wide 16/9 50%,50% | A entrada do túnel de pedestres que leva à orla de Whittier. Foto: Alan Primo")
 
-Na volta, dormimos em Girdwood, uma estação de esqui no fundo de um vale, a cerca de 65 km de Anchorage.
+Na volta, dormimos em Girdwood, uma estação de esqui no fundo de um vale, a cerca de 65 km de Anchorage. Os horários e o pedágio do túnel e o que ver na cidade estão no [guia de Whittier e do Túnel Anton Anderson](/blog/whittier-tunel-anton-anderson-alasca/).
 
 **Dia 16 (18/05): Girdwood e voo de volta.** De manhã, a placa de Girdwood, com as montanhas ainda nevadas atrás, foi a última foto de estrada da viagem. Devolvemos o motorhome em Anchorage e voamos à noite.
 

@@ -68,7 +68,7 @@ Na altura de Portage, uma estrada lateral leva ao Portage Lake, um lago glacial 
 
 ![O Portage Lake com a margem de pedras e montanhas nevadas ao fundo, sob céu nublado](../../assets/blog/seward-exit-glacier/portage-lake-montanhas-nevadas.webp "4/3 50%,50% | A margem do lago, às 15h27. Foto: Alan Primo")
 
-O lago fica a poucos minutos da Seward Highway, e a estrada de acesso segue até o túnel de Whittier. É uma parada curta que vale muito.
+O lago fica a poucos minutos da Seward Highway, e a estrada de acesso segue até o túnel de [Whittier](/blog/whittier-tunel-anton-anderson-alasca/). É uma parada curta que vale muito.
 
 ![Montanha com geleira suspensa entre picos nevados sobre o Portage Lake, com arbustos secos em primeiro plano](../../assets/blog/seward-exit-glacier/portage-lake-geleira-suspensa.webp "4/3 50%,50% | Uma das geleiras suspensas sobre o lago. Foto: Alan Primo")
 
