@@ -72,7 +72,7 @@ Retiramos o motorhome da Cruise America em Anchorage no primeiro dia e, no fim d
 - **Chegue descansado.** Se possível, durma uma noite em Anchorage antes de retirar o veículo.
 - **Peça a demonstração completa.** Teste aquecimento, fogão, geladeira, gerador, bomba de água, descarga, válvulas dos tanques de despejo e nível do propano antes de sair.
 - **Fotografe o veículo por fora e por dentro** antes de pegar a estrada, para evitar discussões na devolução.
-- **Confirme por escrito as estradas permitidas** no contrato, principalmente se o roteiro incluir estradas de cascalho, como a Dalton Highway.
+- **Confirme por escrito as estradas permitidas** no contrato, principalmente se o roteiro incluir estradas de cascalho, como a [Dalton Highway](/blog/dalton-highway-circulo-polar-artico-alasca/).
 - **Faça as compras grandes em Anchorage.** Fizemos o abastecimento de mercado na cidade antes de pegar a estrada. Pela régua do Departamento de Agricultura dos Estados Unidos, a comida custa mais fora de Anchorage, nas áreas rurais; nas cidades pequenas e na estrada, compre só o que faltar.
 - **Encha o tanque e confira o propano** antes de sair da cidade.
 
@@ -155,7 +155,7 @@ Os trilhos seguem reto em direção às montanhas nevadas, e o vale se abre para
 
 ## Talkeetna: a porta do Denali
 
-Talkeetna fica a 115 milhas (185 km) de Anchorage, num desvio da Parks Highway, a caminho do Denali. É uma vila pequena na confluência de três rios, de onde saem os voos panorâmicos para o Denali. Passamos por ali na manhã de 5 de maio, antes de seguir para o norte.
+Talkeetna fica a 115 milhas (185 km) de Anchorage, num desvio da Parks Highway, a caminho do Denali. É uma vila pequena na confluência de três rios, de onde saem os voos panorâmicos para o Denali. Passamos por ali no fim da manhã e começo da tarde de 5 de maio, antes de seguir para o norte.
 
 ![Estrada asfaltada descendo entre bétulas sem folhas, com uma placa e a Cordilheira do Alasca coberta de neve no horizonte, a caminho de Talkeetna](../../assets/blog/denali-maio/parks-highway-talkeetna.webp "4/3 50%,55% | A estrada de Talkeetna, com a Cordilheira do Alasca no horizonte. Foto: Alan Primo")
 
@@ -169,7 +169,7 @@ O caminho de Talkeetna ao Denali está no [guia do Denali em maio](/blog/denali-
 
 **Dia 2: Portage ou Matanuska.** Opção 1: o vale do Portage e Whittier, com o túnel Anton Anderson; consulte o horário das janelas do túnel. Opção 2: Palmer e a Glenn Highway até os mirantes da Matanuska Glacier, voltando a Anchorage no fim do dia.
 
-**Se for seguir viagem:** pelo sul, a Seward Highway leva a Seward e à Península Kenai; pelo norte, a Glenn e a Parks Highway levam a Talkeetna e ao Denali. As cinco grandes estradas do nosso roteiro estão comparadas no guia das [5 estradas mais cênicas do Alasca](/blog/estradas-mais-cenicas-do-alasca-road-trip/).
+**Se for seguir viagem:** pelo sul, a Seward Highway leva a [Seward](/blog/seward-exit-glacier-alasca/) e à [Península Kenai](/blog/homer-peninsula-kenai-alasca/); pelo norte, a Glenn e a Parks Highway levam a Talkeetna, ao Denali e a [Fairbanks](/blog/fairbanks-chena-hot-springs-north-pole-alasca/); a Glenn e a Richardson Highway levam a [Valdez](/blog/valdez-richardson-highway-thompson-pass-alasca/). As cinco grandes estradas do nosso roteiro estão comparadas no guia das [5 estradas mais cênicas do Alasca](/blog/estradas-mais-cenicas-do-alasca-road-trip/).
 
 :::dica
 Em maio, os dias em Anchorage já são muito longos. Dá para retirar o motorhome de manhã e ainda chegar a Girdwood ou a Palmer com luz. O que muda em cada mês está no guia da [melhor época para ir ao Alasca](/blog/melhor-epoca-para-ir-ao-alasca-maio/).
@@ -188,6 +188,10 @@ Cerca de 6 milhas (10 km), uns 15 minutos de carro, segundo o turismo oficial de
 ### O que fazer perto de Anchorage em um dia?
 
 O Potter Marsh, a uns 20 minutos do centro, e a Seward Highway à beira do Turnagain Arm até Girdwood, a 40 milhas. Para quem tem o dia inteiro, o vale do Portage e Whittier ou a Glenn Highway até a Matanuska Glacier.
+
+### Vale a pena alugar motorhome em Anchorage?
+
+Para um roteiro de estrada pelo sul do Alasca, sim. Anchorage é onde ficam as locadoras, como a Cruise America, de onde retiramos e para onde devolvemos o nosso, e onde as compras grandes saem mais baratas. Todas as grandes estradas do roteiro, a Seward, a Glenn e a Parks Highway, partem da cidade. Os prós, os contras e a parte prática do veículo estão no [guia de motorhome no Alasca](/blog/viajar-de-motorhome-no-alasca/).
 
 ### É seguro caminhar na lama do Turnagain Arm?
 
