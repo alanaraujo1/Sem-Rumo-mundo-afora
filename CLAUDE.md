@@ -18,7 +18,10 @@ Antes de otimizar artigos existentes ou planejar novos conteúdos, consulte o de
 - O script `scripts/ga4-report.mjs` usa a GA4 Data API (`@google-analytics/data`) na propriedade `562396412` (fluxo G-7J2J6VVT7P, dentro do GTM-MMV8DDJ7).
 - Ele mostra os últimos 28 dias, até ontem: views, usuários, tempo médio de engajamento e taxa de engajamento por página, além de origem/mídia e dispositivos.
 - Opções: `npm run ga4 -- --days 90`, `--limit 50` e `--json` (saída para análise automatizada).
-- Autenticação: Application Default Credentials do gcloud com escopo `analytics.readonly`, projeto de cota `sem-rumo-analytics` (a API "Google Analytics Data API" precisa estar ativada nele). Somente leitura; nada é enviado ao GA.
+- Autenticação (`scripts/lib/google-auth.mjs`): a conta de serviço `gsc-ga4-reader@sem-rumo-analytics.iam.gserviceaccount.com`, por personificação a partir do login do gcloud (`gcloud auth application-default login`). Não existe chave JSON: a organização bloqueia chaves de conta de serviço. A conta precisa ser Leitor no GA4 e usuária no Search Console. `GOOGLE_IMPERSONATE=0` usa o próprio login. Somente leitura; nada é enviado ao Google.
+
+## Dados de busca (Search Console)
+Use `npm run gsc` para ver buscas, páginas e oportunidades (páginas entre a 8ª e a 20ª posição, com a busca principal de cada uma) antes de otimizar artigos. Mesmas opções do GA4: `--days`, `--limit` e `--json`. Os dados têm uns 2 dias de atraso.
 - Os números incluem apenas visitantes que aceitaram cookies de análise (Consent Mode v2 com tudo negado por padrão), então subestimam o tráfego real.
 
 ## Protocolo de Revisão com Gemini

@@ -1,9 +1,7 @@
 // Relatório do GA4 (Data API) para orientar otimizações e novos artigos.
 //
-// Autenticação: Application Default Credentials do gcloud, com escopo analytics.readonly:
-//   gcloud auth application-default login \
-//     --scopes=https://www.googleapis.com/auth/analytics.readonly,https://www.googleapis.com/auth/cloud-platform
-//   gcloud auth application-default set-quota-project sem-rumo-analytics
+// Autenticação: conta de serviço gsc-ga4-reader, por personificação (ver scripts/lib/google-auth.mjs).
+// Ela precisa ser Leitor na propriedade do GA4 (Administrador > Gerenciamento de acesso à propriedade).
 //
 // Uso:
 //   npm run ga4                     últimos 28 dias
@@ -11,22 +9,19 @@
 //   npm run ga4 -- --limit 50       mais linhas por tabela
 //   npm run ga4 -- --json           saída em JSON (para análise automatizada)
 import { BetaAnalyticsDataClient } from '@google-analytics/data';
+import { authClient, authHint, impersonating, SCOPES, SERVICE_ACCOUNT } from './lib/google-auth.mjs';
+import { flag, int, option, pct, share, table } from './lib/report.mjs';
 
 const PROPERTY_ID = process.env.GA4_PROPERTY_ID ?? '562396412';
 
-const args = process.argv.slice(2);
-const option = (name, fallback) => {
-  const i = args.indexOf(`--${name}`);
-  return i === -1 ? fallback : Number(args[i + 1]);
-};
 const days = option('days', 28);
 const limit = option('limit', 25);
-const asJson = args.includes('--json');
+const asJson = flag('json');
 
 const property = `properties/${PROPERTY_ID}`;
 // "yesterday" como fim, igual aos relatórios padrão do GA4 (o dia corrente ainda está incompleto).
 const dateRanges = [{ startDate: `${days}daysAgo`, endDate: 'yesterday' }];
-const client = new BetaAnalyticsDataClient();
+const client = new BetaAnalyticsDataClient({ authClient: await authClient([SCOPES.analytics]) });
 
 async function run(dimension, metrics, orderMetric) {
   const [response] = await client.runReport({
@@ -61,10 +56,11 @@ try {
   console.error(`Falha ao consultar o GA4 (propriedade ${PROPERTY_ID}):\n${error.details ?? error.message}`);
   if (error.code === 7 && /has not been used|disabled/.test(error.details ?? '')) {
     console.error('\nAtive a API com: gcloud services enable analyticsdata.googleapis.com --project sem-rumo-analytics');
+  } else if (authHint(error)) {
+    console.error(`\n${authHint(error)}`);
   } else if (error.code === 7) {
-    console.error('\nConfira se a conta do gcloud tem acesso de leitura à propriedade no GA4 (Administrador > Gerenciamento de acesso).');
-  } else if (error.code === 16 || /default credentials/i.test(error.message)) {
-    console.error('\nRefaça o login: gcloud auth application-default login --scopes=https://www.googleapis.com/auth/analytics.readonly,https://www.googleapis.com/auth/cloud-platform');
+    const who = impersonating ? SERVICE_ACCOUNT : 'a conta do gcloud';
+    console.error(`\nConfira se ${who} é Leitor na propriedade do GA4 (Administrador > Gerenciamento de acesso à propriedade).`);
   }
   process.exit(1);
 }
@@ -74,25 +70,12 @@ if (asJson) {
   process.exit(0);
 }
 
-const int = (n) => n.toLocaleString('pt-BR');
-const pct = (n) => `${(n * 100).toFixed(1).replace('.', ',')}%`;
-const share = (n, total) => (total ? pct(n / total) : '–');
 // Tempo médio de engajamento por usuário ativo, como no GA4.
 const avgTime = (seconds, users) => {
   if (!users) return '–';
   const s = Math.round(seconds / users);
   return `${Math.floor(s / 60)}m${String(s % 60).padStart(2, '0')}s`;
 };
-
-function table(title, headers, rows) {
-  const widths = headers.map((h, i) => Math.max(h.length, ...rows.map((r) => String(r[i]).length)));
-  const line = (cells) =>
-    cells.map((c, i) => (i === 0 ? String(c).padEnd(widths[i]) : String(c).padStart(widths[i]))).join('  ');
-  console.log(`\n${title}`);
-  console.log(line(headers));
-  console.log(widths.map((w) => '─'.repeat(w)).join('  '));
-  rows.forEach((r) => console.log(line(r)));
-}
 
 console.log(`GA4 · propriedade ${PROPERTY_ID} · últimos ${days} dias (até ontem)`);
 
