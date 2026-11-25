@@ -80,6 +80,8 @@ Depois de Portage, a estrada sobe pelas montanhas e entra na Península Kenai. J
 
 ![Kenai Lake de água verde-azulada e calma entre encostas escuras de floresta, com céu de nuvens, à beira da Seward Highway](../../assets/blog/seward-exit-glacier/kenai-lake-seward-highway.webp "wide 16/9 50%,55% | O Kenai Lake, já perto de Seward. Foto: Alan Primo")
 
+A Seward Highway comparada às outras grandes estradas do Alasca está no guia das [5 estradas mais cênicas do Alasca](/blog/estradas-mais-cenicas-do-alasca-road-trip/).
+
 ## Exit Glacier: guia prático
 
 O Exit Glacier é a única parte do Parque Nacional Kenai Fjords acessível por estrada. A Exit Glacier Road, oficialmente Herman Leirer Road, sai da Seward Highway na milha 3, já na entrada de Seward, e segue por 8,4 milhas (13,5 km) até o estacionamento do centro de visitantes. A geleira desce do Harding Icefield, o grande campo de gelo que cobre as montanhas da península.

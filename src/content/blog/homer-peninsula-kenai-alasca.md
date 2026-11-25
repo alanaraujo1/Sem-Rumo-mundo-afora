@@ -134,6 +134,8 @@ As regras gerais de pernoite fora de camping, água e despejo estão no [guia de
 
 ![Alce de pelagem marrom pastando entre arbustos verdes e capim alto, perto de um pátio na cidade de Homer](../../assets/blog/homer-kenai/alce-arbustos-homer.webp "4/3 50%,40% | O alce na cidade de Homer, às 18h59. Foto: Alan Primo")
 
+A Sterling Highway comparada às outras grandes estradas do Alasca está no guia das [5 estradas mais cênicas do Alasca](/blog/estradas-mais-cenicas-do-alasca-road-trip/).
+
 ## Homer em maio
 
 Maio é o começo da temporada em Homer. Pegamos dias nublados e frescos, com as montanhas da Kachemak Bay ainda cobertas de neve e a vegetação começando a brotar. Os campings da prefeitura abrem em 1º de abril, mas alguns parques de motorhome particulares, como o Heritage RV Park, só começam a temporada perto de 20 de maio.

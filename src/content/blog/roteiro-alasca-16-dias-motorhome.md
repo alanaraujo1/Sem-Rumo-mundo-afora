@@ -78,6 +78,12 @@ Cada etapa deste roteiro tem um guia próprio, com fotos, distâncias e dicas pr
 - [Homer e Península Kenai](/blog/homer-peninsula-kenai-alasca/)
 - [Whittier e o Túnel Anton Anderson](/blog/whittier-tunel-anton-anderson-alasca/)
 
+E três guias para planejar a viagem inteira:
+
+- [Quanto custa viajar para o Alasca](/blog/quanto-custa-viajar-para-o-alasca/)
+- [Melhor época para ir ao Alasca: mês a mês e como é viajar em maio](/blog/melhor-epoca-para-ir-ao-alasca-maio/)
+- [As 5 estradas mais cênicas do Alasca](/blog/estradas-mais-cenicas-do-alasca-road-trip/)
+
 ## Por que um circuito saindo e voltando a Anchorage
 
 Anchorage tem o maior aeroporto do estado e concentra as locadoras de motorhome. Retirar e devolver o veículo no mesmo lugar simplifica o aluguel e permite desenhar o roteiro como um grande laço: subir pelo interior, onde estão o Denali, Fairbanks e a Dalton Highway, voltar pelo leste, por Tok e pela região dos vulcões Wrangell, e descer até o litoral de Valdez antes de fechar a viagem na Península Kenai.

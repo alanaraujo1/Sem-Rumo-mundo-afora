@@ -185,6 +185,8 @@ A outra surpresa é o silêncio. Nos pernoites fora de camping, como na Tok Cut-
 
 ## O que entra no custo
 
+O orçamento completo, com três cenários de 16 dias para duas pessoas, está no [guia de quanto custa viajar para o Alasca](/blog/quanto-custa-viajar-para-o-alasca/).
+
 O preço de uma viagem de motorhome no Alasca vai muito além da diária. Na hora de orçar, considere:
 
 - **Diária do motorhome:** varia com o tamanho do veículo e a época. As semanas de maio e de setembro costumam ser mais baratas que o pico do verão.
@@ -201,7 +203,7 @@ Reserve com bastante antecedência e fique de olho nas promoções. Nós reserva
 
 ## Guias de cada região
 
-Para cada etapa da viagem, há um guia com o que fizemos, distâncias e dicas práticas: o [roteiro completo de 16 dias](/blog/roteiro-alasca-16-dias-motorhome/), o [Denali em maio](/blog/denali-national-park-em-maio-alasca/), [Fairbanks, Chena Hot Springs e North Pole](/blog/fairbanks-chena-hot-springs-north-pole-alasca/), a [Dalton Highway e o Círculo Polar Ártico](/blog/dalton-highway-circulo-polar-artico-alasca/), [Valdez e a Richardson Highway](/blog/valdez-richardson-highway-thompson-pass-alasca/), [Seward e o Exit Glacier](/blog/seward-exit-glacier-alasca/), [Homer e a Península Kenai](/blog/homer-peninsula-kenai-alasca/) e [Whittier e o Túnel Anton Anderson](/blog/whittier-tunel-anton-anderson-alasca/).
+Para cada etapa da viagem, há um guia com o que fizemos, distâncias e dicas práticas: o [roteiro completo de 16 dias](/blog/roteiro-alasca-16-dias-motorhome/), o [Denali em maio](/blog/denali-national-park-em-maio-alasca/), [Fairbanks, Chena Hot Springs e North Pole](/blog/fairbanks-chena-hot-springs-north-pole-alasca/), a [Dalton Highway e o Círculo Polar Ártico](/blog/dalton-highway-circulo-polar-artico-alasca/), [Valdez e a Richardson Highway](/blog/valdez-richardson-highway-thompson-pass-alasca/), [Seward e o Exit Glacier](/blog/seward-exit-glacier-alasca/), [Homer e a Península Kenai](/blog/homer-peninsula-kenai-alasca/) e [Whittier e o Túnel Anton Anderson](/blog/whittier-tunel-anton-anderson-alasca/). Para planejar, veja também [quanto custa viajar para o Alasca](/blog/quanto-custa-viajar-para-o-alasca/), a [melhor época para ir](/blog/melhor-epoca-para-ir-ao-alasca-maio/) e as [5 estradas mais cênicas do Alasca](/blog/estradas-mais-cenicas-do-alasca-road-trip/).
 
 ## Perguntas frequentes
 

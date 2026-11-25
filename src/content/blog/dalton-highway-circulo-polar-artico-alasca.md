@@ -168,6 +168,8 @@ Algumas locadoras de motorhome proíbem expressamente a Dalton, ou parte dela. A
 Antes de subir além de Livengood, confira **por escrito** as cláusulas do seu contrato e até onde o seguro cobre. Dirigir numa estrada restrita pode anular a cobertura de danos, e o resgate de um veículo na Dalton é caro e demorado.
 :::
 
+A comparação com as outras grandes estradas do Alasca está no guia das [5 estradas mais cênicas do Alasca](/blog/estradas-mais-cenicas-do-alasca-road-trip/).
+
 ## Checklist de segurança para a Dalton
 
 - **Tanque cheio em Fairbanks.** Depois da ponte do Yukon, o próximo posto fica em Coldfoot, na milha 175.

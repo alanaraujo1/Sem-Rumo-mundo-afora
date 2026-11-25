@@ -140,7 +140,7 @@ O Denali, com 20.310 pés (6.190 m), é o pico mais alto da América do Norte, m
 
 Há outro detalhe que surpreende muita gente: o Denali não aparece da entrada do parque. A estrada ali é baixa e cercada de outras montanhas. Para vê-lo, é preciso avançar pela Park Road ou contar com um dia claro em pontos da Parks Highway. No nosso dia, o céu ficou fechado, e o pico não apareceu nem por um instante.
 
-Se ver a montanha for prioridade, reserve mais de um dia na região e acompanhe as câmeras e a previsão do parque.
+Se ver a montanha for prioridade, reserve mais de um dia na região e acompanhe as câmeras e a previsão do parque. Como cada mês muda a viagem está no guia da [melhor época para ir ao Alasca](/blog/melhor-epoca-para-ir-ao-alasca-maio/).
 
 ## Onde dormir na entrada do Denali
 

@@ -10,6 +10,7 @@ import Lightbox from '../../components/Lightbox.astro';
 import TableOfContents from '../../components/TableOfContents.astro';
 import { AUTHOR_NAME, tagLabel } from '../../consts';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { faqSchema } from '../../lib/faq-schema';
 import { AD_CLIENT, AD_MIN_WORDS, AD_SLOTS } from '../../lib/ads.mjs';
 import { formatDate, getPosts, getReadingStats } from '../../lib/posts';
 import '../../styles/article.css';
@@ -26,6 +27,7 @@ interface Props {
 const { post } = Astro.props;
 const { title, seoTitle, description, cover, coverAlt, coverPosition, coverCredit, pubDate, updatedDate, author, tags, destination, fichaTecnica } = post.data;
 const { Content, headings } = await render(post);
+const faq = faqSchema(post.body, new URL(`/blog/${post.id}/`, Astro.site).href);
 const stats = getReadingStats(post.body);
 // Anúncios só em artigos longos; nos demais, o bloco do meio (posto pelo plugin de Markdown) fica oculto.
 const showAds = stats.wordCount > AD_MIN_WORDS;
@@ -51,6 +53,7 @@ const coverSize =
   imageAlt={coverAlt}
   article={{ ...post.data, ...stats }}
   socialImageBase={`/og/${post.id}/`}
+  schema={faq ? [faq] : []}
   fullWidth
 >
   <article class="pb-16" data-lightbox>

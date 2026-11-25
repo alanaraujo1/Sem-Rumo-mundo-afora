@@ -56,6 +56,8 @@ No total, de Tok a Valdez são cerca de 254 milhas (410 km). Quem vai direto de 
 
 A Richardson Highway, de Valdez a Fairbanks, nasceu de uma trilha da corrida do ouro e é considerada a estrada mais antiga do Alasca, como lembra um marco histórico no Keystone Canyon. Os marcos de milha da estrada contam a partir de Valdez.
 
+A comparação com as outras grandes estradas do Alasca está no guia das [5 estradas mais cênicas do Alasca](/blog/estradas-mais-cenicas-do-alasca-road-trip/).
+
 ## Dia 1: de Fairbanks à Tok Cut-Off (10/05)
 
 Depois de uma manhã entre Fairbanks e North Pole, pegamos a Richardson Highway para o sudeste no meio da tarde. A estrada acompanha vales largos de rio, com lagos ainda congelados na beira da pista.
