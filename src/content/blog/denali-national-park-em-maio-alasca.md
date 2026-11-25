@@ -58,7 +58,7 @@ Na prática, o começo de maio tem uma vantagem rara: dirigir o próprio carro a
 
 ## Como chegamos: Talkeetna e a Parks Highway
 
-De Anchorage à entrada do Denali são de 237 a 265 milhas (380 a 425 km), umas 5 horas de carro sem paradas. Saímos de Palmer na manhã de 5 de maio e fizemos um desvio até Talkeetna, uma vila pequena na confluência de três rios, de onde saem os voos panorâmicos para o Denali.
+De Anchorage à entrada do Denali são de 237 a 265 milhas (380 a 425 km), umas 5 horas de carro sem paradas. Saímos de Palmer na manhã de 5 de maio e fizemos um desvio até Talkeetna, uma vila pequena na confluência de três rios, de onde saem os voos panorâmicos para o Denali. Palmer e Talkeetna estão no [guia de Anchorage e arredores](/blog/anchorage-e-arredores-o-que-fazer/).
 
 ![Estrada asfaltada descendo entre bétulas sem folhas, com uma placa e a Cordilheira do Alasca coberta de neve no horizonte, a caminho de Talkeetna](../../assets/blog/denali-maio/parks-highway-talkeetna.webp "4/3 50%,55% | A estrada de Talkeetna, com a Cordilheira do Alasca no horizonte. Foto: Alan Primo")
 

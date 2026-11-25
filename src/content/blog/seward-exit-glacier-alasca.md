@@ -46,7 +46,7 @@ A Seward Highway liga Anchorage a Seward em 127 milhas (204 km), umas 2h30 a 3h 
 
 ### Turnagain Arm
 
-Os primeiros quilômetros depois de Anchorage acompanham o Turnagain Arm, um braço de mar espremido entre a estrada, a ferrovia e as montanhas Chugach. Ele tem a segunda maior amplitude de maré da América do Norte, de até 12 m, e uma pororoca, a onda que sobe o braço de mar com a maré. Paramos em vários acostamentos entre 12h30 e 13h30, com nuvens em escamas e a água parada como um espelho.
+Os primeiros quilômetros depois de [Anchorage](/blog/anchorage-e-arredores-o-que-fazer/) acompanham o Turnagain Arm, um braço de mar espremido entre a estrada, a ferrovia e as montanhas Chugach. Ele tem a segunda maior amplitude de maré da América do Norte, de até 12 m, e uma pororoca, a onda que sobe o braço de mar com a maré. Paramos em vários acostamentos entre 12h30 e 13h30, com nuvens em escamas e a água parada como um espelho.
 
 ![Trilhos da ferrovia à beira do Turnagain Arm, com capim e pedras em primeiro plano, a água calma e montanhas nevadas sob céu de nuvens em escamas, na Seward Highway](../../assets/blog/seward-exit-glacier/turnagain-arm-ferrovia-seward-highway.webp "4/3 50%,55% | A ferrovia e o Turnagain Arm, logo depois de Anchorage. Foto: Alan Primo")
 

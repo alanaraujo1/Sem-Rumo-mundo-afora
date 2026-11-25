@@ -42,7 +42,7 @@ Este guia reúne como chegar, o que fazer em Homer e no caminho, onde dormir de 
 
 ## Como chegar: a Sterling Highway
 
-De Anchorage a Homer são cerca de 221 a 223 milhas (355 a 360 km), de 5 a 6 horas de carro sem paradas. O caminho começa pela Seward Highway, ao longo do Turnagain Arm, e segue pela Sterling Highway, que atravessa a península de leste a oeste e depois desce pela costa da Cook Inlet até Homer. Quem vem de Seward percorre cerca de 170 milhas (275 km).
+De Anchorage a Homer são cerca de 221 a 223 milhas (355 a 360 km), de 5 a 6 horas de carro sem paradas. O caminho começa pela Seward Highway, ao longo do [Turnagain Arm](/blog/anchorage-e-arredores-o-que-fazer/), e segue pela Sterling Highway, que atravessa a península de leste a oeste e depois desce pela costa da Cook Inlet até Homer. Quem vem de Seward percorre cerca de 170 milhas (275 km).
 
 Às 10h36, já estávamos na costa da Cook Inlet, em Kalifornsky Beach, perto de Kasilof. A praia é larga, com uma falésia de terra e areia escura. Logo depois, um alce passou entre as árvores retorcidas, a poucos metros da estrada.
 

@@ -148,7 +148,7 @@ O caminho do vale até o túnel de Whittier está no [guia de Whittier e do Tún
 - **Para chegar perto a pé, de graça:** a Exit Glacier.
 - **Para ver sem sair do carro, numa viagem até Valdez:** a Worthington.
 - **Para a maior vista e para pisar no gelo com guia:** a Matanuska.
-- **Para uma parada curta saindo de Anchorage:** o Portage Lake, com o barco até a Portage Glacier no verão.
+- **Para uma parada curta saindo de Anchorage:** o Portage Lake, com o barco até a Portage Glacier no verão; outros passeios curtos estão no [guia de Anchorage e arredores](/blog/anchorage-e-arredores-o-que-fazer/).
 
 Num roteiro de motorhome como o nosso, dá para passar pelas quatro sem desvios longos. A Exit, a Worthington e o Portage ficam em rodovias do guia das [5 estradas mais cênicas do Alasca](/blog/estradas-mais-cenicas-do-alasca-road-trip/), e a Matanuska, na Glenn Highway, aparece no bônus do mesmo guia; o que muda em cada mês está no guia da [melhor época para ir ao Alasca](/blog/melhor-epoca-para-ir-ao-alasca-maio/).
 
