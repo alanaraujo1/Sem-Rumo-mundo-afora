@@ -72,6 +72,8 @@ A Isla Magdalena fica no Estreito de Magalhães, cerca de 35 km a nordeste de Pu
 - **Na ilha:** um circuito de 1.400 m atravessa a colônia até o farol. A casa do farol, declarada Monumento Nacional, tem uma sala de informações e guarda-parques fixos.
 - **Onde comprar:** as navegações são vendidas por operadoras e agências de Punta Arenas. Há saídas de manhã cedo e no começo da tarde, e algumas partem do Terminal Tres Puentes, e não do Muelle Prat. Confira o ponto de embarque na reserva.
 
+A história da ilha e do farol, a melhor época para cada fase da colônia e o que levar estão no [guia completo da Isla Magdalena](/blog/isla-magdalena-punta-arenas-pinguins/).
+
 :::alerta
 **O passeio pode ser cancelado no mesmo dia.** A navegação depende do vento e do mar no estreito. Por isso, deixe a Isla Magdalena para o penúltimo dia da viagem, e não para o último, como fizemos: se o barco não sair, ainda sobra uma chance de remarcar.
 :::
@@ -210,6 +212,8 @@ Punta Arenas fechou os 15 dias de Patagônia de carro. A viagem completa, com a 
 2. [El Calafate e o Glaciar Perito Moreno](/blog/o-que-fazer-em-el-calafate-glaciar-perito-moreno/)
 3. [El Chaltén e as trilhas do Fitz Roy e da Laguna Torre](/blog/o-que-fazer-em-el-chalten-trilhas-fitz-roy-laguna-torre/)
 4. Punta Arenas e a Isla Magdalena (este guia)
+
+Para se aprofundar na ilha dos pinguins, veja o [guia completo da Isla Magdalena](/blog/isla-magdalena-punta-arenas-pinguins/).
 
 ## Fontes consultadas
 
