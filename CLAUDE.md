@@ -32,7 +32,7 @@ Use `npm run gsc` para ver buscas, páginas e oportunidades (páginas entre a 8�
 - O Google pode entregar vídeos recodificados (testado em 25/11/2026: vídeos 4K HDR do iPhone vieram em 1080×1920 H.264 SDR). O script compara com a resolução original, avisa no terminal e grava `downgraded: true` no manifesto; `--check` confere uma pasta já baixada. Para vídeos 4K originais, use o app Fotos, o site photos.google.com ou o Google Takeout.
 - Destino recomendado: uma pasta em `fotos-originais/<destino>/` (fora do Git) ou no SSD/Documents. Não baixe direto em `src/assets/`: os originais podem trazer EXIF e GPS e são pesados demais para o repositório.
 - Para artigos (Torres del Paine, El Calafate, El Chaltén e próximos): leia o `photos-manifest.json` para ordenar por horário e montar as legendas com hora, escolha as fotos, aplique a rotina de fotos do blog (LUT, conversão para `.webp` sem EXIF/GPS, lado maior até 1600 px) e só então grave em `src/assets/blog/<slug>/`.
-- Para Reels: use os vídeos baixados como fonte; os do iPhone costumam vir em HEVC HDR (HLG), então aplique o tone mapping HDR→SDR antes da cor.
+- Para Reels: use os vídeos baixados como fonte. Os baixados por este comando já vêm em SDR Rec.709 (não aplique tone mapping); os originais do iPhone (app Fotos, SSD) vêm em HEVC HDR (HLG) e precisam do tone mapping HDR→SDR antes da cor.
 
 ## Protocolo de Revisão com Gemini
 Sempre que eu pedir uma "segunda opinião", "revisão cruzada" ou "debate de planejamento":
