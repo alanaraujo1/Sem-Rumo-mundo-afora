@@ -20,3 +20,13 @@ Antes de otimizar artigos existentes ou planejar novos conteúdos, consulte o de
 - Opções: `npm run ga4 -- --days 90`, `--limit 50` e `--json` (saída para análise automatizada).
 - Autenticação: Application Default Credentials do gcloud com escopo `analytics.readonly`, projeto de cota `sem-rumo-analytics` (a API "Google Analytics Data API" precisa estar ativada nele). Somente leitura; nada é enviado ao GA.
 - Os números incluem apenas visitantes que aceitaram cookies de análise (Consent Mode v2 com tudo negado por padrão), então subestimam o tráfego real.
+
+## Protocolo de Revisão com Gemini
+Sempre que eu pedir uma "segunda opinião", "revisão cruzada" ou "debate de planejamento":
+1. Use as ferramentas do servidor MCP `gemini-cli` (wrapper `gemini-mcp-tool`, configurado em `.mcp.json`), por exemplo `ask-gemini`.
+   - Em toda chamada de `ask-gemini` ou `brainstorm`, passe explicitamente `model: "gemini-3-flash-preview"`. Não deixe o modelo no padrão (ele vem dando 503). O `.mcp.json` também fixa `GEMINI_MODEL=gemini-3-flash-preview` como reserva.
+   - Testado em 25/11/2026: `gemini-2.5-pro` e `gemini-2.5-flash` não estão mais disponíveis para esta conta, `gemini-3.5-flash`, `gemini-3.8-flash` e `gemini-3.1-pro-preview` bateram na cota diária, e o padrão retornou 503. Se `gemini-3-flash-preview` falhar, tente `gemini-3.5-flash` uma única vez e depois avise; não fique tentando vários modelos.
+2. Passe o contexto relevante: um resumo do objetivo e os caminhos dos arquivos Markdown (`src/content/blog/*.md`) ou do código Astro (`src/**/*.astro`) envolvidos, usando a sintaxe `@caminho/do/arquivo` para o Gemini ler os arquivos da pasta atual. Nunca envie arquivos com segredos (`.env`, credenciais do GA4/gcloud).
+3. Sintetize as sugestões do Gemini: aponte onde ele concorda ou diverge da sua análise e descarte o que contrariar este CLAUDE.md (SEO técnico, schema de frontmatter, regras de fotos e de publicação).
+4. Proponha as melhorias finais e aguarde minha aprovação antes de editar os arquivos.
+5. Se o MCP `gemini-cli` estiver indisponível, avise em vez de seguir sem a revisão.
