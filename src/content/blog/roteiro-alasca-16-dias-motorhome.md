@@ -225,7 +225,7 @@ Perto de Glennallen, a estrada vira para o sul como Richardson Highway. Depois d
 
 ![Encosta de montanha coberta de neve com arbustos despontando, sob céu azul, no Thompson Pass, na Richardson Highway a caminho de Valdez](../../assets/blog/roteiro-alasca/thompson-pass-neve-richardson-highway.webp "4/3 50%,55% | O Thompson Pass, em 11 de maio. Foto: Alan Primo")
 
-A descida para Valdez passa pelo Keystone Canyon, um cânion estreito de paredes de pedra com cachoeiras que caem quase na beira da pista.
+A descida para Valdez passa pelo Keystone Canyon, um cânion estreito de paredes de pedra com cachoeiras que caem quase na beira da pista. O trajeto trecho a trecho, o Thompson Pass em maio e o que fazer em Valdez estão no [guia de Valdez e da Richardson Highway](/blog/valdez-richardson-highway-thompson-pass-alasca/).
 
 ![Cachoeira alta e estreita descendo um paredão de pedra iluminado pelo sol até a beira da estrada, no Keystone Canyon, perto de Valdez](../../assets/blog/roteiro-alasca/cachoeira-keystone-canyon-valdez.webp "wide 16/9 50%,45% | Uma das cachoeiras do Keystone Canyon, na chegada a Valdez. Foto: Alan Primo")
 
@@ -307,7 +307,7 @@ Homer fica na Kachemak Bay e é conhecida pelo Homer Spit, uma língua de terra 
 
 ![Águia-careca de perfil sobre algas na Bishop's Beach, com a água e o céu cinzento ao fundo, em Homer](../../assets/blog/roteiro-alasca/aguia-careca-bishops-beach-homer.webp "3/4 50%,55% | Outra águia, entre as algas. Foto: Alan Primo")
 
-Depois seguimos para o norte, com paradas em Anchor Point e em Kenai, e dormimos na região de Sterling.
+Depois seguimos para o norte, com paradas em Anchor Point e em Kenai, e dormimos na região de Sterling. O Homer Spit, a Bishop's Beach e onde dormir na península estão no [guia de Homer e da Península Kenai](/blog/homer-peninsula-kenai-alasca/).
 
 ## Whittier e Girdwood (dias 15 e 16)
 

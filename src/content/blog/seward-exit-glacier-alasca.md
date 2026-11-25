@@ -172,7 +172,7 @@ Acordamos de frente para a montanha do outro lado da baía. De manhã, fizemos a
 
 ![Riacho raso correndo entre pedras e plantas verdes novas no chão da floresta do Two Lakes Park, em Seward](../../assets/blog/seward-exit-glacier/riacho-floresta-two-lakes-park.webp "4/3 50%,60% | Um riacho na floresta do Two Lakes Park. Foto: Alan Primo")
 
-À tarde, ainda exploramos a cidade e a costa antes de voltar para o norte. No caminho, a Seward Highway passa por Moose Pass e pelos lagos da região, e paramos à beira de um deles, com as montanhas ainda nevadas refletidas na água. Dormimos em Anchorage.
+À tarde, ainda exploramos a cidade e a costa antes de voltar para o norte. No caminho, a Seward Highway passa por Moose Pass e pelos lagos da região, e paramos à beira de um deles, com as montanhas ainda nevadas refletidas na água. Dormimos em Anchorage e, no dia seguinte, seguimos para Homer, do outro lado da península. Essa parte da viagem está no [guia de Homer e da Península Kenai](/blog/homer-peninsula-kenai-alasca/).
 
 ![Lago de água cinzenta à beira da Seward Highway, com montanhas cobertas de neve ao fundo e capim seco na margem, na volta de Seward](../../assets/blog/seward-exit-glacier/lago-seward-highway-montanhas.webp "4/3 50%,55% | Um lago à beira da Seward Highway, na volta. Foto: Alan Primo")
 

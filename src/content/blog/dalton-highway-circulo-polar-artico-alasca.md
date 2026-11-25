@@ -145,6 +145,8 @@ Paramos para ver o rio de perto, de cima da ponte e da margem. Perto dali, uma e
 
 Perto da ponte, a BLM mantém um posto de informações para visitantes no verão. Cerca de 4 milhas ao norte, o Five Mile Campground, na milha 60, tem o único ponto de despejo de motorhome da estrada, além de água potável.
 
+Do Yukon, voltamos a Fairbanks para dormir. No dia seguinte, seguimos para o sul, rumo a Tok e a Valdez, no trajeto contado no [guia de Valdez e da Richardson Highway](/blog/valdez-richardson-highway-thompson-pass-alasca/).
+
 ## Condições da estrada em maio
 
 Maio é o começo da temporada na Dalton. Na nossa viagem, encontramos:
