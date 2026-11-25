@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import avatar from '../assets/alan-primo-avatar.jpg';
+import fotoSobre from '../assets/alan-primo-sobre.jpg';
 import InstagramLink from '../components/InstagramLink.astro';
 import { AUTHOR_BIO, AUTHOR_JOB_TITLE, AUTHOR_NAME, INSTAGRAM, SITE_NAME } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -43,18 +44,30 @@ const schema = [
       </div>
     </div>
     <p>{AUTHOR_BIO}</p>
+    <figure class="not-prose my-8">
+      <Image
+        src={fotoSobre}
+        alt={`${AUTHOR_NAME} sorrindo, de gorro e óculos escuros, num lago congelado cercado de montanhas nevadas`}
+        width={768}
+        height={502}
+        widths={[400, 768, 1290]}
+        sizes="(min-width: 800px) 768px, 100vw"
+        class="h-auto w-full rounded-lg"
+      />
+      <figcaption class="mt-2 text-sm text-stone-500">Foto: {AUTHOR_NAME}</figcaption>
+    </figure>
 
     <h2>Experiência de campo</h2>
     <p>
-      Os guias do blog nascem de viagens feitas por {AUTHOR_NAME} e são ilustrados com fotografias do próprio autor. As
-      informações práticas, como tarifas, horários e regras de acesso, são conferidas em fontes oficiais.
-      Na Patagônia, foram 15 dias de carro em outubro de 2026, entre o Chile e a Argentina, contados no
+      Os guias do blog nascem das minhas viagens e são ilustrados com as minhas fotografias. As informações práticas,
+      como tarifas, horários e regras de acesso, eu confiro em fontes oficiais.
+      Na Patagônia, passei 15 dias de carro em outubro de 2026, entre o Chile e a Argentina, e conto tudo no
       <a href="/blog/roteiro-patagonia-chilena-e-argentina/">roteiro pela Patagônia chilena e argentina</a> e nos guias
       de cada parada. No Brasil, a série da Chapada Diamantina reúne poços, cachoeiras, grutas e trilhas, a partir do
       <a href="/blog/roteiro-chapada-diamantina/">roteiro completo pela Chapada Diamantina</a>.
     </p>
     <p>
-      Acompanhe as viagens e fotografias em{' '}
+      Acompanhe as minhas viagens e fotografias em{' '}
       <InstagramLink url={INSTAGRAM.author.url} class="font-semibold">{INSTAGRAM.author.handle}</InstagramLink>.
     </p>
     <p>
@@ -85,7 +98,7 @@ const schema = [
       e o uso do conteúdo segue os <a href="/termos-de-uso/">Termos de Uso</a>.
     </p>
     <p>
-      Encontrou algum erro ou informação desatualizada? <a href="/contato/">Fale conosco</a> para que possamos corrigir.
+      Encontrou algum erro ou informação desatualizada? <a href="/contato/">Fale comigo</a> para que eu possa corrigir.
     </p>
   </article>
 </BaseLayout>
