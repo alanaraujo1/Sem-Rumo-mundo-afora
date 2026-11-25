@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import { Image } from 'astro:assets';
 import chapadaPhoto from '../assets/blog/morro-do-pai-inacio/canion-vale-mirante-pai-inacio.jpg';
 import patagoniaPhoto from '../assets/blog/el-chalten/fitz-roy-trilha-mirante-nuvens-el-chalten.webp';
+import alascaPhoto from '../assets/blog/roteiro-alasca/lago-congelado-montanhas-tok-cut-off.webp';
 
 interface Props {
   posts: CollectionEntry<'blog'>[];
@@ -30,6 +31,15 @@ const hubs = [
     alt: 'Cânion largo coberto de mata entre paredões de arenito, visto da borda do Morro do Pai Inácio, com um morro tabular iluminado ao fundo e céu com nuvens',
     position: '50% 55%',
   },
+  {
+    name: 'Alasca',
+    tag: 'alasca',
+    subtitle: 'Estados Unidos: motorhome, geleiras e o Círculo Polar',
+    href: '/blog/roteiro-alasca-16-dias-motorhome/',
+    photo: alascaPhoto,
+    alt: 'Lago congelado com gelo claro e rachado em primeiro plano e uma cordilheira coberta de neve sob céu azul com nuvens, na Tok Cut-Off, no Alasca',
+    position: '50% 40%',
+  },
 ].map((hub) => ({ ...hub, count: posts.filter((post) => post.data.tags.includes(hub.tag)).length }));
 ---
 
@@ -37,7 +47,7 @@ const hubs = [
   <div class="border-b border-stone-200 pb-3">
     <h2 id="destinos" class="font-heading text-2xl font-semibold tracking-tight">Explore por destino</h2>
   </div>
-  <div class="mt-8 grid gap-x-8 gap-y-12 md:grid-cols-2">
+  <div class="mt-8 grid gap-x-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
     {
       hubs.map((hub) => (
         <article class="group relative">
@@ -48,7 +58,7 @@ const hubs = [
               width={960}
               height={600}
               widths={[360, 540, 720, 960]}
-              sizes="(min-width: 1024px) 484px, (min-width: 768px) calc(50vw - 2rem), calc(100vw - 2rem)"
+              sizes="(min-width: 1024px) 315px, (min-width: 768px) calc(50vw - 2rem), calc(100vw - 2rem)"
               loading="lazy"
               decoding="async"
               quality={64}
