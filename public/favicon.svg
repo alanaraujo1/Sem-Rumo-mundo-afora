@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><circle cx="16" cy="16" r="16" fill="#0f766e"/><path d="M16 6l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#fff"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Sem Rumo Mundo Afora"><title>Sem Rumo Mundo Afora</title><g transform="translate(-10 -10)"><clipPath id="fc"><circle cx="50" cy="50" r="36.75"/></clipPath>
+  <circle cx="50" cy="50" r="40" fill="#FAF7F5"/>
+  <g clip-path="url(#fc)"><path d="M50 27 L61 40 L54 46 Z" fill="#D48C3E"/><path d="M68 34 L96 62 L74 50 Z" fill="#D48C3E"/>
+    <g fill="none" stroke="#1E242B" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 62 L29 37 L40 48 L50 27 L61 40 L68 34 L96 62" /><path d="M70 48 C58 50.5 44 51.5 43.5 57.5 C43 64 59 64.5 58.5 72 C58 79 48 84 42 92" stroke-width="7"/></g>
+  </g>
+  <circle cx="50" cy="50" r="36.75" fill="none" stroke="#1E242B" stroke-width="6.5"/></g></svg>
