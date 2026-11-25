@@ -185,7 +185,7 @@ Há placas no local proibindo o pernoite na área do monumento, o Arctic Circle 
 
 ![O Oleoduto Trans-Alasca suspenso em suportes metálicos ao lado de uma estrada de cascalho com neve nas margens, perto do rio Yukon](../../assets/blog/roteiro-alasca/oleoduto-trans-alasca-dalton-highway.webp "4/3 50%,55% | O Oleoduto Trans-Alasca, que a Dalton acompanha até o Ártico. Foto: Alan Primo")
 
-Os detalhes práticos da Dalton com um motorhome, como as regras das locadoras, o abastecimento e o pernoite, estão no [guia de motorhome no Alasca](/blog/viajar-de-motorhome-no-alasca/).
+Os dois dias na Dalton, com distâncias, combustível, condições em maio e o checklist de segurança, estão no [guia da Dalton Highway e do Círculo Polar Ártico](/blog/dalton-highway-circulo-polar-artico-alasca/). As regras das locadoras e o pernoite de motorhome estão no [guia de motorhome no Alasca](/blog/viajar-de-motorhome-no-alasca/).
 
 :::alerta
 Na Dalton, dirija com os faróis acesos, dê passagem aos caminhões e conte com pouquíssimos serviços. Segundo a BLM, o único ponto de despejo de motorhome da estrada fica no Five Mile Campground, na milha 60. Não há sinal de celular na maior parte do trajeto. Os contratos padrão da maioria das locadoras do Alasca restringem estradas não pavimentadas ou exigem autorização específica, e danos no cascalho costumam ficar fora da cobertura do seguro. Confira as cláusulas por escrito antes de seguir além de Livengood.
@@ -267,7 +267,7 @@ O fim da tarde foi no Exit Glacier, a única parte do Parque Nacional Kenai Fjor
 
 ![Vale largo com o leito de cascalho de um rio glacial entrelaçado, floresta e montanhas nevadas com a Exit Glacier ao fundo, na estrada de acesso ao Kenai Fjords](../../assets/blog/roteiro-alasca/exit-glacier-vale-rio-entrelacado.webp "wide 16/9 50%,50% | O vale do rio da Exit Glacier, na estrada de acesso. Foto: Alan Primo")
 
-Chegamos a Seward às 21h, com sol. A cidade fica no fundo da Resurrection Bay e tem uma marina cheia de barcos de pesca e de passeio. Caminhamos pela orla até o Seward Mariners Memorial e, já de volta ao motorhome, cruzamos com um alce comendo os brotos à beira da estrada.
+Chegamos a Seward às 21h, com sol. A cidade fica no fundo da Resurrection Bay e tem uma marina cheia de barcos de pesca e de passeio. Caminhamos pela orla até o Seward Mariners Memorial e, já de volta ao motorhome, cruzamos com um alce comendo os brotos à beira da estrada. As trilhas do Exit Glacier, o que fazer na cidade e onde dormir estão no [guia de Seward e do Exit Glacier](/blog/seward-exit-glacier-alasca/).
 
 :::galeria
 ![Marina de Seward com dezenas de barcos atracados e montanhas nevadas da Resurrection Bay ao fundo, sob céu de fim de tarde](../../assets/blog/roteiro-alasca/marina-seward-resurrection-bay.webp "50%,55% | A marina de Seward, às 21h50. Foto: Alan Primo")
