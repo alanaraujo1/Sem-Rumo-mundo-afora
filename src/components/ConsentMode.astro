@@ -29,6 +29,20 @@ const gtmId = import.meta.env.PROD ? GTM_ID : null;
     security_storage: 'granted',
   });
 
+  /*
+   * Tráfego interno: abrir qualquer página com ?interno=1 marca este navegador, e ?interno=0 desmarca.
+   * Marcado, o dataLayer recebe traffic_type=internal antes do GTM, e o filtro "Internal Traffic" do GA4
+   * descarta essas visitas dos relatórios.
+   */
+  try {
+    const flag = new URLSearchParams(location.search).get('interno');
+    if (flag === '1') localStorage.setItem('trafego-interno', '1');
+    if (flag === '0') localStorage.removeItem('trafego-interno');
+    if (localStorage.getItem('trafego-interno') === '1') window.dataLayer.push({ traffic_type: 'internal' });
+  } catch {
+    // Sem armazenamento, a visita conta como externa.
+  }
+
   function apply(choice) {
     const ads = choice.ads ? 'granted' : 'denied';
     window.gtag('consent', 'update', {
