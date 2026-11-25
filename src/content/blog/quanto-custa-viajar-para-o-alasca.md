@@ -187,7 +187,7 @@ Nós não fizemos passeios de barco nesta viagem, e boa parte do que mais marcou
 
 ![Marina de Valdez com barcos atracados em píeres de madeira e montanhas cobertas de neve ao fundo, sob céu nublado](../../assets/blog/custos-alasca/marina-valdez-passeios.webp "4/3 50%,55% | A marina de Valdez, porta para o Prince William Sound. Foto: Alan Primo")
 
-E há muito para fazer de graça: as trilhas do Denali e do Exit Glacier, os calçadões dos portos, as praias de Homer e as trilhas das colinas acima da cidade.
+E há muito para fazer de graça, como ver as [geleiras de fácil acesso sem cruzeiro](/blog/geleiras-do-alasca-sem-cruzeiro/) e os arredores de [Anchorage](/blog/anchorage-e-arredores-o-que-fazer/): as trilhas do Denali e do Exit Glacier, os calçadões dos portos, as praias de Homer e as trilhas das colinas acima da cidade.
 
 ![Placa com o mapa colorido das trilhas de uma área de recreação nas colinas de Homer, fincada no capim seco à beira do caminho](../../assets/blog/custos-alasca/mapa-trilhas-gratuitas-homer.webp "3/4 50%,45% | As trilhas das colinas de Homer, de graça. Foto: Alan Primo")
 

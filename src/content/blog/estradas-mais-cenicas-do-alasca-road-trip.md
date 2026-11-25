@@ -74,7 +74,7 @@ Em Seward, a estrada termina na Resurrection Bay. O vale do Exit Glacier, com o 
 
 ![Caminho asfaltado à beira da Resurrection Bay com árvores, gramado e montanhas ao fundo, na orla de Seward](../../assets/blog/estradas-alasca/orla-seward-caminho.webp "4/3 50%,55% | A orla de Seward, onde a estrada termina. Foto: Alan Primo")
 
-O guia completo do trecho está no [guia de Seward e do Exit Glacier](/blog/seward-exit-glacier-alasca/), e o desvio para Whittier, no [guia de Whittier e do Túnel Anton Anderson](/blog/whittier-tunel-anton-anderson-alasca/).
+As paradas dos primeiros quilômetros, como o Potter Marsh e Girdwood, estão no guia de [Anchorage e arredores](/blog/anchorage-e-arredores-o-que-fazer/), e as geleiras do caminho, no guia das [geleiras do Alasca sem cruzeiro](/blog/geleiras-do-alasca-sem-cruzeiro/). O guia completo do trecho está no [guia de Seward e do Exit Glacier](/blog/seward-exit-glacier-alasca/), e o desvio para Whittier, no [guia de Whittier e do Túnel Anton Anderson](/blog/whittier-tunel-anton-anderson-alasca/).
 
 ## 2. Richardson Highway e Tok Cut-Off: até Valdez
 

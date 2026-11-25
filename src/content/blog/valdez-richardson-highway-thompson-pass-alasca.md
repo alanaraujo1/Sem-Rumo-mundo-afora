@@ -114,7 +114,7 @@ A partir daí, a Richardson entra nas montanhas Chugach. A estrada segue reta po
 
 ### Worthington Glacier e Thompson Pass
 
-O Worthington Glacier fica a cerca de 28,7 milhas (46 km) de Valdez, praticamente à beira da Richardson Highway, numa área de recreação estadual. É uma das geleiras mais fáceis de ver de perto no Alasca.
+O Worthington Glacier fica a cerca de 28,7 milhas (46 km) de Valdez, praticamente à beira da Richardson Highway, numa área de recreação estadual. É uma das geleiras mais fáceis de ver de perto no Alasca; a comparação com a Exit, a Matanuska e o Portage está no guia das [geleiras do Alasca sem cruzeiro](/blog/geleiras-do-alasca-sem-cruzeiro/).
 
 Logo depois vem o Thompson Pass, o ponto mais alto do trecho, a cerca de 800 m de altitude (as fontes variam de 2.600 a 2.800 pés). O GPS das nossas fotos marcou 782 m. O Thompson Pass é conhecido como o lugar mais nevado do Alasca: as fontes falam em mais de 500 polegadas (12,7 m) de neve por ano, e na temporada de 1952 para 1953 foram registradas 974 polegadas (24,7 m). Em 11 de maio, a neve ainda cobria tudo, com bancos altos dos dois lados da estrada.
 

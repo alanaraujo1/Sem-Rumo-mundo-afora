@@ -137,7 +137,7 @@ Planeje a saída de Whittier pelo horário do túnel. A última janela para sair
 
 ## Pernoite em Girdwood
 
-Girdwood fica no fundo de um vale, entre o Turnagain Arm e as montanhas, a cerca de 40 milhas (65 km) de Anchorage. É uma pequena estação de esqui, com hospedagem e restaurantes, e uma boa base para quem quer cruzar o túnel cedo ou voltar de Whittier no fim do dia. Dormimos ali e, às 23h11, o céu ainda tinha luz sobre os trilhos da ferrovia.
+Girdwood fica no fundo de um vale, entre o Turnagain Arm e as montanhas, a cerca de 40 milhas (65 km) de Anchorage. É uma pequena estação de esqui, com hospedagem e restaurantes, e uma boa base para quem quer cruzar o túnel cedo ou voltar de Whittier no fim do dia. Dormimos ali e, às 23h11, o céu ainda tinha luz sobre os trilhos da ferrovia. Os arredores, com o Potter Marsh e o Turnagain Arm, estão no guia de [Anchorage e arredores](/blog/anchorage-e-arredores-o-que-fazer/).
 
 ![Trilhos de trem retos seguindo entre árvores até uma ponte, com uma montanha nevada e o céu azul do entardecer, às 23h11, em Girdwood](../../assets/blog/whittier/trilhos-girdwood-entardecer.webp "4/3 50%,55% | Os trilhos em Girdwood, às 23h11. Foto: Alan Primo")
 

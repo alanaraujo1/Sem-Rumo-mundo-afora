@@ -106,7 +106,7 @@ Nós chegamos às 18h40 e fizemos a trilha que sai do centro de visitantes em di
 
 Ao longo da estrada de acesso e da trilha, placas com anos marcam até onde a frente do gelo chegava em cada época. A distância entre elas é a forma mais direta de ver o recuo da geleira. Na nossa caminhada, a placa de 2005 já ficava longe do gelo atual. Segundo o Serviço Nacional de Parques, a última placa da trilha marca a borda de 2010, e dali em diante se vê o vale que a geleira deixou ao recuar.
 
-O parque monitora a posição da frente da geleira todo outono, com GPS ou fotografia aérea.
+O parque monitora a posição da frente da geleira todo outono, com GPS ou fotografia aérea. A Exit comparada a outras geleiras de fácil acesso está no guia das [geleiras do Alasca sem cruzeiro](/blog/geleiras-do-alasca-sem-cruzeiro/).
 
 ![A Exit Glacier entre encostas rochosas, com a planície de cascalho deixada pelo recuo do gelo em primeiro plano e montanhas nevadas ao fundo, vista da trilha](../../assets/blog/seward-exit-glacier/planicie-cascalho-exit-glacier-mirante.webp "4/3 50%,55% | A planície de cascalho que o gelo deixou ao recuar. Foto: Alan Primo")
 

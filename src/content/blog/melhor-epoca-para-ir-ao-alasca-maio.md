@@ -134,7 +134,7 @@ O começo de maio no Denali é bonito, mas incompleto. A Park Road só vai até 
 
 ### Estradas e trilhas que ainda não abriram
 
-A estrada do Exit Glacier costuma ficar fechada aos carros até meados de maio; nós tivemos sorte, e ela já estava aberta em 13 de maio de 2025. Os banheiros com descarga do centro de visitantes do Exit Glacier só abrem no fim de maio. Na Parks Highway, a caminho do Denali, encontramos um acesso lateral fechado por cancela e neve. Muitos campings estaduais e municipais abrem aos poucos, e alguns parques de motorhome particulares só começam a temporada perto de 20 de maio.
+A estrada do Exit Glacier costuma ficar fechada aos carros até meados de maio (veja o guia das [geleiras do Alasca sem cruzeiro](/blog/geleiras-do-alasca-sem-cruzeiro/)); nós tivemos sorte, e ela já estava aberta em 13 de maio de 2025. Os banheiros com descarga do centro de visitantes do Exit Glacier só abrem no fim de maio. Na Parks Highway, a caminho do Denali, encontramos um acesso lateral fechado por cancela e neve. Muitos campings estaduais e municipais abrem aos poucos, e alguns parques de motorhome particulares só começam a temporada perto de 20 de maio.
 
 ![Estrada coberta de neve e gelo com uma cancela vermelha e branca fechando a passagem, entre abetos, na Parks Highway, a caminho do Denali, em 5 de maio](../../assets/blog/melhor-epoca-alasca/neve-estrada-parks-highway-maio.webp "3/4 50%,60% | Uma via ainda fechada pela neve, em 5 de maio. Foto: Alan Primo")
 

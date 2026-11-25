@@ -58,6 +58,8 @@ O outro lado é o ritmo. Um motorhome é mais lento que um carro, gasta mais com
 
 ## Retirada e devolução em Anchorage
 
+O que fazer na cidade e nos arredores, com dicas para os dias de retirada e devolução, está no guia de [Anchorage e arredores](/blog/anchorage-e-arredores-o-que-fazer/).
+
 Retiramos e devolvemos o motorhome em Anchorage, onde fica o maior aeroporto do estado. Isso permitiu montar o roteiro como um circuito fechado, sem taxa de devolução em outra cidade. O nosso era um motorhome classe C, aquele com a cama sobre a cabine do motorista, montado sobre um chassi Ford.
 
 No primeiro dia, com o motorhome já na mão, ainda sobrou tempo para estacionar e organizar tudo antes de pegar a estrada no dia seguinte. Vale reservar a tarde da retirada para isso.
@@ -203,7 +205,7 @@ Reserve com bastante antecedência e fique de olho nas promoções. Nós reserva
 
 ## Guias de cada região
 
-Para cada etapa da viagem, há um guia com o que fizemos, distâncias e dicas práticas: o [roteiro completo de 16 dias](/blog/roteiro-alasca-16-dias-motorhome/), o [Denali em maio](/blog/denali-national-park-em-maio-alasca/), [Fairbanks, Chena Hot Springs e North Pole](/blog/fairbanks-chena-hot-springs-north-pole-alasca/), a [Dalton Highway e o Círculo Polar Ártico](/blog/dalton-highway-circulo-polar-artico-alasca/), [Valdez e a Richardson Highway](/blog/valdez-richardson-highway-thompson-pass-alasca/), [Seward e o Exit Glacier](/blog/seward-exit-glacier-alasca/), [Homer e a Península Kenai](/blog/homer-peninsula-kenai-alasca/) e [Whittier e o Túnel Anton Anderson](/blog/whittier-tunel-anton-anderson-alasca/). Para planejar, veja também [quanto custa viajar para o Alasca](/blog/quanto-custa-viajar-para-o-alasca/), a [melhor época para ir](/blog/melhor-epoca-para-ir-ao-alasca-maio/) e as [5 estradas mais cênicas do Alasca](/blog/estradas-mais-cenicas-do-alasca-road-trip/).
+Para cada etapa da viagem, há um guia com o que fizemos, distâncias e dicas práticas: o [roteiro completo de 16 dias](/blog/roteiro-alasca-16-dias-motorhome/), o [Denali em maio](/blog/denali-national-park-em-maio-alasca/), [Fairbanks, Chena Hot Springs e North Pole](/blog/fairbanks-chena-hot-springs-north-pole-alasca/), a [Dalton Highway e o Círculo Polar Ártico](/blog/dalton-highway-circulo-polar-artico-alasca/), [Valdez e a Richardson Highway](/blog/valdez-richardson-highway-thompson-pass-alasca/), [Seward e o Exit Glacier](/blog/seward-exit-glacier-alasca/), [Homer e a Península Kenai](/blog/homer-peninsula-kenai-alasca/) e [Whittier e o Túnel Anton Anderson](/blog/whittier-tunel-anton-anderson-alasca/). Para planejar, veja também [quanto custa viajar para o Alasca](/blog/quanto-custa-viajar-para-o-alasca/), a [melhor época para ir](/blog/melhor-epoca-para-ir-ao-alasca-maio/) as [5 estradas mais cênicas do Alasca](/blog/estradas-mais-cenicas-do-alasca-road-trip/), as [geleiras de fácil acesso sem cruzeiro](/blog/geleiras-do-alasca-sem-cruzeiro/) e [Anchorage e arredores](/blog/anchorage-e-arredores-o-que-fazer/).
 
 ## Perguntas frequentes
 

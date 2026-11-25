@@ -83,6 +83,8 @@ E três guias para planejar a viagem inteira:
 - [Quanto custa viajar para o Alasca](/blog/quanto-custa-viajar-para-o-alasca/)
 - [Melhor época para ir ao Alasca: mês a mês e como é viajar em maio](/blog/melhor-epoca-para-ir-ao-alasca-maio/)
 - [As 5 estradas mais cênicas do Alasca](/blog/estradas-mais-cenicas-do-alasca-road-trip/)
+- [Geleiras do Alasca de fácil acesso sem cruzeiro](/blog/geleiras-do-alasca-sem-cruzeiro/)
+- [Anchorage e arredores: Potter Marsh, Turnagain Arm, Girdwood e Talkeetna](/blog/anchorage-e-arredores-o-que-fazer/)
 
 ## Por que um circuito saindo e voltando a Anchorage
 
