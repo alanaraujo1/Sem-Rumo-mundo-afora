@@ -7,3 +7,6 @@ dist/
 
 # Fotos brutas (RAW, HEIC e originais com GPS). Ficam só no computador.
 fotos-originais/
+
+# Acervo bruto do Alasca (DNG, HEIC e Live Photos). Já coberto pela regra acima; fica explícito por segurança.
+fotos-originais/alaska/
