@@ -35,6 +35,7 @@ fichaTecnica:
     value: "1 hora, no circuito de 1.400 m até o farol"
   - label: "Temporada"
     value: "Outubro a março"
+featured: true
 draft: false
 ---
 

@@ -71,6 +71,8 @@ const blog = defineCollection({
           .min(2)
           .max(8)
           .optional(),
+        // Destaque da Home: o post marcado mais recente abre a página.
+        featured: z.boolean().optional(),
         draft: z.boolean().default(false),
       })
       .refine((post) => post.title.length <= 60 || post.seoTitle, {

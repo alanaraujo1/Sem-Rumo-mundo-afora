@@ -5,13 +5,12 @@ import { SITE_DESCRIPTION, SITE_NAME } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getPosts } from '../lib/posts';
 
-// O roteiro pilar da Patagônia abre a Home; sem ele, o artigo mais recente.
-const FEATURED_ID = 'roteiro-patagonia-chilena-e-argentina';
 // Pilares que sempre entram na grade, mesmo quando não estão entre os mais recentes.
 const PINNED_IDS = ['roteiro-chapada-diamantina'];
 const GRID_SIZE = 6;
 const posts = await getPosts();
-const featured = posts.find((post) => post.id === FEATURED_ID) ?? posts[0];
+// Destaque: o post mais recente com `featured: true` no frontmatter; sem nenhum, o mais recente.
+const featured = posts.find((post) => post.data.featured) ?? posts[0];
 const rest = posts.filter((post) => post !== featured);
 const pinned = rest.filter((post) => PINNED_IDS.includes(post.id));
 const recent = [...rest.filter((post) => !pinned.includes(post)).slice(0, GRID_SIZE - pinned.length), ...pinned].sort(
@@ -29,8 +28,9 @@ const recent = [...rest.filter((post) => !pinned.includes(post)).slice(0, GRID_S
   {
     featured ? (
       <>
-        <section aria-label="Em destaque" class="mt-10 border-t border-stone-200 pt-10">
-          <PostCard post={featured} featured />
+        <section aria-labelledby="destaque" class="mt-10 border-t border-stone-200 pt-8">
+          <h2 id="destaque" class="mb-6 text-xs font-semibold tracking-[0.14em] text-stone-500 uppercase">Em destaque</h2>
+          <PostCard post={featured} featured headingLevel="h3" />
         </section>
         <DestinationHubs posts={posts} />
         {recent.length > 0 && (

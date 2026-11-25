@@ -35,7 +35,15 @@ const cardTitle = seoTitle ?? title;
     />
   </div>
   <div class:list={[!featured && 'mt-4']}>
-    <p class="text-xs font-semibold tracking-[0.14em] text-teal-800 uppercase">{destination.name}</p>
+    {
+      featured ? (
+        <p class="inline-block rounded-full bg-[#D48C3E] px-3 py-1 text-xs font-semibold tracking-[0.14em] text-[#1E242B] uppercase">
+          {destination.name}
+        </p>
+      ) : (
+        <p class="text-xs font-semibold tracking-[0.14em] text-teal-800 uppercase">{destination.name}</p>
+      )
+    }
     <Heading
       class:list={[
         'font-heading mt-2 font-semibold tracking-tight text-balance text-stone-950 group-hover:text-teal-800',
@@ -48,5 +56,15 @@ const cardTitle = seoTitle ?? title;
     <p class="mt-3 text-sm text-stone-500">
       <time datetime={pubDate.toISOString()}>{formatShortDate(pubDate)}</time> · {readingMinutes} min de leitura
     </p>
+    {
+      featured && (
+        <span
+          aria-hidden="true"
+          class="mt-6 inline-flex items-center gap-2 rounded-lg bg-[#1E242B] px-5 py-3 text-sm font-semibold text-[#FAF7F5] transition-colors group-hover:bg-black"
+        >
+          Ler o guia completo <span>→</span>
+        </span>
+      )
+    }
   </div>
 </article>
