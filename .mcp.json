@@ -9,7 +9,7 @@
       ],
       "env": {
         "GEMINI_MCP_BACKEND": "gemini",
-        "GEMINI_MODEL": "gemini-3-flash-preview"
+        "GEMINI_MODEL": "gemini-3.5-flash-lite"
       }
     }
   }
