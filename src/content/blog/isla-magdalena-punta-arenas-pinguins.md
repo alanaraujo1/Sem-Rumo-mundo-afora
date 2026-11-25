@@ -138,6 +138,10 @@ No total, foram cerca de 4 horas. Na volta, vi um golfinho no meio do estreito, 
 
 ![Passarela de madeira com corrimãos verdes atravessando o gramado da Isla Magdalena em direção ao farol, sob céu azul com nuvens brancas](../../assets/blog/isla-magdalena/passarela-trilha-farol-isla-magdalena.webp "3/4 50%,55% | A passarela do circuito, a caminho do farol, às 8h52. Foto: Alan Primo")
 
+No fim do circuito, os visitantes se reuniam na frente do farol.
+
+![O farol da Isla Magdalena visto de baixo, com a torre listrada de vermelho e branco e a casa branca, visitantes de casaco reunidos na frente da casa e nuvens longas no céu azul](../../assets/blog/isla-magdalena/farol-visitantes-isla-magdalena.webp "3/4 50%,45% | O farol com os visitantes do barco, às 8h54. Foto: Alan Primo")
+
 **Manhã ou tarde?** Há saídas de manhã cedo e no começo da tarde. Eu fui às 7h e peguei mar tranquilo e sol, mas não encontrei dados que garantam que a manhã seja sempre mais calma. Segundo o Meteored, a Armada do Chile pode fechar o porto por mau tempo ou vento forte, e o passeio é cancelado no mesmo dia.
 
 :::alerta
