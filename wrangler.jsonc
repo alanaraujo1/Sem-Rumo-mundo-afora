@@ -1,0 +1,23 @@
+// Worker do site (só arquivos estáticos de dist/). Publicação: npm run deploy (build local + wrangler deploy).
+// Configuração espelhada do Worker em produção em 26/11/2026; o build automático por Git está desligado
+// porque refazer as ~4.600 versões de imagem na nuvem estourava o limite de 30 minutos do Workers Builds.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sem-rumo-mundo-afora",
+  "compatibility_date": "2026-11-23",
+  "compatibility_flags": ["global_fetch_strictly_public"],
+  "assets": {
+    "directory": "./dist"
+  },
+  "routes": [
+    { "pattern": "semrumomundoafora.com.br", "custom_domain": true },
+    { "pattern": "www.semrumomundoafora.com.br", "custom_domain": true }
+  ],
+  "workers_dev": true,
+  "preview_urls": true,
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1,
+    "logs": { "enabled": true, "head_sampling_rate": 1, "persist": true, "invocation_logs": true }
+  }
+}

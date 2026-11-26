@@ -42,9 +42,9 @@ Este guia conta como é a visita e o almoço e o que você precisa saber para re
 
 ## Vinhos de inverno no alto da serra
 
-A UVVA é um dos projetos pioneiros de vinhos finos na Chapada Diamantina. Os vinhedos ficam a cerca de 1.200 metros de altitude, em 52 hectares com nove variedades de uva, numa fazenda da família Borré. Os primeiros vinhos foram produzidos em 2018, e a vinícola foi inaugurada em 2022.
+A UVVA é um dos projetos pioneiros de vinhos finos na Chapada Diamantina. Os vinhedos ficam a cerca de 1.150 metros de altitude, segundo a vinícola, em 52 hectares com nove variedades de uva, numa fazenda da família Borré. Os primeiros vinhos foram produzidos em 2018, e a vinícola foi inaugurada em 2022.
 
-O segredo está na dupla poda, técnica difundida pela EPAMIG que inverte o ciclo da videira. Na UVVA, as podas acontecem em setembro e em janeiro, e a colheita fica para junho e julho, os meses mais secos e frios da região. Daí o nome "vinhos de inverno", como os blends da trilogia Bateia, Cordel e Diamã.
+Na Chapada, o desafio é a chuva de verão, que atrapalha o amadurecimento da uva. A UVVA não detalha publicamente o manejo dos seus vinhedos. Na região, a solução mais difundida é a dupla poda, técnica adaptada pela Epamig que leva a colheita para o inverno seco, como explico no guia de [enoturismo na Bahia](/blog/enoturismo-na-bahia-vinicolas/). Entre os rótulos da casa estão os blends da trilogia Bateia, Cordel e Diamã.
 
 ![Vinhedos da Vinícola UVVA em fileiras até o horizonte, vistos do alto do prédio, com gramado e caminhos de pedra em primeiro plano e morros ao fundo sob céu nublado](../../assets/blog/vinicola-uvva/vinicola-uvva-vinhedos-chapada.jpg "wide 16/9 50%,52% | Vinhedos de altitude da UVVA, em Mucugê. Foto: Alan Primo")
 

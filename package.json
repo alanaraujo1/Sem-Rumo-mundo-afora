@@ -12,7 +12,8 @@
     "prebuild": "node scripts/generate-og.mjs",
     "ga4": "node scripts/ga4-report.mjs",
     "gsc": "node scripts/gsc-report.mjs",
-    "photos": "node scripts/photos-picker.mjs"
+    "photos": "node scripts/photos-picker.mjs",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.12",
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "@google-analytics/data": "^7.3.0",
-    "google-auth-library": "^11.3.4"
+    "google-auth-library": "^11.3.4",
+    "wrangler": "^4.168.0"
   }
 }

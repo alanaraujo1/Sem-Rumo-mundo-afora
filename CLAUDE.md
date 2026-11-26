@@ -7,11 +7,20 @@ Sua função é criar código, manter o site e redigir artigos com foco em SEO t
 1. Quando solicitado um novo artigo, crie o arquivo em `src/content/blog/<slug>.md` seguindo o schema rigoroso de frontmatter.
 2. Todas as fotos usadas devem conter atributos alt detalhados e contextuais.
 3. Antes de publicar qualquer alteração, valide executando: `npm run build`.
-4. Se o build passar com sucesso, execute:
-   git add .
+4. Se o build passar com sucesso, execute (adicionando só os arquivos do artigo, nunca `git add .`):
+   git add <arquivos do artigo>
    git commit -m "feat: publicar novo artigo <slug>"
    git push origin main
+   npm run deploy
 5. Se o build falhar, corrija os erros de frontmatter ou tags antes de tentar o push.
+
+## Publicação (Cloudflare Workers)
+O push para o GitHub **não publica o site**: o build automático da Cloudflare está desligado, porque refazer as ~4.600 versões de imagem na nuvem levava de 17 a 31 minutos e estourava o limite de 30 minutos do Workers Builds.
+- `npm run deploy` faz o build local (com o cache de imagens em `node_modules/.astro`, leva segundos) e publica com `wrangler deploy`, com 100% do tráfego na versão nova.
+- A configuração do Worker `sem-rumo-mundo-afora` está em `wrangler.jsonc`: só arquivos estáticos de `dist/`, domínios `semrumomundoafora.com.br` e `www.` como custom domains, observabilidade ligada. O cache longo de `/_astro/*` vem de `public/_headers`.
+- Login: `npx wrangler login` (conta alanaraujo1@gmail.com). Confira com `npx wrangler whoami`.
+- Depois do deploy, confirme no ar com `curl` o `<title>` das páginas alteradas.
+- Não apague `node_modules/.astro/assets`: sem ele o build volta a gerar todas as imagens do zero.
 
 ## Dados reais de audiência (GA4)
 Antes de otimizar artigos existentes ou planejar novos conteúdos, consulte o desempenho real com `npm run ga4`.
