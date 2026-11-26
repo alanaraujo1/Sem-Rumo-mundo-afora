@@ -38,7 +38,7 @@ draft: false
 
 A Vinícola UVVA mostrou que a Chapada Diamantina também é terra de vinho. A cerca de 25 minutos de Mucugê, ela reúne vinhedos de altitude, um prédio contemporâneo integrado à paisagem e o restaurante Arenito, onde almoçamos com vista para os parreirais.
 
-Este guia conta como é a visita e o almoço e o que você precisa saber para reservar. Para encaixar a vinícola no roteiro, veja também o [guia de Mucugê](/blog/o-que-fazer-em-mucuge-chapada-diamantina/) e o [roteiro completo pela Chapada Diamantina](/blog/roteiro-chapada-diamantina/). **As informações foram pesquisadas em novembro de 2026.** Preços, horários e regras mudam, por isso confirme no site oficial antes de ir.
+Este guia conta como é a visita e o almoço e o que você precisa saber para reservar. Para encaixar a vinícola no roteiro, veja também o [guia de Mucugê](/blog/o-que-fazer-em-mucuge-chapada-diamantina/) e o [roteiro completo pela Chapada Diamantina](/blog/roteiro-chapada-diamantina/). As outras vinícolas da Bahia, como a Vaz, em Morro do Chapéu, estão no guia de [enoturismo na Bahia](/blog/enoturismo-na-bahia-vinicolas/). **As informações foram pesquisadas em novembro de 2026.** Preços, horários e regras mudam, por isso confirme no site oficial antes de ir.
 
 ## Vinhos de inverno no alto da serra
 
