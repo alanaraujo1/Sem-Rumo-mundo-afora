@@ -1,7 +1,7 @@
 ---
 title: 'Morro do Pai Inácio na Chapada Diamantina: Trilha, Pôr do Sol e Como Chegar'
-seoTitle: 'Morro do Pai Inácio: Trilha, Pôr do Sol e Dicas'
-description: 'Guia do Morro do Pai Inácio, em Palmeiras: como é a trilha até o platô, o pôr do sol, horário de subida, taxa, como chegar de Lençóis e o que levar.'
+seoTitle: 'Morro do Pai Inácio: trilha de 20 minutos e pôr do sol'
+description: 'Morro do Pai Inácio, em Palmeiras: trilha de 500 m até o platô, taxa de R$ 20, horário do pôr do sol, como chegar de Lençóis e a descida com lanterna.'
 category: 'Destinos'
 pubDate: 2026-11-12
 author: 'Alan Primo'

@@ -59,6 +59,76 @@ async function query(site, dimensions, rowLimit) {
   }));
 }
 
+// --inspect: estado de indexação de cada URL do sitemap (URL Inspection API, cota de 2.000 por dia).
+async function inspectAll(site) {
+  const xml = await (await fetch(`${ORIGIN}/sitemap-0.xml`)).text();
+  const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+  const results = [];
+  const queue = [...urls];
+  const worker = async () => {
+    for (let url; (url = queue.shift()); ) {
+      try {
+        const { data } = await client.request({
+          url: 'https://searchconsole.googleapis.com/v1/urlInspection/index:inspect',
+          method: 'POST',
+          data: { inspectionUrl: url, siteUrl: site, languageCode: 'pt-BR' },
+        });
+        const r = data.inspectionResult?.indexStatusResult ?? {};
+        results.push({
+          url,
+          verdict: r.verdict ?? null,
+          coverageState: r.coverageState ?? null,
+          lastCrawlTime: r.lastCrawlTime ?? null,
+          googleCanonical: r.googleCanonical ?? null,
+          userCanonical: r.userCanonical ?? null,
+          robotsTxtState: r.robotsTxtState ?? null,
+          pageFetchState: r.pageFetchState ?? null,
+        });
+      } catch (error) {
+        results.push({ url, error: error.response?.data?.error?.message ?? error.message });
+      }
+    }
+  };
+  await Promise.all(Array.from({ length: 4 }, worker));
+  return results.sort((a, b) => a.url.localeCompare(b.url));
+}
+
+if (flag('inspect')) {
+  let results, site;
+  try {
+    client = await authClient([SCOPES.searchConsole]);
+    site = await pickSite();
+    results = await inspectAll(site);
+  } catch (error) {
+    console.error(`Falha na inspeção de URLs:\n${error.response?.data?.error?.message ?? error.message}`);
+    const hint = authHint(error);
+    if (hint) console.error(`\n${hint}`);
+    process.exit(1);
+  }
+  if (asJson) {
+    console.log(JSON.stringify({ site, results }, null, 2));
+    process.exit(0);
+  }
+  const indexed = results.filter((r) => r.verdict === 'PASS').length;
+  const canonicalMismatch = (r) => r.googleCanonical && r.userCanonical && r.googleCanonical !== r.userCanonical;
+  const day = (iso) => (iso ? iso.slice(0, 10) : '–');
+  console.log(`Search Console · inspeção de ${results.length} URLs do sitemap · ${indexed} indexadas`);
+  table(
+    'Estado de cada URL (não indexadas primeiro)',
+    ['Página', 'Veredito', 'Situação', 'Último rastreio', 'Canônica'],
+    [...results]
+      .sort((a, b) => (a.verdict === 'PASS') - (b.verdict === 'PASS'))
+      .map((r) => [
+        r.url.slice(ORIGIN.length) || '/',
+        r.error ? 'ERRO' : (r.verdict ?? '–'),
+        r.error ?? r.coverageState ?? '–',
+        day(r.lastCrawlTime),
+        canonicalMismatch(r) ? `Google escolheu ${r.googleCanonical.replace(ORIGIN, '')}` : 'ok',
+      ]),
+  );
+  process.exit(0);
+}
+
 let site, queries, pages, pairs, totals;
 try {
   client = await authClient([SCOPES.searchConsole]);

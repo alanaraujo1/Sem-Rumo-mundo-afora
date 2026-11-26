@@ -1,7 +1,7 @@
 ---
 title: 'Rio Roncador na Chapada Diamantina: Piscinas Naturais, Trilha e Como Chegar'
-seoTitle: 'Rio Roncador: Piscinas Naturais, Trilha e Como Chegar'
-description: 'Guia do Rio Roncador, perto de Andaraí: como são as piscinas naturais e os escorregadores, a trilha, como chegar por terra ou de canoa pelo Marimbus.'
+seoTitle: 'Rio Roncador na Chapada Diamantina: poços e escorregadores'
+description: 'Rio Roncador: escorregadores naturais, trilha de 4 km ou canoa pelo Marimbus, perto de Andaraí. Como são os poços, como chegar e o que levar para o passeio.'
 category: 'Destinos'
 pubDate: 2026-11-12
 author: 'Alan Primo'

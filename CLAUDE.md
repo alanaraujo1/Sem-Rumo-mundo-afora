@@ -19,10 +19,12 @@ Antes de otimizar artigos existentes ou planejar novos conteúdos, consulte o de
 - Ele mostra os últimos 28 dias, até ontem: views, usuários, tempo médio de engajamento e taxa de engajamento por página, além de origem/mídia e dispositivos.
 - Opções: `npm run ga4 -- --days 90`, `--limit 50` e `--json` (saída para análise automatizada).
 - Autenticação (`scripts/lib/google-auth.mjs`): a conta de serviço `gsc-ga4-reader@sem-rumo-analytics.iam.gserviceaccount.com`, por personificação a partir do login do gcloud (`gcloud auth application-default login`). Não existe chave JSON: a organização bloqueia chaves de conta de serviço. A conta precisa ser Leitor no GA4 e usuária no Search Console. `GOOGLE_IMPERSONATE=0` usa o próprio login. Somente leitura; nada é enviado ao Google.
+- Os números incluem apenas visitantes que aceitaram cookies de análise (Consent Mode v2 com tudo negado por padrão), então subestimam o tráfego real.
 
 ## Dados de busca (Search Console)
 Use `npm run gsc` para ver buscas, páginas e oportunidades (páginas entre a 8ª e a 20ª posição, com a busca principal de cada uma) antes de otimizar artigos. Mesmas opções do GA4: `--days`, `--limit` e `--json`. Os dados têm uns 2 dias de atraso.
-- Os números incluem apenas visitantes que aceitaram cookies de análise (Consent Mode v2 com tudo negado por padrão), então subestimam o tráfego real.
+- `npm run gsc -- --inspect` confere a indexação de cada URL do sitemap (URL Inspection API, cota de 2.000 por dia): veredito, situação, último rastreio e se a canônica escolhida pelo Google bate com a do site.
+- Para JSON, use `npm run -s` (sem o `-s`, o npm imprime um cabeçalho que quebra o JSON).
 
 ## Mídias do Google Photos
 `npm run photos -- --dest <pasta>` abre o Google Photos no navegador para eu marcar fotos e vídeos e baixa os escolhidos em resolução original (fotos com `=d`, vídeos com `=dv`) pela Google Photos Picker API.
